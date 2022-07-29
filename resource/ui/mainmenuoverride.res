@@ -1,0 +1,652 @@
+"Resource/UI/MainMenuOverride.res"
+{
+	"MainMenuOverride"
+	{
+		"fieldName"									"MainMenuOverride"
+		"visible"									"1"
+		"enabled"									"1"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"480"
+
+		"update_url"								"http://store.steampowered.com/news/?filter=updates&appids=440"
+		"blog_url"									"http://www.teamfortress.com/"
+
+		"button_x_offset"							"-241"
+		"button_y"									"190"
+		"button_y_delta"							"3"
+
+		"button_kv"
+		{
+			"xpos"									"0"
+			"ypos"									"190"
+			"wide"									"150"
+			"tall"									"14"
+			"visible"								"1"
+
+			"SubButton"
+			{
+				"ControlName"						"CExImageButton"
+				"fieldName"							"SubButton"
+				"xpos"								"0"
+				"ypos"								"0"
+				"wide"								"150"
+				"tall"								"14"
+				"visible"							"1"
+				"enabled"							"1"
+				"use_proportional_insets" 			"1"
+				"font"								"Coolvetica15"
+				"AllCaps"							"1"
+				"textAlignment"						"west"
+				"default"							"1"
+				"sound_depressed"					"UI/buttonclick.wav"
+				"sound_released"					"UI/buttonclickrelease.wav"
+
+				"paintbackground"					"0"
+				"paintborder"						"0"
+
+				"defaultFgColor_override" 			"White"
+				"armedFgColor_override" 			"Menu Labels"
+				"depressedFgColor_override" 		"Menu Labels"
+			}
+		}
+
+		// Fucking end my life I've been working on the main menu alone for 11 hours god isnt real
+		// aLeX 30.10.2021 - 11.17 AM
+		// I agree 2021 me
+		// Aleksi 29.7.2022 - 5.02 AM
+
+		"SaxxySettings"
+		{
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"-101"
+			"wide"									"f0"
+			"tall"									"480"
+			"visible"								"1"
+			"enabled"								"1"
+
+			"flashbounds_x"							"50"
+			"flashbounds_y"							"65"
+			"flashbounds_w"							"250"
+			"flashbounds_h"							"120"
+
+			"flashstartsize_min"					"8"
+			"flashstartsize_max"					"12"
+
+			"flash_maxscale"						"4"
+
+			"flash_lifelength_min"					".1"
+			"flash_lifelength_max"					".2"
+
+			"curtain_anim_duration"					"4.0"
+			"curtain_open_time"						"2.8"
+			"flash_start_time"						"4.0"
+
+			"initial_freakout_duration"				"15.0"
+			"clap_sound_duration"					"10.0"
+
+			"CameraFlashSettings"
+			{
+				"visible"							"1"
+				"enabled"							"1"
+				"tileImage"							"0"
+				"scaleImage"						"1"
+				"zpos"								"9"
+			}
+		}
+
+	"RankPanel"
+	{
+		"ControlName"				"CPvPRankPanel"
+		"fieldName"					"RankPanel"
+		"xpos"						"c-750"
+		"ypos"						"72"
+		"zpos"						"5"
+		"wide"						"570"
+		"tall"						"175"
+		"visible"					"1"
+		"proportionaltoparent"		"1"
+		"mouseinputenabled"			"0"
+
+		"matchgroup"				"MatchGroup_Casual_12v12"
+
+		"show_model"				"1"
+		"show_type"					"1"
+	}
+	"RankModelPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankModelPanel"
+		"xpos"			"cs-0.5-262"
+		"ypos"			"cs-0.5-78"
+
+		"zpos"			"5"
+		"wide"			"800"
+		"tall"			"800"
+		"visible"		"0"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+
+		"show_progress"	"0"
+	}
+
+	"RankPanelBG"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"RankPanelBG"
+		"xpos"						"47"
+		"ypos"						"100"
+		"zpos"						"4"
+		"wide"						"165"
+		"tall"						"115"
+		"visible"					"1"
+		"enabled"					"1"
+
+		"paintbackground"			"1"
+		"bgcolor_override"			"0 0 0 175"
+
+	}
+	
+	"StatsTextBG"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"StatsTextBG"
+		"xpos"						"47"
+		"ypos"						"80"
+		"zpos"						"4"
+		"wide"						"165"
+		"tall"						"20"
+		"visible"					"1"
+		"enabled"					"1"
+
+		"paintbackground"			"1"
+		"bgcolor_override"			"0 0 0 175"
+
+	}
+	"StatsTextLine"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"StatsTextBG"
+		"xpos"						"47"
+		"ypos"						"95"
+		"zpos"						"6"
+		"wide"						"165"
+		"tall"						"1"
+		"visible"					"1"
+		"enabled"					"1"
+
+		"paintbackground"			"1"
+		"bgcolor_override"			"255 255 255 255"
+
+	}
+	"StatsText"
+	{
+		"ControlName"				"Label"
+		"fieldName"					"StatsText"
+		"xpos"						"50"
+		"ypos"						"73"
+		"zpos"						"7"
+		"wide"						"165"
+		"tall"						"30"
+		"visible"					"1"
+		"enabled"					"1"
+
+		"labelText"					"YOUR STATS"
+		"font"						"product12"
+		"fgcolor_override"			"255 255 255 255"
+	}
+	
+	"CycleRankTypeButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CycleRankTypeButton"
+		"xpos"			"195"
+		"ypos"			"198"
+		"zpos"			"10"
+		"wide"			"15"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"textinsetx"	"0"
+		"labelText"		"|"
+		"use_proportional_insets" "1"
+		"font"			"Symbols14"
+		"command"		"open_rank_type_menu"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"vo/null.mp3"
+		"actionsignallevel" "1"
+		"proportionaltoparent"	"1"
+				
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		"paintborder"		"0"
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"255 255 255 255"	
+	}
+
+	"Notifications_ShowButtonPanel"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"Notifications_ShowButtonPanel"
+		"xpos"										"615"
+		"ypos"										"95"
+		"zpos"										"15"
+		"wide"										"150"
+		"tall"										"30"
+		"visible"									"1"
+
+		"Notifications_ShowButtonPanel_SB"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"Notifications_ShowButtonPanel_SB"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"15"
+			"wide"									"30"
+			"tall"									"30"
+			"visible"								"1"
+			"enabled"								"1"
+			"use_proportional_insets" 				"1"
+			"font"									"Icons32"
+			"labeltext"								"W"
+			"textAlignment"							"center"
+			"default"								"0"
+			"command"								"noti_show"
+			"actionsignallevel" 					"2"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+
+			"paintbackground"						"0"
+			"paintborder"							"0"
+
+			"defaultfgcolor_override"				"225 232 29 255"
+			"armedfgcolor_override"					"170 127 37 255"
+			"depressedfgcolor_override"				"170 127 37 255"
+		}
+	}
+
+	"Notifications_Panel"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"Notifications_Panel"
+		"xpos"					"cs-0.5"
+		"ypos"					"50"
+		"zpos"					"10"
+		"wide"					"150"
+		"tall"					"60"
+		"visible"				"0"
+		"PaintBackgroundType"	"2"
+		"paintbackground"		"1"
+		"bgcolor_override"		"0 0 0 0"
+		"border"				"noborder"
+		
+		"Notifications_CloseButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"Notifications_CloseButton"
+			"xpos"						"r16"
+			"ypos"						"6"
+			"zpos"						"10"
+			"wide"						"10"
+			"proportionaltoparent"		"1"
+			"tall"						"10"
+			"autoResize"				"0"
+			"pinCorner"					"0"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"labeltext"					""
+			"font"						"HudFontSmallBold"
+			"textAlignment"				"center"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"0"
+			"command"					"noti_hide"
+			"actionsignallevel"			"2"
+
+
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+
+			"paintbackground"			"0"
+			
+			"defaultFgColor_override" 	"46 43 42 255"
+			"armedFgColor_override" 	"245 245 245 60"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"image_drawcolor"			"tanlight60"
+			"image_armedcolor"			"245 245 245 240"
+			
+			"SubImage"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"SubImage"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"1"
+				"wide"					"f0"
+				"tall"					"f0"
+				"proportionaltoparent"	"1"
+				"visible"				"1"
+				"enabled"				"1"
+				"image"					""
+				"scaleImage"			"1"
+			}				
+		}		
+	
+		"Notifications_TitleLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Notifications_TitleLabel"
+			"font"			"product12"
+			"labelText"		"%notititle%"
+			"textAlignment"	"center"
+			"xpos"			"6"
+			"ypos"			"6"
+			"wide"			"250"
+			"tall"			"10"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+			"wrap"			"1"
+		}
+		
+		"Background"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"Notifications_TitleLabel"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"-10"
+			"wide"				"f0"
+			"tall"				"58"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"bgcolor_override"	"0 0 0 165"
+		}
+		
+		"Notifications_Scroller"
+		{
+			"ControlName"			"ScrollableEditablePanel"
+			"fieldName"				"Notifications_Scroller"
+			"xpos"					"6"
+			"ypos"					"22"
+			"wide"					"f0"
+			"proportionaltoparent"	"1"
+			"tall"					"f0"
+			"PaintBackgroundType"	"2"
+			"fgcolor_override"		"tanlight120"
+			
+			"Notifications_Control"
+			{
+				"ControlName"	"CMainMenuNotificationsControl"
+				"fieldName"		"Notifications_Control"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"220"
+				"tall"			"135"
+				"visible"		"1"
+			}
+		}
+	}
+	
+	"FriendsContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"FriendsContainer"
+		"xpos"			"47"
+		"ypos"			"220"
+		"zpos"			"150"
+		"wide"			"165"
+		"tall"			"183"
+		"visible"		"1"
+
+		"border"		"noborder"
+
+		"TitleLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"TitleLabel"
+			"font"				"Product12"
+			"labelText"			"FRIENDS"
+			"textAlignment"		"west"
+			"xpos"				"4"
+			"zpos"				"16"
+			"fgcolor_override"	"230 230 230 245"
+			"ypos"				"-3"
+			"default"			"0"
+			"wide"				"f0"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"textinsetx"		"0"
+		}
+		"FriendsTextLine"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldName"					"FriendsTextLine"
+			"xpos"						"0"
+			"ypos"						"15"
+			"zpos"						"6"
+			"wide"						"165"
+			"tall"						"1"
+			"visible"					"1"
+			"enabled"					"1"
+
+			"paintbackground"			"1"
+			"bgcolor_override"			"255 255 255 255"
+
+		}
+
+		"SteamFriendsList"
+		{
+			"ControlName"			"CSteamFriendsListPanel"
+			"fieldname"				"SteamFriendsList"
+			"xpos"					"3"
+			"ypos"					"19"
+			"zpos"					"500"
+			"wide"					"150"
+			"tall"					"f15"
+			"visible"				"1"
+			"proportionaltoparent"	"1"
+			
+			"columns_count"			"1"
+			"inset_x"				"0"
+			"inset_y"				"0"
+			"row_gap"				"0"
+			"column_gap"			"10"
+			"restrict_width"		"0"
+			
+			"friendpanel_kv"
+			{
+				"wide"		"150"
+				"tall"		"20"
+			}
+			
+			"ScrollBar"
+			{
+				"ControlName"			"ScrollBar"
+				"FieldName"				"ScrollBar"
+				"xpos"					"rs1-2"
+				"ypos"					"3"
+				"tall"					"f6"
+				"wide"					"3" // This gets slammed from client schme.  GG.
+				"zpos"					"1000"
+				"nobuttons"				"1"
+				"proportionaltoparent"	"1"
+
+				"Slider"
+				{
+					"fgcolor_override"	"245 245 245 16"
+				}
+		
+				"UpButton"
+				{
+					"ControlName"		"Button"
+					"FieldName"			"UpButton"
+					"visible"			"0"
+				}
+		
+				"DownButton"
+				{
+					"ControlName"		"Button"
+					"FieldName"			"DownButton"
+					"visible"			"0"
+				}
+			}
+		}
+
+		"BelowDarken"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldname"				"BelowDarken"
+			"xpos"					"0"
+			"ypos"					"15"
+			"zpos"					"0"
+			"wide"					"f0"
+			"tall"					"200"
+			"visible"				"1"	
+			"PaintBackgroundType"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"		"0"
+
+			"bgcolor_override"		"0 0 0 175"
+		}
+		"BelowDarken2"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldname"				"BelowDarken2"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"0"
+			"wide"					"f0"
+			"tall"					"15"
+			"visible"				"1"	
+			"PaintBackgroundType"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"		"0"
+
+			"bgcolor_override"		"0 0 0 175"
+		}
+	}
+
+
+	"TooltipPanel"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"TooltipPanel"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"140"
+		"tall"										"20"
+		"visible"									"0"
+		"PaintBackground"							"1"
+		"PaintBackgroundType"						"1"
+		"border"									"NoBorder"
+		"bgcolor_override"							"25 25 25 200"
+
+		"TipSubLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TipSubLabel"
+			"font"									"Bebas12"
+			"labelText"								"%tipsubtext%"
+			"textAlignment"							"center"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"2"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"AllCaps"								"1"
+			"bgcolor"								"0 0 0 255"
+			"fgcolor"								"White"
+		}
+
+		"TipLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TipLabel"
+			"font"									"Bebas12"
+			"labelText"								"%tiptext%"
+			"textAlignment"							"center"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"2"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"AllCaps"								"1"
+			"fgcolor"								"White"
+		}
+	}
+
+	"mouseoveritempanel"
+	{
+		"ControlName"								"CItemModelPanel"
+		"fieldName"									"mouseoveritempanel"
+		"xpos"										"c-70"
+		"ypos"										"270"
+		"zpos"										"100"
+		"wide"										"300"
+		"tall"										"300"
+		"visible"									"0"
+		"paintbackground"							"1"
+		"bgcolor_override"							"0 0 0 50"
+		"noitem_textcolor"							"White"
+		"PaintBackgroundType"						"2"
+
+		"text_ypos"									"20"
+		"text_center"								"1"
+		"model_hide"								"1"
+		"resize_to_text"							"1"
+		"padding_height"							"15"
+
+		"attriblabel"
+		{
+			"font"									"ItemFontAttribLarge"
+			"xpos"									"0"
+			"ypos"									"30"
+			"zpos"									"2"
+			"wide"									"140"
+			"tall"									"60"
+			"visible"								"1"
+			"enabled"								"1"
+			"labelText"								"%attriblist%"
+			"textAlignment"							"center"
+			"fgcolor"								"White"
+			"centerwrap"							"1"
+		}
+	}
+
+	"MOTD_Panel"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"MOTD_Panel"
+		"xpos"										"9999"
+	}
+}
