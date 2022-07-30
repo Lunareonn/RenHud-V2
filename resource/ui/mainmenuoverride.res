@@ -98,6 +98,414 @@
 			}
 		}
 
+	}
+
+	// MAIN MENU BUTTONS
+
+	
+
+	"ServerBrowserButton"
+	{
+		"ControlName"				"CExImageButton"
+		"fieldName"					"ServerBrowserButton"
+		"xpos"						"230"
+		"ypos"						"185"
+		"wide"						"115"
+		"tall"						"30"
+		"zpos"						"5"
+		"autoResize"				"0"
+		"pinCorner"					"3"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"textinsetx"				"4"
+		"textinsety"				"0"
+		"textinsetz"				"5"
+		"use_proportional_insets" 	"1"
+		"font"						"product16"
+		"textAlignment"				"center"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"default"					"1"
+		"command"					"openserverbrowser"
+		"labeltext"					"SERVERS"
+		"roundedcorners"			"0"
+		"proportionaltoparent"		"1"
+		"border"					"noborder"
+		
+		"defaultfgcolor_override"	"230 230 230 255"
+		"defaultbgcolor_override"	"10 10 10 160"
+		"armedfgcolor_override"		"245 245 245 255"
+		"armedbgcolor_override"		"15 15 15 185"
+
+		"image_drawcolor"			"150 150 150 40"
+		"image_armedcolor"			"150 150 150 75"
+
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+			
+		"paintbackground"			"1"
+
+		"SubImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"-7"
+			"ypos"					"-10"
+			"proportionaltoparent"	"1"
+			"zpos"					"4"
+			"wide"					"35"
+			"tall"					"35"
+			"visible"				"1"
+			"enabled"				"1"
+			"scaleImage"			"1"
+			"image"					"replay/thumbnails/icons/search"
+		}
+	}
+	"SettingsButtonR"
+	{
+		"ControlName"				"CExImageButton"
+		"fieldName"					"SettingsButtonR"
+		"xpos"						"230"
+		"ypos"						"140"
+		"wide"						"42"
+		"roundedcorners"			"0"
+		"tall"						"42"
+		"zpos"						"26"
+		"autoResize"				"0"
+		"pinCorner"					"3"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"SETTINGS"
+		"textinsetx"				"6"
+		"textinsety"				"-1"
+		"use_proportional_insets"	"1"
+		"font"						"product8"
+		"textAlignment"				"south-west"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"default"					"1"
+		"Command"					"OpenOptionsDialog"
+
+		"navUp"						"Notifications_Panel"
+		"navLeft"					"ReportBugButton"
+		"navRight"					"TF2SettingsButton"
+
+		"defaultfgcolor_override"	"230 230 230 255"
+		"defaultbgcolor_override"	"10 10 10 160"
+		"armedfgcolor_override"		"245 245 245 255"
+		"armedbgcolor_override"		"15 15 15 185"
+
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+			
+		"paintbackground"			"1"
+		
+		"image_drawcolor"			"255 255 255 255"
+		"image_armedcolor"			"255 255 255 200"
+		
+		"SubImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"cs-0.51"
+			"ypos"					"c-18"
+			"proportionaltoparent"	"1"
+			"zpos"					"1"
+			"wide"					"30"
+			"tall"					"30"
+			"visible"				"1"
+			"enabled"				"1"
+			"scaleImage"			"1"
+			"fgcolor_override"		"0 0 0 255"
+			"image"					"replay/thumbnails/icons/gear"
+		}
+	}
+	"TF2SettingsButton"
+	{
+		"ControlName"				"CExImageButton"
+		"fieldName"					"TF2SettingsButton"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"27"
+		"wide"						"11"
+		"tall"						"12"
+		"autoResize"				"0"
+		"pinCorner"					"3"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"+"
+		"textAlignment"				"center"
+		"font"						"product16"
+		"textinsetx"				"0"
+		"textinsety"				"-2"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"default"					"1"
+		"Command"					"opentf2options"
+		"use_proportional_insets"	"1"
+		
+		"paintbackground"			"0"
+
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		"border_default"			"noborder"
+		
+		"defaultfgcolor_override"	"255 255 255 255"
+		"armedfgcolor_override"		"150 150 150 255"
+
+		"pin_to_sibling" 			"SettingsButtonR"
+		"pin_corner_to_sibling" 	"PIN_TOPRIGHT" // This Element
+		"pin_to_sibling_corner" 	"PIN_TOPRIGHT" // Target Element
+	}
+	"BackpackButton"
+	{
+		"ControlName"				"CExImageButton"
+		"fieldName"					"BackpackButton"
+		"xpos"						"303"
+		"ypos"						"140"
+		"wide"						"42"
+		"roundedcorners"			"0"
+		"tall"						"42"
+		"zpos"						"26"
+		"autoResize"				"0"
+		"pinCorner"					"3"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"BACKPACK"
+		"textinsetx"				"4"
+		"textinsety"				"-1"
+		"use_proportional_insets"	"1"
+		"font"						"product8"
+		"textAlignment"				"south-west"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"default"					"1"
+		"Command"					"engine open_charinfo"
+
+		"navUp"						"Notifications_Panel"
+		"navLeft"					"ReportBugButton"
+		"navRight"					"TF2SettingsButton"
+
+		"defaultfgcolor_override"	"230 230 230 255"
+		"defaultbgcolor_override"	"10 10 10 160"
+		"armedfgcolor_override"		"245 245 245 255"
+		"armedbgcolor_override"		"15 15 15 185"
+
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+			
+		"paintbackground"			"1"
+		
+		"image_drawcolor"			"255 255 255 255"
+		"image_armedcolor"			"255 255 255 200"
+		
+		"SubImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"cs-0.5"
+			"ypos"					"c-18"
+			"proportionaltoparent"	"1"
+			"zpos"					"1"
+			"wide"					"30"
+			"tall"					"30"
+			"visible"				"1"
+			"enabled"				"1"
+			"scaleImage"			"1"
+			"fgcolor_override"		"0 0 0 255"
+			"image"					"replay/thumbnails/icons/items"
+		}
+	}
+	"StoreButton"
+	{
+		"ControlName"				"CExImageButton"
+		"fieldName"					"StoreButton"
+		"xpos"						"273"
+		"ypos"						"140"
+		"wide"						"28"
+		"roundedcorners"			"0"
+		"tall"						"42"
+		"zpos"						"26"
+		"autoResize"				"0"
+		"pinCorner"					"3"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"STORE"
+		"textinsetx"				"4"
+		"textinsety"				"-1"
+		"use_proportional_insets"	"1"
+		"font"						"product8"
+		"textAlignment"				"south-west"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"default"					"1"
+		"Command"					"engine open_store"
+
+		"navUp"						"Notifications_Panel"
+		"navLeft"					"ReportBugButton"
+		"navRight"					"TF2SettingsButton"
+
+		"defaultfgcolor_override"	"230 230 230 255"
+		"defaultbgcolor_override"	"10 10 10 160"
+		"armedfgcolor_override"		"245 245 245 255"
+		"armedbgcolor_override"		"15 15 15 185"
+
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+			
+		"paintbackground"			"1"
+		
+		"image_drawcolor"			"255 255 255 255"
+		"image_armedcolor"			"255 255 255 200"
+		
+		"SubImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"cs-0.5"
+			"ypos"					"7"
+			"proportionaltoparent"	"1"
+			"zpos"					"1"
+			"wide"					"25"
+			"tall"					"25"
+			"visible"				"1"
+			"enabled"				"1"
+			"scaleImage"			"1"
+			"fgcolor_override"		"0 0 0 255"
+			"image"					"replay/thumbnails/icons/store"
+		}
+	}
+	"ConsoleButton"
+	{
+		"ControlName"				"CExImageButton"
+		"fieldName"					"ConsoleButton"
+		"xpos"						"230"
+		"ypos"						"97"
+		"wide"						"42"
+		"roundedcorners"			"0"
+		"tall"						"42"
+		"zpos"						"26"
+		"autoResize"				"0"
+		"pinCorner"					"3"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"CONSOLE"
+		"textinsetx"				"6"
+		"textinsety"				"-1"
+		"use_proportional_insets"	"1"
+		"font"						"product8"
+		"textAlignment"				"south-west"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"default"					"1"
+		"Command"					"engine showconsole"
+
+		"navUp"						"Notifications_Panel"
+		"navLeft"					"ReportBugButton"
+		"navRight"					"TF2SettingsButton"
+
+		"defaultfgcolor_override"	"230 230 230 255"
+		"defaultbgcolor_override"	"10 10 10 160"
+		"armedfgcolor_override"		"245 245 245 255"
+		"armedbgcolor_override"		"15 15 15 185"
+
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+			
+		"paintbackground"			"1"
+		
+		"image_drawcolor"			"255 255 255 255"
+		"image_armedcolor"			"255 255 255 200"
+		
+		"SubImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"cs-0.5"
+			"ypos"					"c-18"
+			"proportionaltoparent"	"1"
+			"zpos"					"1"
+			"wide"					"30"
+			"tall"					"30"
+			"visible"				"1"
+			"enabled"				"1"
+			"scaleImage"			"1"
+			"fgcolor_override"		"0 0 0 255"
+			"image"					"replay/thumbnails/icons/console"
+		}	
+	}
+	"CreateServer"
+	{
+		"ControlName"				"CExImageButton"
+		"fieldName"					"CreateServer"
+		"xpos"						"273"
+		"ypos"						"97"
+		"wide"						"72"
+		"roundedcorners"			"0"
+		"tall"						"42"
+		"zpos"						"26"
+		"autoResize"				"0"
+		"pinCorner"					"3"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"CREATE"
+		"textinsetx"				"0"
+		"textinsety"				"0"
+		"use_proportional_insets"	"1"
+		"font"						"product16"
+		"textAlignment"				"center"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"default"					"1"
+		"Command"					"OpenCreateMultiplayerGameDialog"
+		"roundedcorners"			"0"
+		"proportionaltoparent"		"1"
+		"border"					"noborder"
+		
+		"defaultfgcolor_override"	"230 230 230 255"
+		"defaultbgcolor_override"	"10 10 10 160"
+		"armedfgcolor_override"		"245 245 245 255"
+		"armedbgcolor_override"		"15 15 15 185"
+
+		"image_drawcolor"			"150 150 150 40"
+		"image_armedcolor"			"150 150 150 75"
+		
+		"SubImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"50"
+			"ypos"					"20"
+			"proportionaltoparent"	"1"
+			"zpos"					"4"
+			"wide"					"35"
+			"tall"					"35"
+			"visible"				"1"
+			"enabled"				"1"
+			"scaleImage"			"1"
+			"image"					"replay/thumbnails/icons/tools"
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
 	"RankPanel"
 	{
 		"ControlName"				"CPvPRankPanel"
@@ -124,8 +532,8 @@
 		"ypos"			"cs-0.5-78"
 
 		"zpos"			"5"
-		"wide"			"800"
-		"tall"			"800"
+		"wide"			"850"
+		"tall"			"850"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
@@ -142,7 +550,7 @@
 		"xpos"						"47"
 		"ypos"						"100"
 		"zpos"						"4"
-		"wide"						"165"
+		"wide"						"180"
 		"tall"						"115"
 		"visible"					"1"
 		"enabled"					"1"
@@ -159,7 +567,7 @@
 		"xpos"						"47"
 		"ypos"						"80"
 		"zpos"						"4"
-		"wide"						"165"
+		"wide"						"180"
 		"tall"						"20"
 		"visible"					"1"
 		"enabled"					"1"
@@ -175,7 +583,7 @@
 		"xpos"						"47"
 		"ypos"						"95"
 		"zpos"						"6"
-		"wide"						"165"
+		"wide"						"180"
 		"tall"						"1"
 		"visible"					"1"
 		"enabled"					"1"
@@ -205,7 +613,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"195"
+		"xpos"			"210"
 		"ypos"			"198"
 		"zpos"			"10"
 		"wide"			"15"
@@ -236,6 +644,25 @@
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"255 255 255 255"	
 	}
+	"NoGCMessage"
+	{
+		"ControlName"				"Label"
+		"fieldName"					"NoGCMessage"
+		"xpos"						"51"
+		"ypos"						"115"
+		"zpos"						"7"
+		"wide"						"200"
+		"tall"						"100"
+		"visible"					"1"
+
+		"font"						"Product32"
+		"fgcolor_override"			"255 255 255 75"
+		"labelText"					"NO CONNECTION"
+		"wrap"						"1"
+		"AllCaps"					"0"
+		"use_proportional_insets"	"1"
+	}
+
 
 	"Notifications_ShowButtonPanel"
 	{
@@ -414,7 +841,7 @@
 		"xpos"			"47"
 		"ypos"			"220"
 		"zpos"			"150"
-		"wide"			"165"
+		"wide"			"180"
 		"tall"			"183"
 		"visible"		"1"
 
@@ -447,7 +874,7 @@
 			"xpos"						"0"
 			"ypos"						"15"
 			"zpos"						"6"
-			"wide"						"165"
+			"wide"						"180"
 			"tall"						"1"
 			"visible"					"1"
 			"enabled"					"1"

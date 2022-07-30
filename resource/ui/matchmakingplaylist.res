@@ -17,7 +17,7 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CasualEntry"
-		"xpos"			"12"
+		"xpos"			"185"
 		"ypos"			"0"
 		"tall"			"40"
 		"wide"			"156"
@@ -40,7 +40,7 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CompetitiveEntry"
-		"xpos"			"12+156+10"
+		"xpos"			"350"
 		"ypos"			"0"
 		"tall"			"40"
 		"wide"			"156"
@@ -63,7 +63,7 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"MvMEntry"
-		"xpos"			"12+156+10+156+10"
+		"xpos"			"515"
 		"ypos"			"0"
 		"tall"			"40"
 		"wide"			"156"
@@ -74,56 +74,22 @@
 		"button_command"	"play_mvm"
 		"desc_token"		"#MMenu_PlayList_MvM_Desc"
 		"matchgroup"		"1" // k_eTFMatchGroup_MvM_MannUp
-		
-		if_event
-		{
-		    "xpos"      "300"
-			"wide"      "145"
-		}	
 	}
 	
 	"TrainingEntry"
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"TrainingEntry"
-		"xpos"			"12+156+10+156+10+156+10"
-		"ypos"			"0"
-		"tall"			"40"
-		"wide"			"156"
-		"proportionaltoparent"	"1"
-
-		"image_name"		"main_menu/main_menu_button_training"
-		"button_token"		"#MMenu_PlayList_Training_Button"
-		"button_command"	"play_training"
-		"desc_token"		"#MMenu_PlayList_Training_Desc"
-
-		if_event
-		{
-			"xpos"      "150"
-			"wide"      "145"
-		}
+		"xpos"			"9999"
+		"ypos"			"9999"
 	}
 	
 	"CreateServerEntry"
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CreateServerEntry"
-		"xpos"			"12+156+10+156+10+156+10+156+10"
-		"ypos"			"0"
-		"tall"			"40"
-		"wide"			"156"
-		"proportionaltoparent"	"1"
-
-		"image_name"		"main_menu/main_menu_button_custom_server"
-		"button_token"		"#MMenu_PlayList_CreateServer_Button"
-		"button_command"	"create_server"
-		"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
-
-		if_event
-		{
-			"xpos"      "150"
-			"wide"      "145"
-		}
+		"xpos"			"9999"
+		"ypos"			"9999"
 	}
 
 	"ServerBrowserEntry"
@@ -131,20 +97,7 @@
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"ServerBrowserEntry"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"tall"			"0"
-		"wide"			"0"
-		"proportionaltoparent"	"1"
-
-		"image_name"		"main_menu/main_menu_button_community_server"
-		"button_token"		"#MMenu_PlayList_ServerBrowser_Button"
-		"button_command"	"play_community"
-		"desc_token"		"#MMenu_PlayList_ServerBrowser_Desc"
-		
-		if_event
-		{
-		    "ypos"      "9999"
-		}	
+		"ypos"			"9999"	
 	}
 
 	"ScrollBar"

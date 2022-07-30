@@ -1261,16 +1261,16 @@
 		"tall"										"44"
 	}
 
-	"NotificationQueuePanel"
+	"NotificationQueuePanel""
 	{
-		"fieldName"									"NotificationQueuePanel"
-		"visible"									"0"
-		"enable"									"1"
-		"xpos"										"r155"
-		"ypos"										"r90"
-		"zpos"										"100"
-		"wide"										"200"
-		"tall"										"0"
+		"fieldName"		"NotificationQueuePanel"
+		"visible"		"0"
+		"enable"		"1"
+		"xpos"			"r155"
+		"ypos"			"r90"
+		"zpos"			"100"
+		"wide"			"200"
+		"tall"			"0"
 	}
 
 	"CHudVote"

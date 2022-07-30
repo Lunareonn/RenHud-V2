@@ -66,9 +66,9 @@
 	"OuterGradient"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"OuterGradient"
-		"xpos"		"rs1"
-		"rotation"		"1"
+		"fieldName"			"OuterGradient"
+		"xpos"				"rs1"
+		"rotation"			"1"
 
 		if_left
 		{
@@ -99,13 +99,7 @@
 		"xpos"			"rs1"
 		"labelText"		"-"
 
-		if_left
-		{
-			"xpos"		"0"
-			"labelText"		"-"
-		}
-
-		"ypos"			"0"
+		"ypos"			"198"
 		"zpos"			"10000"
 		"wide"			"14"
 		"tall"			"f0"
@@ -128,12 +122,6 @@
 		"fieldName"		"ReturnButton"
 		"xpos"			"0"
 		"labelText"		"◄"
-
-		if_left
-		{
-			"xpos"	"rs1-3"
-			"labelText"		"►"
-		}
 
 		"ypos"			"0"
 		"zpos"			"10000"
@@ -161,7 +149,7 @@
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"f-20"
+		"tall"			"f-40"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 

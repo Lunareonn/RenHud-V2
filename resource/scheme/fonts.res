@@ -501,6 +501,16 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		"Symbols32"
+		{
+			"1"
+			{
+				"name"										"Hypnotize Icons HEx5"
+				"tall"										"32"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 		"m0reicons8"
 		{
 			"1"
