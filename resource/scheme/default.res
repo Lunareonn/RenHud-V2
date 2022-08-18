@@ -10,8 +10,8 @@
 		"Purple"											"137 69 175 255"
 		"PurpleDim"											"92  69 111 255"
 		"PurpleGrey"										"35 23 47 255"
-		"SkyBlue"											"91 188 228 255"
-		"SkyBlueDim"										"67 133 159 255"
+		"SkyBlue"											"255 255 255 255"
+		"SkyBlueDim"										"180 148 67 255"
 
 		"QuestGold"											"208 147 75 255"
 		"HalloweenThemeColor2015_Light"						"238 126 17 255"

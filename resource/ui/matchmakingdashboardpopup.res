@@ -536,8 +536,7 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"
-				"PaintBackgroundType"	"2"
-				"border"		"ReplayDefaultBorder"
+				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 			}
 
@@ -639,6 +638,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
 		}
+
 
 		"RematchStartingContainer"
 		{

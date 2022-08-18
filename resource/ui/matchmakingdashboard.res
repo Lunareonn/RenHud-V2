@@ -41,7 +41,7 @@
 			"wide"		"p0.5"
 			"tall"		"f6"
 			"zpos"	"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"rotation"		"2"
 			"proportionaltoparent"	"1"
@@ -61,7 +61,7 @@
 			"zpos"			"-1"
 			"wide"			"p1.1"
 			"tall"			"f5"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"border"		"ReplayDefaultBorder"
 			"proportionaltoparent"	"1"
@@ -76,7 +76,7 @@
 			"zpos"			"-2"
 			"wide"			"p1.1"
 			"tall"			"p1"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"border"		"OuterShadowBorder"
 			"proportionaltoparent"	"1"
@@ -96,13 +96,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"HudFontSmallestBold"
+			"font"			"Symbols24"
+			"textinsety"	"5"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"toggle_chat"
 			"proportionaltoparent"	"1"
-			"labeltext"		""
+			"labeltext"		"Z"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
@@ -113,22 +114,6 @@
 
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"TanLight"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-2"
-				"zpos"			"1"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"glyph_chat"
-			}
 		}
 
 		"PartySlot0"
@@ -295,8 +280,11 @@
 				"tall"			"f4"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
+				"paintbackground"		"1"
 
-				"border"		"ReplayDefaultBorder"
+				"bgcolor_override"		"25 25 25 255"
+
+				"border"		""
 			}
 
 			"QueueLogoButton"
@@ -350,35 +338,19 @@
 			{
 				"ControlName"	"CAutoFittingLabel"
 				"fieldName"		"QueueText"
-				"xpos"			"33"
+				"xpos"			"55"
 				"ypos"			"1"
 				"wide"			"f55"
 				"zpos"			"100"
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallestBold"
-				"fgcolor_override"	"TanLight"
+				"font"			"Product12"
+				"fgcolor_override"	"255 255 255 255"
 				"textAlignment"	"west"
 				"labelText"		"%queue_state%"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
-
-				"fonts"
-				{
-					"0"
-					{
-						"font"	"HudFontSmallestBold" // TF2 Build 11
-					}
-					"1"
-					{
-						"font"	"StorePromotionsTitle" // TF2 Build 10
-					}
-					"2"
-					{
-						"font"	"FontStorePrice" // TF2 Build 9
-					}
-				}
 			}
 
 			"MultiQueuesManageButton"
@@ -435,7 +407,7 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"CloseButton"
-				"xpos"			"rs1-6"
+				"xpos"			"rs1-8"
 				"ypos"			"11"
 				"zpos"			"10"
 				"wide"			"14"
@@ -445,8 +417,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"labeltext"		""
-				"font"			"HudFontSmallBold"
+				"labeltext"		"%"
+				"font"			"Symbols18"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -456,29 +428,10 @@
 				"Command"		"leave_queue"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
-			
 				"paintbackground"	"0"
-			
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-			
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
-				"SubImage"
-				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"0"
-					"ypos"			"0"
-					"zpos"			"1"
-					"wide"			"14"
-					"tall"			"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"image"			"close_button"
-					"scaleImage"	"1"
-				}				
+
+				"fgcolor_override"			"255 255 255 255"
+				"armedfgcolor_override"		"255 50 50 255"	
 			}		
 		}
 
@@ -597,14 +550,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"textinsetx"	"0"
+			"font"			"Symbols24"
+			"textAlignment"	"center"
+			"textinsety"	"5"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"quit"
 			"proportionaltoparent"	"1"
-			"labeltext"		""
+			"labeltext"		"b"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
@@ -613,31 +566,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 150"
-			"defaultBgColor_override"	"192 28 0 50"
+			"armedBgColor_override"		"192 28 0 255"
+			"defaultBgColor_override"	"205 35 5 255"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
+			"defaultFgColor_override" "255 255 255 255"
+			"armedFgColor_override" "230 230 230 255"
 
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"TanLight"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-5"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"glyph_quit"
-				"drawcolor_override" "TanLight"
-			}
 		}
 
 		"DisconnectButton"
@@ -647,63 +583,45 @@
 			"xpos"			"rs1"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"110"
+			"wide"			"30"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
+			"font"			"Symbols24"
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"quit"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#TF_Disconnect"
+			"labeltext"		"b"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"RoundedCorners"	"0"
 			"textinsety"	"5"
-			"textinsetx"	"22"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 150"
-			"defaultBgColor_override"	"192 28 0 50"
+			"armedBgColor_override"		"192 28 0 255"
+			"defaultBgColor_override"	"205 35 5 255"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"TanLight"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"rs1-5"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"glyph_disconnect"
-				"drawcolor_override" "TanLight"
-			}
 		}
 
 		"ResumeButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ResumeButton"
-			"xpos"			"rs1-31-131"
+			"xpos"			"9999"
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"90"
@@ -711,7 +629,7 @@
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"0"
-			"enabled"		"1"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
@@ -719,8 +637,8 @@
 			"brighttext"	"0"
 			"Command"		"resume_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#MMenu_ResumeGame"
-			"mouseinputenabled"	"1"
+			"labeltext"		""
+			"mouseinputenabled"	"0"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
@@ -731,30 +649,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-		//	"armedBgColor_override"		"CreditsGreen"
-		//	"defaultBgColor_override"	"GreenSolid"
+			"armedBgColor_override"		"0 0 0 0"
+			"defaultBgColor_override"	"0 0 0 0"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"10"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"icon_resume"
-				"drawcolor_override" "TanLight"
-			}
+			"image_drawcolor"	"0 0 0 0"
+			"image_armedcolor"	"0 0 0 0"
 		}
 
 		"FindAGameButton"
@@ -771,19 +672,19 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"HudFontSmallBold"
+			"font"			"Product24"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"find_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#MMenu_FindAGame"
+			"labeltext"		"--------"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
 			"textinsety"	"5"
-			"textinsetx"	"25"
+			"textinsetx"	"33"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -802,10 +703,10 @@
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"6"
-				"ypos"			"10"
+				"ypos"			"9"
 				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
+				"wide"			"16"
+				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"

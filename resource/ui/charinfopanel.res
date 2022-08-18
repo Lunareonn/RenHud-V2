@@ -66,7 +66,7 @@
 		"ypos"										"420"
 		"zpos"										"2"
 		"wide"										"f0"
-		"tall"										"2"
+		"tall"										"1"
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackgroundtype"						"2"
@@ -101,19 +101,19 @@
 
 		"tabskv"
 		{
-			"textinsetx"							"20"
-			"textinsety"							"5"
+			"textinsetx"							"19"
+			"textinsety"							"0"
 			"xpos"									"100"
 			"textalignment"							"center"
-			"font"									"Product16"
+			"font"									"Product14"
 			"selectedcolor"							"TanLight"
 			"unselectedcolor"						"TanDark"
-			"defaultBgColor_override"				"22 22 22 255"
+			"defaultBgColor_override"				"25 25 25 255"
 			"paintbackground"						"1"
 			"activeborder_override"					"GreyBorderTabs"
 			"normalborder_override"					"GreyBorderTabsInactive"
 			"unselectedBgColor_override"			"10 10 10 255"
-			"depressedBgColor_override"				"10 10 10 255"
+			"depressedBgColor_override"				"5 5 5 255"
 		}
 	}
 

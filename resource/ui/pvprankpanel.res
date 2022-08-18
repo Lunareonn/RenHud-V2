@@ -228,6 +228,7 @@
 
 		"DescLine1"
 		{
+			// Mode Indicator for stats (Casual / Comp)
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
 			"xpos"			"62"
@@ -246,6 +247,7 @@
 
 		"DescLine2"
 		{
+			// Casual Level / Comp Rank
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
 			"xpos"			"65"

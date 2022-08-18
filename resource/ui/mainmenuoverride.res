@@ -1,3 +1,5 @@
+#base "../../customization/bookmarks.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
 	"MainMenuOverride"
@@ -100,6 +102,20 @@
 
 	}
 
+	"TFCharacterImage"
+	{
+		// "ControlName"	"ImagePanel"
+		"fieldName"		"TFCharacterImage"
+		"xpos"			"c-250"
+		"ypos"			"-80"
+		"zpos"			"-99"
+		"wide"			"600"
+		"tall"			"600"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+	}
+
 	// MAIN MENU BUTTONS
 
 	
@@ -135,11 +151,11 @@
 		
 		"defaultfgcolor_override"	"230 230 230 255"
 		"defaultbgcolor_override"	"10 10 10 160"
-		"armedfgcolor_override"		"245 245 245 255"
+		"armedfgcolor_override"		"232 192 91 255"
 		"armedbgcolor_override"		"15 15 15 185"
 
 		"image_drawcolor"			"150 150 150 40"
-		"image_armedcolor"			"150 150 150 75"
+		"image_armedcolor"			"199 165 79 75"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -194,7 +210,7 @@
 
 		"defaultfgcolor_override"	"230 230 230 255"
 		"defaultbgcolor_override"	"10 10 10 160"
-		"armedfgcolor_override"		"245 245 245 255"
+		"armedfgcolor_override"		"232 192 91 255"
 		"armedbgcolor_override"		"15 15 15 185"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -203,7 +219,7 @@
 		"paintbackground"			"1"
 		
 		"image_drawcolor"			"255 255 255 255"
-		"image_armedcolor"			"255 255 255 200"
+		"image_armedcolor"			"232 192 91 200"
 		
 		"SubImage"
 		{
@@ -254,7 +270,7 @@
 		"border_default"			"noborder"
 		
 		"defaultfgcolor_override"	"255 255 255 255"
-		"armedfgcolor_override"		"150 150 150 255"
+		"armedfgcolor_override"		"232 192 91 200"
 
 		"pin_to_sibling" 			"SettingsButtonR"
 		"pin_corner_to_sibling" 	"PIN_TOPRIGHT" // This Element
@@ -292,7 +308,7 @@
 
 		"defaultfgcolor_override"	"230 230 230 255"
 		"defaultbgcolor_override"	"10 10 10 160"
-		"armedfgcolor_override"		"245 245 245 255"
+		"armedfgcolor_override"		"232 192 91 255"
 		"armedbgcolor_override"		"15 15 15 185"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -301,7 +317,7 @@
 		"paintbackground"			"1"
 		
 		"image_drawcolor"			"255 255 255 255"
-		"image_armedcolor"			"255 255 255 200"
+		"image_armedcolor"			"232 192 91 200"
 		
 		"SubImage"
 		{
@@ -352,7 +368,7 @@
 
 		"defaultfgcolor_override"	"230 230 230 255"
 		"defaultbgcolor_override"	"10 10 10 160"
-		"armedfgcolor_override"		"245 245 245 255"
+		"armedfgcolor_override"		"232 192 91 255"
 		"armedbgcolor_override"		"15 15 15 185"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -361,7 +377,7 @@
 		"paintbackground"			"1"
 		
 		"image_drawcolor"			"255 255 255 255"
-		"image_armedcolor"			"255 255 255 200"
+		"image_armedcolor"			"232 192 91 200"
 		
 		"SubImage"
 		{
@@ -412,7 +428,7 @@
 
 		"defaultfgcolor_override"	"230 230 230 255"
 		"defaultbgcolor_override"	"10 10 10 160"
-		"armedfgcolor_override"		"245 245 245 255"
+		"armedfgcolor_override"		"232 192 91 255"
 		"armedbgcolor_override"		"15 15 15 185"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -421,7 +437,7 @@
 		"paintbackground"			"1"
 		
 		"image_drawcolor"			"255 255 255 255"
-		"image_armedcolor"			"255 255 255 200"
+		"image_armedcolor"			"232 192 91 200"
 		
 		"SubImage"
 		{
@@ -471,11 +487,11 @@
 		
 		"defaultfgcolor_override"	"230 230 230 255"
 		"defaultbgcolor_override"	"10 10 10 160"
-		"armedfgcolor_override"		"245 245 245 255"
+		"armedfgcolor_override"		"232 192 91 255"
 		"armedbgcolor_override"		"15 15 15 185"
 
 		"image_drawcolor"			"150 150 150 40"
-		"image_armedcolor"			"150 150 150 75"
+		"image_armedcolor"			"199 165 79 75"
 		
 		"SubImage"
 		{
@@ -996,7 +1012,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipSubLabel"
-			"font"									"Bebas12"
+			"font"									"Muro12"
 			"labelText"								"%tipsubtext%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1016,7 +1032,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"Bebas12"
+			"font"									"Product10"
 			"labelText"								"%tiptext%"
 			"textAlignment"							"center"
 			"xpos"									"0"
