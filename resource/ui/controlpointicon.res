@@ -62,7 +62,7 @@
 		"zpos"					"4"
 		"wide"					"14"
 		"tall"					"14"
-		"visible"				"0"
+		"visible"				"1"
 		"enabled"				"1"
 		"image"					"capture_icon"
 		"scaleImage"			"1"

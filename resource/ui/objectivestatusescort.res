@@ -80,10 +80,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"	
 		"xpos"			"72"	
-		"ypos"			"117"
+		"ypos"			"120"
 		"zpos"			"1"
-		"wide"			"3"
-		"tall"			"17"
+		"wide"			"10"
+		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -354,7 +354,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
 			"font"			"Product8"
-			"xpos"			"37"
+			"xpos"			"36"
 			"ypos"			"86"
 			"zpos"			"4"
 			"wide"			"30"
@@ -367,6 +367,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"paintbackground"	"0"
 			
 			"if_multiple_trains"
 			{
@@ -379,11 +380,13 @@
 			"if_multiple_trains_top"
 			{
 				"ypos"			"45"
+				"xpos"			"20"
 			}										
 			
 			"if_multiple_trains_bottom"
 			{
 				"ypos"			"81"
+				"xpos"			"20"
 			}	
 		}
 		

@@ -26,7 +26,7 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White"
 
-		"if_readymode"
+		if_readymode
 		{
 			"xpos"									"300"
 			"ypos"									"130"
@@ -130,17 +130,17 @@
 		"PositiveColor"								"0 255 0 255"
 		"NegativeColor"								"255 0 0 255"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"m0refont11"
+		"delta_item_font"							"Roboto12"
 		"proportionaltoparent"						"1"
 
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"m0refont16"
+			"font"									"Product16"
 			"fgcolor"								"White"
 			"xpos"									"cs-0.5"
-			"ypos"									"-2"
+			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"f0"
 			"tall"									"15"
@@ -149,6 +149,7 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
+			"bgcolor_override"						"0 0 0 100"
 		}
 	}
 
@@ -235,7 +236,7 @@
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"3"
-				"wide"								"99999"
+				"wide"								"f0"
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
@@ -289,8 +290,6 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"HealthIcon"
 				"xpos"								"9999"
-				"visible"							"0"
-				"enabled"							"0"
 			}
 			"ReadyBG"
 			{
@@ -343,7 +342,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 
-		"if_large"
+		if_large
 		{
 			"ypos"									"65"
 			"tall"									"385"
@@ -437,7 +436,7 @@
 			"linegap"								"4"
 			//"show_columns"						"1"
 
-			"if_large"
+			if_large
 			{
 				"tall"								"315"
 			}
@@ -455,7 +454,7 @@
 			"enabled"								"1"
 			"border"								"TFFatLineBorderClearBG"
 
-			"if_large"
+			if_large
 			{
 				"tall"								"325"
 			}
@@ -474,7 +473,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 
-		"if_large"
+		if_large
 		{
 			"ypos"									"65"
 			"tall"									"385"
@@ -568,7 +567,7 @@
 			"linegap"								"4"
 			//"show_columns"						"1"
 
-			"if_large"
+			if_large
 			{
 				"tall"								"315"
 			}
@@ -586,7 +585,7 @@
 			"enabled"								"1"
 			"border"								"TFFatLineBorderClearBG"
 
-			"if_large"
+			if_large
 			{
 				"tall"								"325"
 			}

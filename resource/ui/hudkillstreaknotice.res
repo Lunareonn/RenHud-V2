@@ -1,18 +1,35 @@
 "Resource/UI/HudKillStreakNotice.res"
-{
+{	
 	"Background"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"Background"
-		"xpos"										"9999"
-		"ypos"										"9999"
+		"ControlName"			"EditablePanel"
+		"fieldName"				"Background"
+		"xpos"					"c-250"
+		"ypos"					"50"
+		"zpos"					"0"
+		"wide"					"500"
+		"tall"					"50"
+		"autoResize"			"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"PaintBackgroundType"	"2"
+		"roundedcorners"		"0"
+		"bgcolor_override"		"0 0 0 175"
 	}
-
+	
 	"SplashLabel"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"SplashLabel"
-		"ypos"										"9999"
-		"alpha"										"0"
+		"ControlName"			"CExLabel"
+		"fieldName"				"SplashLabel"
+		"font"					"Product16"
+		"labelText"				""
+		"textAlignment" 		"center"
+		"xpos"					"c-250"
+		"ypos"					"50"
+		"zpos"					"2"
+		"wide"					"500"
+		"tall"					"50"
+		"autoResize"			"0"
+		"fgcolor"				"White"
 	}
 }

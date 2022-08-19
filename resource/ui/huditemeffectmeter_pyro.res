@@ -1,11 +1,11 @@
-#base "huditemeffectmeter.res"
+#base "HudItemEffectMeter.res"
 
-// Soda Popper
-
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+"Resource/UI/HudItemEffectMeter_Pyro.res"
 {
 	HudItemEffectMeter
 	{
-		"ypos"			"r141"
-	}	
+		"fieldName"		"HudItemEffectMeter"
+		"xpos"			"r214"
+		"ypos_minmode"	"r70"
+	}
 }

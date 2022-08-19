@@ -67,7 +67,7 @@
 			"zpos"									"0"
 			"wide"									"11"
 			"tall"									"11"
-			"visible"								"1"
+			"visible"								"0"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"image"									""
@@ -81,7 +81,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"FreezeLabelKiller"
-			"xpos"									"0"
+			"xpos"									"-5"
 			"ypos"									"-5"
 			"zpos"									"1"
 			"wide"									"170"

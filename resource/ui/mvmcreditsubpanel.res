@@ -8,7 +8,7 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"12"
-		"font"										"NoodleTitling12"
+		"font"										"Product12"
 		"labelText"									"%header%"
 		"textAlignment" 							"west"
 		"textinsetx" 								"5"
@@ -37,7 +37,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CreditCollectedTextLabel"
-		"font"										"NoodleTitling12"
+		"font"										"Product12"
 		"labelText"									"#TF_PVE_Collected"
 		"textAlignment" 							"west"
 		"xpos"										"-3"
@@ -55,7 +55,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CreditCollectedCountLabel"
-		"font"										"NoodleTitling12"
+		"font"										"Product12"
 		"labelText"									"%creditscollected%"
 		"textAlignment" 							"east"
 		"xpos"										"2"
@@ -74,7 +74,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CreditMissedTextLabel"
-		"font"										"NoodleTitling12"
+		"font"										"Product12"
 		"labelText"									"#TF_PVE_Missed"
 		"textAlignment" 							"west"
 		"xpos"										"0"
@@ -94,7 +94,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CreditMissedCountLabel"
-		"font"										"NoodleTitling12"
+		"font"										"Product12"
 		"labelText"									"%creditsmissed%"
 		"textAlignment" 							"east"
 		"xpos"										"2"
@@ -113,7 +113,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CreditBonusTextLabel"
-		"font"										"NoodleTitling12"
+		"font"										"Product12"
 		"labelText"									"#TF_PVE_Bonus"
 		"textAlignment" 							"west"
 		"xpos"										"0"
@@ -133,7 +133,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CreditBonusCountLabel"
-		"font"										"NoodleTitling12"
+		"font"										"Product12"
 		"labelText"									"%creditbonus%"
 		"textAlignment" 							"east"
 		"xpos"										"2"

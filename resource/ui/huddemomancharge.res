@@ -12,6 +12,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"Left"
-		"proportionaltoparent"						"1"
+		"proportionaltoparent"						"0"
 	}
 }

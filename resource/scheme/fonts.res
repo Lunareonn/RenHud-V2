@@ -551,6 +551,26 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		"m0reicons24"
+		{
+			"1"
+			{
+				"name"										"m0rehud Icons v3"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"m0reicons32"
+		{
+			"1"
+			{
+				"name"										"m0rehud Icons v3"
+				"tall"										"32"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 
 		// PRODUCT SANS
 		"product8"
@@ -639,6 +659,16 @@ Scheme
 			{
 				"name"										"Product Sans"
 				"tall"										"48"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"product49"
+		{
+			"1"
+			{
+				"name"										"Product Sans"
+				"tall"										"49"
 				"additive"									"0"
 				"antialias" 								"1"
 			}

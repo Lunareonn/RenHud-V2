@@ -1,35 +1,14 @@
 "Resource/UI/HudMenuTauntSelection.res"
 {
-	"MainBackground"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MainBackground"
-		"xpos"			"9999"
-	}
-
-	"Divider"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Divider"
-		"xpos"			"9999"
-	}
-
-	"IcoReelIcon"
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"IcoReelIcon"
-		"xpos"			"9999"
-	}
-
 	"TauntBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TauntBG"
 		"xpos"			"10"
-		"ypos"			"10"
+		"ypos"			"32"
 		"zpos"			"0"
 		"wide"			"105"
-		"tall"			"175"
+		"tall"			"195"
 		
 		"paintbackground"	"1"
 		"bgcolor_override"	"0 0 0 200"
@@ -41,8 +20,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"NoodleTitling24"
-		"xpos"			"35"			// align me to the left edge of the first selection
+		"font"			"Product18"
+		"xpos"			"-121"			// align me to the left edge of the first selection
 		"ypos"			"110"
 		"zpos"			"3"
 		"wide"			"360"
@@ -51,34 +30,28 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"Taunts"
-		"textAlignment"	"Left"
+		"labelText"		"TAUNTS"
+		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
-	"TitleLabelDropshadow"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabelDropshadow"
-		"font"			"NoodleTitling24"
-		"fgcolor"		"Black"
-		"xpos"			"-1"			// align me to the left edge of the first selection
-		"ypos"			"-1"
-		"zpos"			"3"
-		"wide"			"360"
-		"tall"			"38"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"Taunts"
-		"textAlignment"	"Left"
-		"dulltext"		"1"
-		"brighttext"	"0"
 
-		"pin_to_sibling"	"TitleLabel"
+	"Divider"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Divider"
+		"xpos"			"10"
+		"ypos"			"10"
+		"zpos"			"0"
+		"wide"			"105"
+		"tall"			"2"
+		
+		"paintbackground"	"1"
+		"bgcolor_override"	"255 255 255 255"
+
+		"pin_to_sibling"	"TauntAnchor"
 	}
+
 
 	"WeaponTauntLabel"
 	{	
@@ -114,33 +87,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#Hud_Menu_Taunt_Cancel"
+		"labelText"		""
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}
-	"CancelLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CancelLabelShadow"
-		"font"			"NoodleTitling18"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"2"
-		"wide"			"200"
-		"tall"			"13"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Hud_Menu_Taunt_Cancel"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-
-		"pin_to_sibling"	"CancelLabel"
-
-		"fgcolor_override"	"0 0 0 255"
 	}
 
 	"TauntAnchor"
@@ -193,6 +143,25 @@
 			"allow_rot"				"0"
 		}
 	}
+	"Taunt1Label"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"Taunt1Label"
+		"xpos"				"-3"
+		"ypos"				"-19"
+		"zpos"				"101"
+		"wide"				"10"
+		"tall"				"10"
+
+		"font"				"Product8"
+		"labelText"			"1"
+		"fgcolor_override"	"255 255 255 255"
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 200"
+		"textAlignment"		"center"
+
+		"pin_to_sibling"	"TauntModelPanel1"
+	}
 
 	"NumberBg1"	
 	{
@@ -243,6 +212,25 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
+	}
+	"Taunt2Label"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"Taunt2Label"
+		"xpos"				"-3"
+		"ypos"				"-19"
+		"zpos"				"101"
+		"wide"				"10"
+		"tall"				"10"
+
+		"font"				"Product8"
+		"labelText"			"2"
+		"fgcolor_override"	"255 255 255 255"
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 200"
+		"textAlignment"		"center"
+
+		"pin_to_sibling"	"TauntModelPanel2"
 	}
 
 	"NumberBg2"
@@ -295,6 +283,25 @@
 			"allow_rot"				"0"
 		}
 	}
+	"Taunt3Label"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"Taunt3Label"
+		"xpos"				"-3"
+		"ypos"				"-19"
+		"zpos"				"101"
+		"wide"				"10"
+		"tall"				"10"
+
+		"font"				"Product8"
+		"labelText"			"3"
+		"fgcolor_override"	"255 255 255 255"
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 200"
+		"textAlignment"		"center"
+
+		"pin_to_sibling"	"TauntModelPanel3"
+	}
 	
 	"NumberBg3"
 	{
@@ -345,6 +352,25 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
+	}
+	"Taunt4Label"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"Taunt4Label"
+		"xpos"				"-3"
+		"ypos"				"-19"
+		"zpos"				"101"
+		"wide"				"10"
+		"tall"				"10"
+
+		"font"				"Product8"
+		"labelText"			"4"
+		"fgcolor_override"	"255 255 255 255"
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 200"
+		"textAlignment"		"center"
+
+		"pin_to_sibling"	"TauntModelPanel4"
 	}
 
 	"NumberBg4"
@@ -397,6 +423,25 @@
 			"allow_rot"				"0"
 		}
 	}
+	"Taunt5Label"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"Taunt5Label"
+		"xpos"				"-3"
+		"ypos"				"-19"
+		"zpos"				"101"
+		"wide"				"10"
+		"tall"				"10"
+
+		"font"				"Product8"
+		"labelText"			"5"
+		"fgcolor_override"	"255 255 255 255"
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 200"
+		"textAlignment"		"center"
+
+		"pin_to_sibling"	"TauntModelPanel5"
+	}
 
 	"NumberBg5"
 	{
@@ -447,6 +492,25 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
+	}
+	"Taunt6Label"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"Taunt6Label"
+		"xpos"				"-3"
+		"ypos"				"-19"
+		"zpos"				"101"
+		"wide"				"10"
+		"tall"				"10"
+
+		"font"				"Product8"
+		"labelText"			"6"
+		"fgcolor_override"	"255 255 255 255"
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 200"
+		"textAlignment"		"center"
+
+		"pin_to_sibling"	"TauntModelPanel6"
 	}
 
 	"NumberBg6"
@@ -499,6 +563,25 @@
 			"allow_rot"				"0"
 		}
 	}
+	"Taunt7Label"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"Taunt7Label"
+		"xpos"				"-3"
+		"ypos"				"-19"
+		"zpos"				"101"
+		"wide"				"10"
+		"tall"				"10"
+
+		"font"				"Product8"
+		"labelText"			"7"
+		"fgcolor_override"	"255 255 255 255"
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 200"
+		"textAlignment"		"center"
+
+		"pin_to_sibling"	"TauntModelPanel7"
+	}
 
 	"NumberBg7"
 	{
@@ -550,6 +633,26 @@
 			"allow_rot"				"0"
 		}
 	}
+	"Taunt8Label"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"Taunt8Label"
+		"xpos"				"-3"
+		"ypos"				"-19"
+		"zpos"				"101"
+		"wide"				"10"
+		"tall"				"10"
+
+		"font"				"Product8"
+		"labelText"			"8"
+		"fgcolor_override"	"255 255 255 255"
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 200"
+		"textAlignment"		"center"
+
+		"pin_to_sibling"	"TauntModelPanel8"
+	}
+	
 
 	"NumberBg8"
 	{
