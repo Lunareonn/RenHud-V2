@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TeamScoresPanel"
-		"xpos"			"367"
+		"xpos"			"0"
 		"ypos"			"150"
 		"wide"			"120"
 		"tall"			"35"

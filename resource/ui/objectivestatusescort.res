@@ -433,7 +433,6 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"EscortTeardrop"
 			"xpos"				"9999"	
-		}
 
 			"Blocked"
 			{
