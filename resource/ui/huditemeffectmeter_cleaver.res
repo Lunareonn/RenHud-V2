@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"40"
-		"xpos"			"c-22"
+		"xpos"			"c-60"
 		"ypos"			"c105"
 		"x_offset_minmode"		"0"
 		"wide"			"100"

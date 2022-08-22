@@ -25,7 +25,7 @@
 		"zpos"			"5"
 		"wide"			"o1"
 		"tall"			"f0"
-		"visible"		"1"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 
 		"radius"		"8"
@@ -45,7 +45,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"AchievementTracker_Name"
+		"font"			"Product16"
 		"fgcolor_override"	"TanLight"
 		"textAlignment"	"east"
 		"labelText"		"%queue_state%"

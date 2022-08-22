@@ -5,10 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"94"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"xpos_minmode"	"68"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
+		"xpos"			"382"
+		"ypos"			"c118"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -24,8 +22,7 @@
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"44"
-		"visible"		"1"
-		"visible_minmode"	"0"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
@@ -39,6 +36,12 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"					"9999"
+	}
+	"ItemEffectMeterLabel2"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel2"
 		"xpos"					"25"
 		"ypos"					"27"
 		"zpos"					"2"
@@ -49,11 +52,12 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_KillStreak"
+		"labelText"				"FRAGS"
+		"fgcolor_override"		"227 191 100 255"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"Product8"
 	}
 
 	"ItemEffectMeter"
@@ -93,10 +97,24 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
-		"font_minmode"			"HudFontSmall"
+		"font"					"Product24"
+	}
+	
+	"KillstreakBG"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"KillstreakBG"
+		"xpos"					"0"
+		"ypos"					"1"
+		"zpos"					"1"
+		"wide"					"40"
+		"tall"					"32"
+
+		"paintbackground"		"1"
+		"bgcolor_override"		"0 0 0 175"
+		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
 }

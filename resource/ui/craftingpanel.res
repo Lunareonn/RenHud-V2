@@ -421,16 +421,18 @@
 	
 	"TooltipPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TooltipPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"100"
-		"wide"			"140"
-		"tall"			"50"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"ControlName"								"EditablePanel"
+		"fieldName"									"TooltipPanel"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"140"
+		"tall"										"20"
+		"visible"									"0"
+		"PaintBackground"							"1"
+		"PaintBackgroundType"						"1"
+		"border"									"NoBorder"
+		"bgcolor_override"							"25 25 25 200"
 		
 		"TipLabel"
 		{

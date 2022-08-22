@@ -167,7 +167,6 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_x_minmode"	"3"
 				"angles_y"		"225"
 				"angles_z"		"-5"
 				"origin_x"		"150"

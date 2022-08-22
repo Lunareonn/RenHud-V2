@@ -33,7 +33,7 @@
 		"ypos"						"130"
 		"zpos"						"2"
 		"wide"						"510"
-		"tall"						"175"
+		"tall"						"250"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -92,7 +92,7 @@
 		"ypos"						"130"
 		"zpos"						"2"
 		"wide"						"510"
-		"tall"						"185"
+		"tall"						"255"
 		"visible"					"1"
 		"enable"					"1"
 		"paintbackground"			"1"
@@ -240,7 +240,8 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"BlueTeamPlayerCount"
-		"font"						"NoodleTitling18"
+		"font"						"Product18"
+		"allcaps"					"1"
 		"labelText"					"%blueteamplayercount%"
 		"textAlignment"				"west"
 		"xpos"						"156"
@@ -349,10 +350,11 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"RedTeamPlayerCount"
-		"font"						"NoodleTitling18"
+		"font"						"Product18"
+		"allcaps"					"1"
 		"labelText"					"%redteamplayercount%"
-		"textAlignment"				"west"
-		"xpos"						"182"
+		"textAlignment"				"east"
+		"xpos"						"157"
 		"ypos"						"1"
 		"zpos"						"5"
 		"wide"						"75"
@@ -380,7 +382,7 @@
 		"ypos"						"-2"
 		"zpos"						"20"
 		"wide"						"250"
-		"tall"						"135"
+		"tall"						"178"
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
@@ -409,7 +411,7 @@
 		"ypos"						"-2"
 		"zpos"						"20"
 		"wide"						"250"
-		"tall"						"135"
+		"tall"						"178"
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
@@ -526,8 +528,8 @@
 		"font"						"Product10"
 		"labelText"					"%server%"
 		"textAlignment"				"west"
-		"xpos"						"175"
-		"ypos"						"100"
+		"xpos"						"255"
+		"ypos"						"363"
 		"zpos"						"3"
 		"wide"						"f0"
 		"tall"						"10"
@@ -550,7 +552,7 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"StatsSeparator"
 		"xpos"						"0"
-		"ypos"						"-37"
+		"ypos"						"-63"
 		"zpos"						"10"
 		"wide"						"498"
 		"tall"						"1"
@@ -570,15 +572,15 @@
  		}
 	}
 	
-	"MapName"
+	"MapLabel"
 	{
-		"ControlName"				"CExLabel"
-		"fieldName"					"mapname"
+		"ControlName"				"Label"
+		"fieldName"					"MapLabel"
 		"font"						"Product10"
-		"labelText"					"%mapname%"
+		"labelText"					"Map:"
 		"textAlignment"				"east"
- 		"xpos"						"-175"
-		"ypos"						"100"
+ 		"xpos"						"-582"
+		"ypos"						"372"
 		"zpos"						"3"
 		"wide"						"f0"
 		"tall"						"10"
@@ -595,15 +597,15 @@
 			"xpos"					"-140"
 		}
 	}
-	"MapNameShadow"
+	"MapName"
 	{
 		"ControlName"				"CExLabel"
-		"fieldName"					"MapNameShadow"
+		"fieldName"					"mapname"
 		"font"						"Product10"
 		"labelText"					"%mapname%"
 		"textAlignment"				"east"
- 		"xpos"						"-175"
-		"ypos"						"101"
+ 		"xpos"						"-40"
+		"ypos"						"0"
 		"zpos"						"3"
 		"wide"						"f0"
 		"tall"						"10"
@@ -611,12 +613,14 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"fgcolor"					"Black"
+		"fgcolor"					"195 195 50 255"
+
+		"pin_to_sibling"			"MapLabel"
 
 		if_mvm
 		{
 			"visible"				"1"
-			"ypos"					"66"
+			"ypos"					"65"
 			"xpos"					"-140"
 		}
 	}
@@ -625,11 +629,11 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"LocalPlayerStatsPanel"
-		"xpos"						"-15"
+		"xpos"						"-5"
 		"ypos"						"15"
 		"zpos"						"3"
 		"wide"						"600"
-		"tall"						"50"
+		"tall"						"75"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -645,15 +649,16 @@
 			"ypos"			"116"
 			"visible"		"1"
 		}
+
 		"Killss"
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"Killss"
 			"font"					"Product24"
 			"labelText"				"%kills%"
-			"textAlignment"			"east"
-			"xpos"					"0"
-			"ypos"					"21"
+			"textAlignment"			"center"
+			"xpos"					"16"
+			"ypos"					"10"
 			"zpos"					"3"
 			"wide"					"38"
 			"auto_wide_tocontents"	"1"
@@ -663,22 +668,21 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"56 203 56 255"
-			
-			"pin_to_sibling"		"KDLine"
+
 
 			if_mvm
 			{
 				"visible"			"1"
 			}
 		}
-		"KillsShadow"
+		"KillsLabel"
 		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"KillsShadow"
-			"font"					"Product24"
-			"labelText"				"%kills%"
-			"textAlignment"			"east"
-			"xpos"					"-1"
+			"ControlName"			"Label"
+			"fieldName"				"KillsLabel"
+			"font"					"Product8"
+			"labelText"				"FRAGS"
+			"textAlignment"			"center"
+			"xpos"					"11"
 			"ypos"					"-1"
 			"zpos"					"3"
 			"wide"					"38"
@@ -688,33 +692,8 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"fgcolor"				"0 0 0 255"
+			"fgcolor_override"				"56 203 56 255"
 
-			"pin_to_sibling"		"Killss"
-
-			if_mvm
-			{
-				"visible"			"1"
-			}
-		}
-		
-		"KDLine"
-		{
-			"ControlName"			"EditablePanel"
-			"fieldName"				"KDLine"
-			"font"					"Size 28"
-			"textAlignment"			"center"
-			"xpos"					"0"
-			"ypos"					"21"
-			"zpos"					"3"
-			"wide"					"23"
-			"tall"					"2"
-			"visible"				"0"
-			"enabled"				"0"
-			
-			"paintbackground"		"1"
-			"bgcolor_override"		"230 230 230 255"
-			
 			if_mvm
 			{
 				"visible"			"0"
@@ -726,9 +705,9 @@
 			"fieldName"				"Deathss"
 			"font"					"Product24"
 			"labelText"				"%deaths%"
-			"textAlignment"			"east"
-			"xpos"					"0"
-			"ypos"					"0"
+			"textAlignment"			"center"
+			"xpos"					"16"
+			"ypos"					"30"
 			"zpos"					"3"
 			"wide"					"36"
 			"auto_wide_tocontents"	"1"
@@ -738,38 +717,34 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"203 56 56 255"
-			
-			"pin_to_sibling"		"KDLine"
 
 			if_mvm
 			{
 				"visible"			"1"
 			}
 		}
-		"DeathsShadow"
+		"DeathsLabel"
 		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"DeathsShadow"
-			"font"					"Product24"
-			"labelText"				"%deaths%"
+			"ControlName"			"Label"
+			"fieldName"				"DeathsLabel"
+			"font"					"Product8"
+			"labelText"				"DEATHS"
 			"textAlignment"			"center"
-			"xpos"					"-1"
-			"ypos"					"-1"
+			"xpos"					"10"
+			"ypos"					"42"
 			"zpos"					"3"
-			"wide"					"36"
+			"wide"					"38"
 			"auto_wide_tocontents"	"1"
 			"tall"					"20"
 			"autoResize"			"0"
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"fgcolor"				"0 0 0 255"
-			
-			"pin_to_sibling"		"Deathss"
-			
+			"fgcolor_override"				"203 56 56 255"
+
 			if_mvm
 			{
-				"visible"			"1"
+				"visible"			"0"
 			}
 		}
 		
@@ -780,8 +755,8 @@
 			"font"					"Product12"
 			"labelText"				"Damage:"
 			"textAlignment"			"west"
-			"xpos"					"75"
-			"ypos"					"5"
+			"xpos"					"78"
+			"ypos"					"7"
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"10"

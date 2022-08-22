@@ -49,7 +49,7 @@
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
+		"visible"		"0"
 		
 		"PipeIcon"
 		{
@@ -57,14 +57,13 @@
 			"fieldName"		"PipeIcon"
 			"xpos"			"9999"
 		}	
-		
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"50"
+			"xpos"			"52"
 			"ypos"			"18"
-			"zpos"			"2"
+			"zpos"			"7"
 			"wide"			"35"
 			"tall"			"20"
 			"autoResize"	"1"
@@ -73,6 +72,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"%activepipes%"
+			"fgcolor_override"	"255 255 255 255"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -84,7 +84,7 @@
 			"fieldName"		"NumPipesLabelDropshadow"
 			"xpos"			"51"
 			"ypos"			"19"
-			"zpos"			"2"
+			"zpos"			"7"
 			"wide"			"35"
 			"tall"			"20"
 			"autoResize"	"1"
@@ -92,13 +92,57 @@
 			"visible"		"0"
 			"enabled"		"0"
 			"tabPosition"	"0"
-			"labelText"		""
+			"labelText"		"%activepipes%"
+			"fgcolor_override"	"255 255 255 255"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"Product24"
 			"fgcolor"		"black"
-		}		
+		}
+
+		"G_PipeIcon"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"G_PipeIcon"
+			"xpos"					"45"
+			"ypos"					"15"
+			"zpos"					"5"
+			"wide"					"50"
+			"tall"					"27"
+			"textinsetx"			"50"
+			"textinsety"			"-1"
+			"visible"				"1" // 10 CSBC
+			"enabled"				"1"
+			"labelText"				"E"
+			"textAlignment"			"west"
+			"font"					"Symbols24"
+			"fgcolor"				"227 191 100 255"
+
+			"paintbackground"		"1"
+			"bgcolor_override"		"0 0 0 175"
+		}
+		"G_PipeIconS"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"G_PipeIconS"
+			"xpos"					"45"
+			"ypos"					"15"
+			"zpos"					"5"
+			"wide"					"50"
+			"tall"					"27"
+			"textinsetx"			"52"
+			"textinsety"			"1"
+			"visible"				"1" // 10 CSBC
+			"enabled"				"1"
+			"labelText"				"E"
+			"textAlignment"			"west"
+			"font"					"Symbols24"
+			"fgcolor"				"10 10 10 255"
+
+			"paintbackground"		"0"
+			"bgcolor_override"		"0 0 0 175"
+		}
 	}
 	
 	"NoPipesPresentPanel"
@@ -118,6 +162,48 @@
 			"fieldName"		"PipeIcon"
 			"xpos"			"9999"
 		}
+		"G_PipeIcon"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"G_PipeIcon"
+			"xpos"					"45"
+			"ypos"					"15"
+			"zpos"					"5"
+			"wide"					"50"
+			"tall"					"27"
+			"textinsetx"			"50"
+			"textinsety"			"-1"
+			"visible"				"1" // 10 CSBC
+			"enabled"				"1"
+			"labelText"				"E"
+			"textAlignment"			"west"
+			"font"					"Symbols24"
+			"fgcolor"				"227 191 100 255"
+
+			"paintbackground"		"1"
+			"bgcolor_override"		"0 0 0 175"
+		}
+		"G_PipeIconS"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"G_PipeIconS"
+			"xpos"					"45"
+			"ypos"					"15"
+			"zpos"					"4"
+			"wide"					"50"
+			"tall"					"27"
+			"textinsetx"			"52"
+			"textinsety"			"1"
+			"visible"				"1" // 10 CSBC
+			"enabled"				"1"
+			"labelText"				"E"
+			"textAlignment"			"west"
+			"font"					"Symbols24"
+			"fgcolor"				"10 10 10 255"
+
+			"paintbackground"		"0"
+			"bgcolor_override"		"0 0 0 175"
+		}
 
 		"NumPipesLabel"
 		{
@@ -125,7 +211,7 @@
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"50"
 			"ypos"			"18"
-			"zpos"			"2"
+			"zpos"			"10"
 			"wide"			"35"
 			"tall"			"20"
 			"tall_lodef"	"28"
@@ -135,6 +221,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"%activepipes%"
+			"fgcolor_override"	"255 255 255 255"
 			"textAlignment"	"west"
 			"dulltext"		"1"
 			"brighttext"	"0"
@@ -145,10 +232,8 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
 			"xpos"			"51"
-			"xpos_minmode"	"43"
 			"ypos"			"19"
-			"ypos_minmode"	"13"
-			"zpos"			"2"
+			"zpos"			"10"
 			"wide"			"35"
 			"tall"			"20"
 			"tall_lodef"	"28"
@@ -158,52 +243,13 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"%activepipes%"
+			"fgcolor_override"	"255 255 255 255"
 			"textAlignment"	"west"
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
 			"fgcolor"		"black"
-		}			
+		}	
 	}
-	"PipesBG"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"PipesBG"
-		"xpos"					"124"
-		"ypos"					"103"
-		"zpos"					"1"
 
-		"wide"					"47"
-		"tall"					"27"
-		"paintbackground"		"1"
-		"bgcolor_override"		"0 0 0 175"
-	}
-	"PipesIcon"
-	{
-		"ControlName"			"Label"
-		"fieldName"				"PipesIcon"
-		"xpos"					"146"
-		"ypos"					"102"
-		"zpos"					"2"
-		"wide"					"49"
-		"tall"					"27"
-		"fgcolor_override"		"227 191 100 255"
-		"labelText"				"E"
-		"font"					"Symbols24"
-	}
-	"PipesIconS"
-	{
-		"ControlName"			"Label"
-		"fieldName"				"HeadsIcon"
-		"xpos"					"147"
-		"ypos"					"103"
-		"zpos"					"2"
-		"wide"					"49"
-		"tall"					"27"
-		"fgcolor_override"		"10 10 10 255"
-		"labelText"				"E"
-		"font"					"Symbols24"
-	}	
 }
