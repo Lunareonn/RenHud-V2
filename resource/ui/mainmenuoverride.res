@@ -1,3 +1,4 @@
+#base "custom/preload.res"
 #base "../../customization/bookmarks.res"
 
 "Resource/UI/MainMenuOverride.res"

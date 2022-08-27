@@ -24,10 +24,10 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
-		"icon"			"obj_status_background_red"
+		"icon"			"obj_status_background_disabled"
 		"iconColor"		"255 255 255 255"
 	}
 	
@@ -60,7 +60,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultSmall"
+			"font"			"Product8"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"

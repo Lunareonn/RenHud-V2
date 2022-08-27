@@ -174,10 +174,10 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	 
-		"ypos"					"r152"	 
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"					"cs-0.5"	 
+		"ypos"					"r220"	 
+		"wide"					"200"
+		"tall"  				"50"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -281,11 +281,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
-		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
+		"ypos"		"110"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -798,15 +794,15 @@
 
 	WinPanel
 	{
-		"fieldName"									"WinPanel"
-		"visible"									"1"
-		"enabled"									"1"
-		"xpos"										"c-59"
-		"ypos"										"25"
-		"wide"										"300"
-		"tall"										"300"
-		"zpos"										"4"
-		"proportionaltoparent"						"1"
+		"fieldName"				"WinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-150"
+		"ypos"					"215"
+		"wide"					"300"
+		"tall"					"300"
+		"zpos"					"4"
+		"proportionaltoparent"	"1"
 	}
 
 	ArenaWinPanel

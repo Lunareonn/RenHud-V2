@@ -23,12 +23,25 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"120"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
+		"tall"			"31"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
-		"icon"			"obj_status_background_tall_disabled"
-		"iconColor"		"255 255 255 255"
+		"icon"			"obj_status_background_disabled"
+		"iconColor"		"White"
+	}
+	"BuildingsBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BuildingsBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"			"200"
+		
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 175"
 	}
 	
 	"Icon_Sentry_1"
@@ -43,7 +56,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"Icon_Sentry_2"
@@ -58,7 +71,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_2"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"Icon_Sentry_3"
@@ -73,7 +86,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_3"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NotBuiltPanel"
@@ -90,7 +103,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultVerySmall"
+			"font"			"Product8"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -100,7 +113,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_sentry_not_built"
-			"labelText_lodef"		"#Building_hud_sentry_not_built_360"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -130,7 +142,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 
 		"Icon_Upgrade_2"
@@ -146,7 +158,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 
 		"Icon_Upgrade_3"
@@ -162,7 +174,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 		
 		"AlertTray"
@@ -193,7 +205,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 		
 		"SapperIcon"
@@ -209,7 +221,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 		
 		"Health"
@@ -217,6 +229,7 @@
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
+			"fgcolor"		"White"
 			"xpos"			"13"
 			"ypos"			"3"
 			"wide"			"8"
@@ -244,7 +257,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
+				"font"			"Product8"
 				"xpos"			"0"
 				"ypos"			"18"
 				"wide"			"200"
@@ -297,20 +310,35 @@
 				"zpos"			"1"
 				"wide"			"10"
 				"tall"			"10"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_kill_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"White"
 			}
+			"KillIcon2"	
+			{
+				"ControlName"	"Label"
+				"fieldName"		"KillIcon2"
+				"xpos"			"0"
+				"ypos"			"12"
+				"zpos"			"1"
+				"wide"			"10"
+				"tall"			"10"
+				"visible"		"1"
+				"enabled"		"1"
+
+				"labelText"		"K"
+				"font"			"Symbols12"
+			}	
 						
 			"KillsLabel"
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
-				"font"			"DefaultSmall"
+				"font"			"Product12"
 				"xpos"			"12"
-				"ypos"			"13"
+				"ypos"			"12"
 				"wide"			"200"
 				"tall"			"22"
 				"autoResize"	"0"
@@ -336,7 +364,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"White"
 			}
 			
 			"Shells"
@@ -370,7 +398,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_rockets_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"White"
 			}
 			
 			"Rockets"
@@ -404,7 +432,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"ico_metal"
-				"iconColor"		"ProgressOffWhite"
+				"iconColor"		"White"
 			}			
 			
 			"Upgrade"

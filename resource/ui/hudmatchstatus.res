@@ -270,7 +270,7 @@
 				"zpos"								"10"
 				"wide"								"f0"
 				"tall"								"f0"
-				"visible"							"1"
+				"visible"							"0"
 				"labelText"							"%respawntime%"
 				"textAlignment"						"center"
 				"proportionaltoparent"				"1"

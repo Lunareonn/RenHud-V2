@@ -24,11 +24,25 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_disabled"
 		"iconColor"		"255 255 255 255"
+	}
+
+	"BuildingsBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BuildingsBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"			"200"
+		
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 175"
 	}
 	
 	"Icon_Teleport_Entrance"
@@ -60,7 +74,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultVerySmall"
+			"font"			"Product8"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -268,7 +282,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/hud_obj_status_teleport_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"White"
 				"scaleImage"	"1"
 			}
 			
@@ -315,9 +329,9 @@
 				{	
 					"ControlName"	"CExLabel"
 					"fieldName"		"TimesUsedLabel"
-					"font"			"DefaultSmall"
+					"font"			"Product12"
 					"xpos"			"12"
-					"ypos"			"5"
+					"ypos"			"4"
 					"wide"			"200"
 					"tall"			"25"
 					"autoResize"	"0"
@@ -344,7 +358,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"ico_metal"
-				"iconColor"		"ProgressOffWhite"
+				"iconColor"		"White"
 			}
 			
 			"Upgrade"

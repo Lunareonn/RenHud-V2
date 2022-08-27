@@ -88,7 +88,7 @@
 		"StoreGreen"										"76 107 34 255"
 
 		"LowHealthRed"										"255 0 0 255"
-		"ProgressOffWhite"									"251 235 202 255"
+		"ProgressOffWhite"									"255 255 255 255"
 		"ProgressBackground"								"250 234 201 51"
 		"HealthBgGrey"										"72 71 69 255"
 
@@ -278,7 +278,7 @@
 		"Label.SelectedTextColor"							"White"
 		"Label.BgColor"										"Blank"
 		"Label.DisabledFgColor1"							"Blank"
-		"Label.DisabledFgColor2"							"Black"
+		"Label.DisabledFgColor2"							"255 255 255 255"
 
 		"ListPanel.TextColor"								"Orange"
 		"ListPanel.BgColor"									"TransparentBlack"
@@ -944,7 +944,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"500"
 				"additive"									"0"
@@ -1123,7 +1123,7 @@
 
 		"GameUIButtonsSmall"
 		{
-			"1"	[$X360]
+			"1"
 			{
 				"bitmap"									"1"
 				"name"										"Buttons"
@@ -1134,7 +1134,7 @@
 
 		"GameUIButtonsSmallest"
 		{
-			"1"	[$X360]
+			"1"
 			{
 				"bitmap"									"1"
 				"name"										"Buttons"
@@ -2240,7 +2240,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
@@ -2252,7 +2252,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"Product Sans"
 				"tall"										"9"
 				"weight"									"500"
 				"additive"									"0"
@@ -2264,7 +2264,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"Product Sans"
 				"tall"										"12"
 				"weight"									"500"
 				"additive"									"0"
@@ -2276,7 +2276,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
@@ -3558,23 +3558,25 @@
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"33 33 33 255"
 			
-			"image"					"loadout_rect_mouseover"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"image"					"replay/thumbnails/white"
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
 		}
 		LoadoutItemPopupBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"33 33 33 255"
 			
-			"image"					"button_holder_central"
-			"src_corner_height"		"32"				// pixels inside the image
+			"image"					"replay/thumbnails/white"
+			"src_corner_height"		"32"
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
 		}
 		
 		BackpackItemGrayedOut

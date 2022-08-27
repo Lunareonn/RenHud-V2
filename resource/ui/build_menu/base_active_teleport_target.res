@@ -4,34 +4,42 @@
 	{
 		"ControlName"		     					"EditablePanel"
 		"fieldName"									"Background"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"0"
-		"wide"										"f0"
-		"tall"										"f0"
-		"visible"		        					"1"
-		"enabled"	          						"1"
-		"proportionaltoparent"						"1"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"0 0 0 100"
+		"xpos"										"9999"
 	}
 
-	"BuildingIcon"
+	"BuildingIcon"	
 	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"BuildingIcon"
-		"xpos"										"cs-0.5"
-		"ypos"										"2"
-		"zpos"										"1"
-		"wide"										"f4"
-		"tall"										"o0.98"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"scaleImage"								"1"
-		"icon"										"hud_menu_sentry_build"
-		"iconColor"									"White"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"BuildingIcon"
+		"xpos"			"22"
+		"ypos"			"30"
+		"zpos"			"2"
+		"wide"			"56"
+		"tall"			"56"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"hud_menu_sentry_build"
+		"iconColor"		"255 255 255 255"
+	}
+
+	"ItemBackground"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"ItemBackground"
+		"xpos"			"4"
+		"ypos"			"14"
+		"zpos"			"0"
+		"wide"			"90"
+		"tall"			"90"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			""
+		"iconColor"		"ProgressOffWhite"
+
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 175"
 	}
 
 	"CantBuildReason"
@@ -57,36 +65,28 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
-		"font"										"m0refont11"
-		"xpos"										"cs-0.5"
-		"ypos"										"1"
-		"zpos"										"2"
-		"wide"										"f0"
-		"tall"										"10"
-		"visible"									"0"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labelText"									"#TF_Object_Sentry"
-		"textAlignment"								"Center"
-		"centerwrap"								"1"
+		"xpos"										"9999"
 	}
 
 	"NumberLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel"
-		"font"										"m0refont12"
-		"fgcolor"									"White"
-		"xpos"										"cs-0.5"
-		"ypos"										"rs1"
-		"zpos"										"6"
-		"wide"										"f0"
-		"tall"										"12"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labelText"									"1"
-		"textAlignment"								"center"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"Product16"
+		"fgcolor"		"White"
+		"xpos"			"37"
+		"ypos"			"84"
+		"zpos"			"25"
+		"wide"			"100"
+		"tall"			"18"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"1"
+		"textAlignment"	"Center"
+		"dulltext"		"1"
+		"brighttext"	"0"
 	}
 
 
@@ -94,13 +94,6 @@
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-
-	"ItemBackground"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"ItemBackground"
-		"xpos"										"9999"
-	}
 	"ItemNameLabel"
 	{
 		"ControlName"								"CExLabel"

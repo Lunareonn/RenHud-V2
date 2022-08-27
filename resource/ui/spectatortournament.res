@@ -254,7 +254,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"xpos"			"27"//-9
+				"xpos"			"45"//-9
 				"ypos"			"3"//11
 				"zpos"			"32"
 				"wide"			"85"
@@ -262,9 +262,22 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labeltext"		"%respawntime%"
-				"textAlignment"		"east"
+				"textAlignment"		"west"
 				"font"			"product12" //"DefaultVerySmall"
 				"fgcolor_override"		"softred"
+			}
+			"respawnbg"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"respawnbg"
+				"xpos"			"45"
+				"ypos"			"3"
+				"zpos"			"31"
+				"wide"			"85"
+				"tall"			"20"
+				
+				"paintbackground"	"1"
+				"bgcolor_override"	"0 0 0 175"
 			}
 
 			

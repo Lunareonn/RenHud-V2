@@ -17,9 +17,10 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ReinforcementsLabel"
-		"xpos"										"0"
+		"xpos"										"-75"
 		"ypos"										"50"
-		"wide"										"f0"
+		"zpos"										"30"
+		"wide"										"500"
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
@@ -34,6 +35,19 @@
 		{
 			"ypos"									"200"
 		}
+	}
+	"respawnbg"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"respawnbg"
+		"xpos"			"-225"
+		"ypos"			"47"
+		"zpos"			"29"
+		"wide"			"500"
+		"tall"			"30"
+				
+		"paintbackground"	"0"
+		"bgcolor_override"	"0 0 0 195"
 	}
 
 	"BuyBackLabel"
