@@ -39,7 +39,7 @@
 		"tall"										"120"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"loadout_header"
+		"image"										"replay/thumbnails/backpack/loadout_header"
 		"tileImage"									"1"
 	}
 
@@ -54,7 +54,7 @@
 		"tall"										"60"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"loadout_header"
+		"image"										"replay/thumbnails/backpack/loadout_header"
 		"tileImage"									"1"
 	}
 

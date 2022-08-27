@@ -97,7 +97,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"rs1"
-		"labelText"		"-"
+		"labelText"		""
 
 		"ypos"			"198"
 		"zpos"			"10000"
