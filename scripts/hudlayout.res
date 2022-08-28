@@ -1,5 +1,9 @@
+
+// Leave these alone
 //#base "../resource/ui/winpanel.res"
 //#base "../resource/ui/freezepanel_basic.res"
+//#base "../resource/ui/statsummary.res"
+#base "../customization/crosshairs/crosshair_scheme.res"
 
 "Resource/HudLayout.res"
 {

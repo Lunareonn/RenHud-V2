@@ -511,7 +511,148 @@
 		}
 	}
 
+	"CallVoteButton"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldname"				"CallVoteButton"
+		"xpos"					"122"
+		"ypos"					"123"
+		"zpos"					"26"
+		"wide"					"25"
+		"tall"					"25"
+		"visible"				"1"
+		"enabled"				"1"
+		
+		"pin_to_sibling" 		"FriendsContainer"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
 
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"f0"
+			"tall"						"f0"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"textinsetx"				"100"
+			"use_proportional_insets" 	"1"
+			"font"						"HudFontSmallBold"
+			"textAlignment"				"west"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"border_default"			"MainMenuSubButtonBorder"
+			"paintbackground"			"1"
+			"paintborder"				"0"
+			
+			"defaultFgColor_override" 	"46 43 42 255"
+			"armedFgColor_override" 	"46 43 42 255"
+			"depressedFgColor_override" "46 43 42 255"
+
+			"defaultBgColor_override"	"10 10 10 160"
+			"armedbgcolor_override"		"15 15 15 185"
+			
+			"image_drawcolor"			"255 255 255 255"
+			"image_armedcolor"			"245 245 245 175"
+			"proportionaltoparent"		"1"
+			
+			"SubImage"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"SubImage"
+				"xpos"					"cs-0.5"
+				"ypos"					"cs-0.5"
+				"zpos"					"1"
+				"wide"					"20"
+				"tall"					"20"
+				"visible"				"1"
+				"enabled"				"1"
+				"roundedcorners"		"5"
+				"image"					"replay/thumbnails/menu/callvote"
+				"scaleImage"			"1"
+				"proportionaltoparent"	"1"
+			}				
+		}
+	}
+	"MutePlayersButton"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldname"				"MutePlayersButton"
+		"xpos"					"0"
+		"ypos"					"-30"
+		"zpos"					"26"
+		"wide"					"25"
+		"tall"					"25"
+		"visible"				"1"
+		"enabled"				"1"
+		
+		"pin_to_sibling" 		"CallVoteButton"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"f0"
+			"tall"						"f0"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"textinsetx"				"100"
+			"use_proportional_insets" 	"1"
+			"font"						"HudFontSmallBold"
+			"textAlignment"				"west"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"border_default"			"MainMenuSubButtonBorder"
+			"paintbackground"			"1"
+			"paintborder"				"0"
+			
+			"defaultFgColor_override" 	"46 43 42 255"
+			"armedFgColor_override" 	"46 43 42 255"
+			"depressedFgColor_override" "46 43 42 255"
+
+			"defaultBgColor_override"	"10 10 10 160"
+			"armedbgcolor_override"		"15 15 15 185"
+			
+			"image_drawcolor"			"255 255 255 255"
+			"image_armedcolor"			"245 245 245 175"
+			"proportionaltoparent"		"1"
+			
+			"SubImage"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"SubImage"
+				"xpos"					"cs-0.5"
+				"ypos"					"cs-0.5"
+				"zpos"					"1"
+				"wide"					"20"
+				"tall"					"20"
+				"visible"				"1"
+				"enabled"				"1"
+				"roundedcorners"		"5"
+				"image"					"replay/thumbnails/menu/mute"
+				"scaleImage"			"1"
+				"proportionaltoparent"	"1"
+			}				
+		}
+	}
 
 
 

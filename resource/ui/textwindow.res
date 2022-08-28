@@ -17,7 +17,7 @@
 	{
 		"ControlName"	 							"CExRichText"
 		"fieldName"		 							"TFTextMessage"
-		"font"			 							"m0refont11"
+		"font"			 							"Product12"
 		"xpos"			 							"cs-0.5"
 		"ypos"			 							"cs-0.5"
 		"zpos"			 							"1"
@@ -59,7 +59,7 @@
 		"labelText"		 							"#TF_WELCOME"
 		"textAlignment"	 							"center"
 		"AllCaps"	 								"1"
-		"font"			 							"Coolvetica15"
+		"font"			 							"Product16"
 		"fgcolor"		 							"White"
 
 		"pin_to_sibling"							"TFTextMessage"
@@ -82,7 +82,7 @@
 		"textAlignment"	 							"center"
 		"command"		 							"okay"
 		"default"		 							"1"
-		"font"										"Coolvetica15"
+		"font"										"Product12"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"

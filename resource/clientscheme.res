@@ -1,8 +1,7 @@
 #base	"../resource/scheme/colors.res"
 #base	"../resource/scheme/fonts.res"
 #base	"../resource/scheme/default.res"
-
-#base "../customize/crosshairs/crosshair_scheme.res"
+#base "../customization/crosshairs/crosshair.res"
 
 "Scheme"
 {

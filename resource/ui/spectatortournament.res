@@ -443,29 +443,39 @@
 	
 	"ReinforcementsLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"60"
-		"proportionaltoparent"	"1"
-		"text_center"			"1"
-		"textinsetx"			"28"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"center"
-		"font"			"product12"
-		"bgcolor_override"			"0 0 0 165"
-		"border"			"noborder"
-		"auto_wide_tocontents" "1"
-		
-		"pin_to_sibling" "ExampleAnchor"
-        "pin_corner_to_sibling" "4"
-        "pin_to_sibling_corner" "4"
+		"ControlName"								"CExLabel"
+		"fieldName"									"ReinforcementsLabel"
+		"xpos"										"-75"
+		"ypos"										"50"
+		"zpos"										"30"
+		"wide"										"500"
+		"tall"										"25"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									"#game_respawntime_in_secs"
+		"textAlignment"								"center"
+		"allcaps"									"1"
+		"font"										"product24"
+		"fgcolor"   								"White"
+		"proportionaltoparent"						"1"
+
+		"if_mvm"
+		{
+			"ypos"									"200"
+		}
+	}
+	"respawnbg"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"respawnbg"
+		"xpos"			"-225"
+		"ypos"			"47"
+		"zpos"			"29"
+		"wide"			"500"
+		"tall"			"30"
+				
+		"paintbackground"	"0"
+		"bgcolor_override"	"0 0 0 195"
 	}
 	"BuyBackLabel"
 	{

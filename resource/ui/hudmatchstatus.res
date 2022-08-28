@@ -262,19 +262,20 @@
 
 			"respawntime"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"respawntime"
-				"font"								"m0refont12Shadow"
-				"xpos"								"cs-0.5"
-				"ypos"								"cs-0.5"
-				"zpos"								"10"
-				"wide"								"f0"
-				"tall"								"f0"
-				"visible"							"0"
-				"labelText"							"%respawntime%"
-				"textAlignment"						"center"
-				"proportionaltoparent"				"1"
-				"fgcolor"							"255 255 0 255"
+				"ControlName"								"CExLabel"
+				"fieldName"									"respawntime"
+				"font"										"m0refont12Shadow"
+				"xpos"										"-75"
+				"ypos"										"50"
+				"zpos"										"30"
+				"wide"										"500"
+				"tall"										"25"
+				"visible"									"1"
+				"enabled"									"1"
+				"labelText"									"%respawntime%"
+				"textAlignment"								"center"
+				"proportionaltoparent"						"1"
+				"fgcolor"									"255 255 0 255"
 			}
 
 
