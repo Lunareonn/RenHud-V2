@@ -17,7 +17,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClip"
-		"xpos"										"0"
+		"xpos"										"-8"
 		"ypos"										"0"
 		"zpos"										"5"
 		"wide"										"150"
@@ -57,7 +57,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInReserve"
-		"xpos"										"0"
+		"xpos"										"8"
 		"ypos"										"-4"
 		"zpos"										"7"
 		"wide"										"150"
