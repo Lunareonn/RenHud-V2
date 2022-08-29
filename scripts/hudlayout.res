@@ -4,6 +4,7 @@
 //#base "../resource/ui/freezepanel_basic.res"
 //#base "../resource/ui/statsummary.res"
 #base "../customization/crosshairs/crosshair_scheme.res"
+#base "../customization/TransparentViewmodels.res"
 
 "Resource/HudLayout.res"
 {
@@ -86,10 +87,10 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	 
-		"ypos"			"r21"	 
+		"xpos"			"495"	 
+		"ypos"			"350"	 
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
+		"wide"			"80"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -190,10 +191,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
+		"xpos"					"285"
 		"ypos"					"r152"
-		"ypos_minmode"			"r134"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
