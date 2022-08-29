@@ -19,4 +19,5 @@ Transparent Viewmodel Support <br />
 - [ ] Add 4:3 support
 - [ ] Remake Payload and Control Point icons
 - [ ] Possibly remake Main Menu character images?
+- [ ] Fix colors
 - [x] secret
