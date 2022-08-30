@@ -7,7 +7,7 @@
 		"enabled"		"1"
 //		"x_offset"		"40"
 		"xpos"			"c-62"
-		"ypos"			"c90"
+		"ypos"			"c115"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
