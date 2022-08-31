@@ -2074,6 +2074,6 @@
 		"labelText"									"?"
 		"URLText"									"https://www.youtube.com/watch?v=VHcpSCmHqHM"
 		"font"										"Product10"
-		"fgcolor_override"							"49 83 145 30"
+		"fgcolor_override"							"49 83 145 60"
 	}
 }

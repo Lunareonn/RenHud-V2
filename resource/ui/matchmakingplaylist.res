@@ -81,7 +81,21 @@
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"TrainingEntry"
 		"xpos"			"9999"
-		"ypos"			"9999"
+	}
+	"TrainingButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"TrainingButton"
+		"xpos"			"675"
+		"ypos"			"10"
+		"roundedcorners"	"0"
+		"command"	"play_training"
+
+		"tall"			"30"
+		"wide"			"30"
+		"textinsetx"	"15"
+		"labelText"		"@"
+		"font"			"Symbols24"
 	}
 	
 	"CreateServerEntry"

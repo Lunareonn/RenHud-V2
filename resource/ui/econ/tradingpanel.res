@@ -15,8 +15,10 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
+		"paintborder"			"0"
+		"paintbackground"		"1"
 		"bgcolor_override"	"22 22 22 255"
-		"infocus_bgcolor_override" "22 2 22 255"
+		"infocus_bgcolor_override" "22 22 22 255"
 		"outoffocus_bgcolor_override" "22 22 22 255"
 		
 		"item_xpos_offcenter_a"	"-310"
@@ -59,7 +61,7 @@
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"1"
+			"paintborder"	"0"
 			
 			"model_ypos"	"5"
 			"model_tall"	"35"
@@ -91,7 +93,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_header"
+		"image"			""
 		"tileImage"		"1"
 	}				
 	"HeaderLine"
@@ -131,7 +133,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"Product24"
 		"labelText"		"#TF_TradeWindow_Title"
 		"textAlignment"	"west"
 		"xpos"			"c-280"

@@ -619,7 +619,7 @@
 		if_mvm
 		{
 			"xpos"			"0"
-			"ypos"			"116"
+			"ypos"			"63"
 			"visible"		"1"
 		}
 
@@ -644,6 +644,8 @@
 			if_mvm
 			{
 				"visible"			"1"
+				"ypos"				"4"
+				"xpos"				"38"
 			}
 		}
 		"KillsLabel"
@@ -687,6 +689,8 @@
 			if_mvm
 			{
 				"visible"			"1"
+				"ypos"				"24"
+				"xpos"				"38"
 			}
 		}
 		"DeathsLabel"

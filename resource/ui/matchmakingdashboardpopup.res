@@ -542,7 +542,6 @@
 				"paintbackground"		"1"
 				"bgcolor_override"		"0 0 0 255"
 			}
-			"MatchFound"
 
 			"DescLabel"
 			{

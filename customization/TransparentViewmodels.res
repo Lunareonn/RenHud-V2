@@ -12,8 +12,8 @@
 	"Transparent"
 	{
 
-		"visible"		"1"		//SET THIS VALUE TO 1
-		"enabled"		"1"		//SET THIS VALUE TO 1
+		"visible"		"0"		//SET THIS VALUE TO 1
+		"enabled"		"0"		//SET THIS VALUE TO 1
 
 		"ControlName"	"ImagePanel"
 		"fieldName" 	"Transparent"

@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"22 22 22 255"
+		"bgcolor_override"	"33 33 33 255"
 	}
 	
 	"TitleLabel"
