@@ -189,7 +189,7 @@
 		"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"260"
-		"tall"			"f45"
+		"tall"			"f0"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
@@ -206,8 +206,8 @@
 		{
 			"ControlName"				"Label"
 			"fieldName"					"NameLabel"
-			"xpos"						"65"
-			"ypos"						"2"
+			"xpos"						"70"
+			"ypos"						"14"
 			"wide"						"175"
 			"zpos"						"100"
 			"tall"						"51"
@@ -231,14 +231,15 @@
 			// Mode Indicator for stats (Casual / Comp)
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"62"
-			"ypos"			"110"
+			"xpos"			"69"
+			"ypos"			"123"
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"Muro10"
+			"font"			"Product10"
+			"allcaps"		"1"
 			"fgcolor_override"	"255 255 255 150"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc1%"
@@ -250,8 +251,8 @@
 			// Casual Level / Comp Rank
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"65"
-			"ypos"			"25"
+			"xpos"			"70"
+			"ypos"			"36"
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
@@ -284,37 +285,58 @@
 			"xpos"			"rs1-5"
 			"ypos"			"0"
 			"wide"			"f70"
-			"tall"			"250"
+			"tall"			"f0"
 			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"			"rs1-10"
+				"ypos"			"0"
+				"wide"			"p0.85"
+			}
 
 			"XPBar"
 			{
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-3"
-				"wide"			"p1"
+				"xpos"			"103"
+				"ypos"			"-15"
+				"wide"			"p0.4"
 				"tall"			"30"
 				"proportionaltoparent"	"1"
 
-	
+				"if_mini"
+				{
+					"xpos"			"cs-0.5"
+					"ypos"			"rs1-3"
+					"wide"			"p1"
+				}
 
 				"CurrentXPLabel"
 				{
 					"ControlName"	"Label"
 					"fieldName"		"CurrentXPLabel"
 					"xpos"			"0"
-					"ypos"			"rs1"
+					"ypos"			"15"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"0"
-					"enabled"		"0"
-					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"south-west"
+					"enabled"		"1"
+					"font"			"Product8"
+					"fgcolor_override"	"255 255 255 255"
+					"textAlignment"	"center"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
+
+					"if_mini"
+					{
+						"visible"		"0"
+						"font"			"Product18"
+
+						"xpos"			"0"
+						"ypos"			"0"
+					}
 				}
 
 				"NextLevelXPLabel"
@@ -327,23 +349,38 @@
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"0"
-					"enabled"		"0"
+					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
+
+					"if_mini" // This is genuinely the worst thing I've ever had to work on in this HUD
+					{
+						"visible"		"0"
+						"font"			"Product18"
+
+						"xpos"			"rs1"
+						"ypos"			"0"
+					}
 				}
 
 				"ProgressBarsContainer"
 				{
 					"Controlname"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
-					"xpos"			"9999"
-					"ypos"			"9999"
+					"xpos"			"0"
+					"ypos"			"rs1-5"
 					"wide"			"p1"
-					"tall"			"7"
+					"tall"			"5"
 					"proportionaltoparent"	"1"
+
+					"if_mini"
+					{
+						"tall"			"7"
+					}
+					
 
 					"ProgressBar"
 					{
@@ -357,7 +394,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"1"
 
-						"fgcolor_override"	"20 20 20 180"
+						"fgcolor_override"	"0 0 0 0"
 						"bgcolor_override"	"0 0 0 0"
 					}
 
@@ -372,7 +409,8 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"CreditsGreen"
+						"fgcolor_override"	"63 165 233 255"
+						"bgcolor_override"	"150 150 150 25"
 					}
 
 					"Frame"
@@ -385,7 +423,7 @@
 						"tall"			"f0"
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
-						"border"		"InnerShadowBorderThin"
+						"border"		""
 					}
 				}
 			}
@@ -394,8 +432,8 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
-				"xpos"			"0"
-				"ypos"			"45"
+				"xpos"			"5"
+				"ypos"			"55"
 				"wide"			"f0"
 				"tall"			"175"
 				"visible"		"1"

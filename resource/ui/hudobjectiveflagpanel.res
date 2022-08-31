@@ -36,8 +36,8 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
-		"font"										"m0refont36"
-		"fgcolor"									"m0reblue"
+		"font"										"Product32"
+		"fgcolor"									"255 255 255 255"
 
 		"if_hybrid"
 		{
@@ -66,8 +66,8 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
-		"font"										"m0refont36"
-		"fgcolor"									"Black"
+		"font"										"Product32"
+		"fgcolor"									"TF2Blue"
 
 		"pin_to_sibling"							"BlueScore"
 
@@ -134,8 +134,8 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"west"
 		"labelText"									"%redscore%"
-		"font"										"m0refont36"
-		"fgcolor"									"m0rered"
+		"font"										"Product32"
+		"fgcolor"									"255 255 255 255"
 
 		"if_hybrid"
 		{
@@ -164,8 +164,8 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"west"
 		"labelText"									"%redscore%"
-		"font"										"m0refont36"
-		"fgcolor"									"Black"
+		"font"										"Product32"
+		"fgcolor"									"TF2Red"
 
 		"pin_to_sibling"							"RedScore"
 
@@ -225,7 +225,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_PlayingTo"
 		"textAlignment"								"center"
-		"font"										"DefaultVerySmall"
+		"font"										"Product8"
 		"fgcolor"									"White"
 
 		"if_hybrid"
