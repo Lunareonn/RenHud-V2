@@ -25,4 +25,5 @@ Transparent Viewmodel Support <br />
 - [ ] Remake Payload and Control Point icons
 - [ ] Possibly remake Main Menu character images?
 - [ ] Fix colors
+- [ ] Create Comp Toggle
 - [x] secret
