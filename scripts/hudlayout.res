@@ -3,7 +3,7 @@
 //#base "../resource/ui/winpanel.res"
 //#base "../resource/ui/freezepanel_basic.res"
 //#base "../resource/ui/statsummary.res"
-#base "../customization/crosshairs/crosshair_scheme.res"
+#base "../customization/crosshairs/crosshair.res"
 #base "../customization/TransparentViewmodels.res"
 
 "Resource/HudLayout.res"

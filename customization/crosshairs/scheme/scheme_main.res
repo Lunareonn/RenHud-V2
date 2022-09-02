@@ -216,10 +216,11 @@ Scheme
 	
 	CustomFontFiles
 	{
-		"100"
+		"9"
 		{
-			"font" "resource/crosshairs/TF2Crosshairs.ttf"
-			"font" "resource/crosshairs/tf2crosshairs_linux.ttf" [$LINUX]
+			"font" "../fonts/TF2Crosshairs.ttf"
+			"font" "../fonts/tf2crosshairs_linux.ttf" [$LINUX]
+
 			"name" "TF2Crosshairs"
 		}
 	}

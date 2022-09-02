@@ -641,8 +641,13 @@ Scheme
 		}
 		"8"
 		{
-			"font"		"resouce/scheme/fonts/m0rehud icons.ttf"
+			"font"		"resource/scheme/fonts/m0rehud icons.ttf"
 			"name"		"m0rehud Icons v3"
+		}
+		"9"
+		{
+			"font"		"resource/scheme/fonts/TF2Crosshairs.ttf"
+			"name"		"TF2Crosshairs"
 		}
 	}
 }
