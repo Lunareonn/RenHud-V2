@@ -1,0 +1,3 @@
+Open the crosshair.res, everything you need to know is there
+
+Do not touch crosshair_scheme.res unless you know what you're doing.
