@@ -2,10 +2,8 @@
 
 "Resource/UI/HudItemEffectMeter_Pyro.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
-		"fieldName"		"HudItemEffectMeter"
-		"xpos"			"r214"
-		"ypos_minmode"	"r70"
+		"ypos"			"c95"
 	}
 }

@@ -501,6 +501,16 @@ Scheme
 		}
 
 		// PRODUCT SANS
+		"product6"
+		{
+			"1"
+			{
+				"name"										"Product Sans"
+				"tall"										"6"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 		"product8"
 		{
 			"1"

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/cpicons/icon_obj_neutral"
+	"$translucent" 1
+}

@@ -32,19 +32,19 @@
 			"textAlignment"							"center"
 			"labelText"								"0:00"
 		}
-		"TimerIndicatorBLU"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"TimerIndicatorBLU"
-			"xpos"									"0"
-			"ypos"									"16"
-			"zpos"									"5"
-			"wide"									"44"
-			"tall"									"2"
+	}
+	"TimerIndicatorBLU"
+	{
+		"ControlName"							"EditablePanel"
+		"fieldName"								"TimerIndicatorBLU"
+		"xpos"									"58"
+		"ypos"									"16"
+		"zpos"									"5"
+		"wide"									"40"
+		"tall"									"2"
 
-			"paintbackground"						"1"
-			"bgcolor_override"						"TF2Blue"
-		}
+		"paintbackground"						"1"
+		"bgcolor_override"						"TF2Blue"
 	}
 
 	"RedTimer"
@@ -79,19 +79,18 @@
 			"textAlignment"							"center"
 			"labelText"								"0:00"
 		}
-		"TimerIndicatorRED"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"TimerIndicatorRED"
-			"xpos"									"0"
-			"ypos"									"16"
-			"zpos"									"5"
-			"wide"									"44"
-			"tall"									"2"
-
-			"paintbackground"						"1"
-			"bgcolor_override"						"TF2Red"
-		}
+	}
+	"TimerIndicatorRED"
+	{
+		"ControlName"							"EditablePanel"
+		"fieldName"								"TimerIndicatorRED"
+		"xpos"									"103"
+		"ypos"									"16"
+		"zpos"									"5"
+		"wide"									"40"
+		"tall"									"2"
+		"paintbackground"						"1"
+		"bgcolor_override"						"TF2Red"
 	}
 
 	"ActiveTimerBG"
