@@ -228,7 +228,7 @@
 		"Border.Selection"									"Gray"
 
 		"Button.TextColor"									"TanLight"
-		"Button.BgColor"									"35 35 35 255"
+		"Button.BgColor"									"28 28 28 255"
 		"Button.ArmedTextColor"								"TanLight"
 		"Button.ArmedBgColor"								"SkyBlueDim"
 		"Button.SelectedTextColor"							"TanLight"
@@ -3391,7 +3391,7 @@
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/color_panel_red"
+			"image"					"replay/thumbnails/hud/transparent_bg_red"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -3413,7 +3413,7 @@
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/color_panel_blu"
+			"image"					"replay/thumbnails/hud/transparent_bg_blu"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional

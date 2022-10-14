@@ -151,9 +151,9 @@
 		"border"					"noborder"
 		
 		"defaultfgcolor_override"	"230 230 230 255"
-		"defaultbgcolor_override"	"10 10 10 160"
+		"defaultbgcolor_override"	"0 0 0 175"
 		"armedfgcolor_override"		"232 192 91 255"
-		"armedbgcolor_override"		"15 15 15 185"
+		"armedbgcolor_override"		"0 0 0 185"
 
 		"image_drawcolor"			"150 150 150 40"
 		"image_armedcolor"			"199 165 79 75"
@@ -210,9 +210,9 @@
 		"navRight"					"TF2SettingsButton"
 
 		"defaultfgcolor_override"	"230 230 230 255"
-		"defaultbgcolor_override"	"10 10 10 160"
+		"defaultbgcolor_override"	"0 0 0 175"
 		"armedfgcolor_override"		"232 192 91 255"
-		"armedbgcolor_override"		"15 15 15 185"
+		"armedbgcolor_override"		"0 0 0 185"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -308,9 +308,9 @@
 		"navRight"					"TF2SettingsButton"
 
 		"defaultfgcolor_override"	"230 230 230 255"
-		"defaultbgcolor_override"	"10 10 10 160"
+		"defaultbgcolor_override"	"0 0 0 175"
 		"armedfgcolor_override"		"232 192 91 255"
-		"armedbgcolor_override"		"15 15 15 185"
+		"armedbgcolor_override"		"0 0 0 185"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -368,9 +368,9 @@
 		"navRight"					"TF2SettingsButton"
 
 		"defaultfgcolor_override"	"230 230 230 255"
-		"defaultbgcolor_override"	"10 10 10 160"
+		"defaultbgcolor_override"	"0 0 0 175"
 		"armedfgcolor_override"		"232 192 91 255"
-		"armedbgcolor_override"		"15 15 15 185"
+		"armedbgcolor_override"		"0 0 0 185"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -428,9 +428,9 @@
 		"navRight"					"TF2SettingsButton"
 
 		"defaultfgcolor_override"	"230 230 230 255"
-		"defaultbgcolor_override"	"10 10 10 160"
+		"defaultbgcolor_override"	"0 0 0 175"
 		"armedfgcolor_override"		"232 192 91 255"
-		"armedbgcolor_override"		"15 15 15 185"
+		"armedbgcolor_override"		"0 0 0 185"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -487,9 +487,9 @@
 		"border"					"noborder"
 		
 		"defaultfgcolor_override"	"230 230 230 255"
-		"defaultbgcolor_override"	"10 10 10 160"
+		"defaultbgcolor_override"	"0 0 0 175"
 		"armedfgcolor_override"		"232 192 91 255"
-		"armedbgcolor_override"		"15 15 15 185"
+		"armedbgcolor_override"		"0 0 0 185"
 
 		"image_drawcolor"			"150 150 150 40"
 		"image_armedcolor"			"199 165 79 75"

@@ -122,7 +122,7 @@
 		{
 			"ControlName"		"CExCheckButton"
 			"fieldName"		"Checkbutton"
-			"xpos"		"175"
+			"xpos"		"200"
 			"ypos"		"-1"
 			"zpos"		"3"
 			"wide"		"55"

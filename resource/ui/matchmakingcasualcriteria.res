@@ -157,7 +157,7 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_MapSelection"
 			"textAlignment"	"north-west"
-			"font"			"Product18"
+			"font"			"Product16"
 		
 			"mouseinputenabled"	"0"
 		}

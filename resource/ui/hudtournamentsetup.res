@@ -50,6 +50,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
+		"allcaps"		"1"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 	}
@@ -134,8 +135,9 @@
 		"brighttext"	"0"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"			"HudFontSmallestBold"
+		"font"			"Product10"
 		"fgcolor"		"Red"
+		"roundedcorners"	"0"
 	}
 
 	"TournamentReadyButton"
@@ -157,7 +159,9 @@
 		"brighttext"	"0"
 		"command"		"teamready" 
 		"default"		"1"
-		"font"			"HudFontSmallestBold"
-		"fgcolor"		"FooterBGBlack"
+		"font"			"Product10"
+		"fgcolor"		"255 255 255 255"
+		"paintbackground"	"1"
+		"roundedcorners"	"0"
 	}
 }

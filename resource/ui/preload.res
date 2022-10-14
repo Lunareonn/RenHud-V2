@@ -109,4 +109,87 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_neutral_locked"
 	}
+
+	///CART ICONS///
+	"CartBlue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CartBlue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/cart_icons/cart_blue"
+	}
+	"CartArrowLeft"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CartBlue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/cart_icons/cart_arrow_left"
+	}
+	"CartArrowRight"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CartBlue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/cart_icons/cart_arrow_right"
+	}
+	"CartHomeBlue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CartBlue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/cart_icons/cart_home_blue"
+	}
+	"CartHomeRed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CartBlue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/hud/cart_home_red"
+	}
+	"CartPointRed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CartBlue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/hud/cart_point_red"
+	}
+	"CartPointBlue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CartBlue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/hud/cart_point_blue"
+	}
+	"CartPointRedOpaque"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CartBlue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/hud/cart_point_red_opaque"
+	}
+	"CartPointBlueOpaque"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CartBlue"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/hud/cart_point_blue_opaque"
+	}
 }

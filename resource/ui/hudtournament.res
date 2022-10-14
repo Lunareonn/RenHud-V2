@@ -119,10 +119,39 @@
 
 			"classimagebg"
 			{
-				"ControlName"						"Panel"
-				"fieldName"							"classimagebg"
-				"xpos"								"9999"
+				"ControlName"		"Panel"
+				"fieldName"		"classimagebg"
+				"xpos"			"5"
+				"ypos"			"4"
+				"zpos"			"2"
+				"wide"			"20"
+				"tall"			"20"
+				"visible"		"0"
+				"enabled"		"1"
+				"bgcolor_override"		"Black"
+				"PaintBackgroundType"	"0"
+				
+				if_mvm
+				{
+					"visible"		"0"
+				}
+
+				if_competitive
+				{
+					"xpos"			"4"
+					"ypos"			"4"
+					"wide"			"p0.4"
+					"tall"			"p0.6"
+					"visible"		"1"
+					"proportionaltoparent" "1"
+				}
+
+				if_readymode
+				{
+					"visible"		"0"
+				}
 			}
+			
 			"respawntime"
 			{
 				"ControlName"						"CExLabel"
@@ -160,7 +189,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"StatusBar"
 		"xpos"										"cs-0.5"
-		"ypos"										"0"
+		"ypos"										"50"
 		"wide"										"2"
 		"tall"										"15"
 		"visible"									"0"
@@ -177,7 +206,7 @@
 		"ypos"		    							"0"
 		"zpos"          							"-1"
 		"wide"		    							"2"
-		"tall"		    							"15"
+		"tall"		    							"25"
 		"visible"	    							"1"
 		"enabled"		    						"1"
 		"painbackground"		    				"1"
@@ -210,8 +239,8 @@
 		"fieldName"									"HudTournamentBLUEBG"
 		"xpos"										"0"
 		"ypos"										"0"
-		"wide"										"p0.5"
-		"tall"										"15"
+		"wide"										"50"
+		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -241,14 +270,14 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentBLUELabel"
-		"xpos"										"-5"
+		"xpos"										"-4"
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"100"
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"m0refont11"
+		"font"										"Product10"
 		"labelText"									"%bluenamelabel%"
 		"textAlignment"								"west"
 		"fgcolor"   								"White"
@@ -273,14 +302,14 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentBLUEStateLabel"
-		"xpos"										"-8"
-		"ypos"										"0"
+		"xpos"										"-10"
+		"ypos"										"-11"
 		"zpos"										"1"
 		"wide"										"65"
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"m0refont11"
+		"font"										"Product10"
 		"labelText"									"%bluestate%"
 		"textAlignment"								"east"
 		"fgcolor" 									"White"
@@ -313,8 +342,8 @@
 		"fieldName"									"HudTournamentREDBG"
 		"xpos"										"0"
 		"ypos"										"0"
-		"wide"										"p0.5"
-		"tall"										"15"
+		"wide"										"50"
+		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -351,7 +380,7 @@
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"m0refont11"
+		"font"										"Product10"
 		"labelText"									"%rednamelabel%"
 		"textAlignment"								"east"
 		"fgcolor"   								"White"
@@ -378,16 +407,16 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentREDStateLabel"
-		"xpos"										"-8"
-		"ypos"										"0"
+		"xpos"										"19"
+		"ypos"										"-11"
 		"zpos"										"1"
 		"wide"										"65"
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"m0refont11"
+		"font"										"Product10"
 		"labelText"									"%redstate%"
-		"textAlignment"								"west"
+		"textAlignment"								"east"
 		"fgcolor" 									"White"
 
 		"pin_to_sibling"							"HudTournamentRedBG"
@@ -420,7 +449,7 @@
 		"visible"		              				"1"
 		"enabled"		              				"1"
 		"proportionaltoparent"						"1"
-		"font"			              				"Product10"
+		"font"			              				"Product8"
 		"labelText" 	          					"%winconditions%"
 		"textAlignment"		        				"center"
 		"fgcolor"                					"White"
@@ -479,34 +508,9 @@
 
 	"CountdownBG"
 	{
-		"ControlName"								"ScalableImagePanel"
+		"ControlName"								"EditablePanel"
 		"fieldName"									"CountdownBG"
-		"xpos"										"cs-0.5"
-		"ypos"										"r57"
-		"zpos"										"1"
-		"wide"										"24"
-		"tall"										"24"
-		"visible"									"0"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-
-		"image"										"../HUD/color_panel_red"
-		"src_corner_height"							"23"
-		"src_corner_width"							"23"
-		"draw_corner_width"							"3"
-		"draw_corner_height" 						"3"
-		"proportionaltoparent"						"1"
-
-		if_competitive
-		{
-			"visible"								"0"
-			"wide"									"0"
-		}
-		if_readymode
-		{
-			"visible"								"0"
-			"wide"									"0"
-		}
+		"xpos"										"9999"
 	}
 
 	"CountdownLabel"
@@ -514,13 +518,13 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
 		"xpos"										"cs-0.5"
-		"ypos"										"r40"
+		"ypos"										"cs-0.5"
 		"wide"										"32"
 		"tall"										"18"
 		"zpos"										"2"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"m0refont18"
+		"font"										"Product24"
 		"labelText"									"%tournamentstatelabel%"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
@@ -528,11 +532,11 @@
 
 		if_competitive
 		{
-			"font"									"m0refont18Shadow"
+			"font"									"Product24"
 		}
 		if_readymode
 		{
-			"font"									"m0refont18Shadow"
+			"font"									"Product24"
 		}
 	}
 
