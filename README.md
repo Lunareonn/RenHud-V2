@@ -5,8 +5,7 @@
 # | How to install
 
 - Download the 7z from [Releases.](https://github.com/AleksiVibes/RenHud-V2/releases)
-- Go to `Team Fortress 2\tf\custom` and create a folder called **RenHUD** inside it.
-- Extract the contents of the 7z file you just downloaded into the folder you made.
+- Extract the contents of the 7z file you just downloaded into the custom
 - Launch the game.
 - Tada! You're done.
 
