@@ -33,7 +33,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"image"			"../hud/cart_track"
+		"image"			"../sprites/hud/cart_track"
 		"scaleImage"	"1"
 		"alpha"			"175"
 		
@@ -42,14 +42,14 @@
 			"ypos"			"118"
 			"zpos"			"3"
 			"tall"			"4"
-			"image"			"../hud/cart_track"
+			"image"			"../sprites/hud/cart_track"
 		}
 		
 		"if_single_with_hills"
 		{
 			"ypos"			"123"
 			"tall"			"4"
-			"image"			"../hud/cart_track"
+			"image"			"../sprites/hud/cart_track"
 		}		
 	}	
 	
@@ -114,7 +114,7 @@
 			"zpos"			"5"
 			"wide"			"14"
 			"tall"			"14"
-			"image"			"../hud/cart_track_neutral_opaque"
+			"image"			"../sprites/hud/cart_track"
 		}
 		
 		"if_multiple_trains_top"
@@ -153,7 +153,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			"../hud/cart_track"
+		"image"			"../sprites/hud/cart_track"
 		"scaleImage"	"1"	
 												
 		"if_multiple_trains"
