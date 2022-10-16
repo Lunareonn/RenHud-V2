@@ -611,6 +611,17 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+
+		"DefaultFixedOutline"	// Netgraph Font
+		{
+			"1"
+			{
+				"name"										"Product Sans"
+				"tall"										"9"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
 	}
 	CustomFontFiles
 	{

@@ -53,10 +53,10 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"BlueBG"
 		"xpos"						"172"
-		"ypos"						"110"
+		"ypos"						"118"
 		"zpos"						"0"
-		"wide"						"252"
-		"tall"						"20"
+		"wide"						"255"
+		"tall"						"12"
 
 		"paintbackground"			"1"
 		"bgcolor_override"			"88 133 162 255"
@@ -70,11 +70,11 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"RedBG"
-		"xpos"						"430"
-		"ypos"						"110"
+		"xpos"						"427"
+		"ypos"						"118"
 		"zpos"						"0"
-		"wide"						"252"
-		"tall"						"20"
+		"wide"						"255"
+		"tall"						"12"
 
 		"paintbackground"			"1"
 		"bgcolor_override"			"184 56 59 255"
@@ -84,6 +84,55 @@
 			"visible"				"0"
 		}
 	}
+	"RedDarkBG"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"RedBG"
+		"xpos"						"172"
+		"ypos"						"99"
+		"zpos"						"0"
+		"wide"						"510"
+		"tall"						"19"
+
+		"paintbackground"			"1"
+		"bgcolor_override"			"0 0 0 175"
+		
+		if_mvm
+		{
+			"visible"				"0"
+		}
+	}
+	"RedTeamName"
+	{
+		"ControlName"				"CExLabel"
+		"fieldName"					"RedTeamName"
+		"xpos"						"-222"
+		"ypos"						"35"
+		"zpos"						"5"
+		"wide"						"100"
+		"tall"						"50"
+
+		"pin_to_sibling"			"RedBG"
+
+		"labelText"					"%redteamname%"
+		"font"						"Product18"
+	}
+	"BluTeamName"
+	{
+		"ControlName"				"CExLabel"
+		"fieldName"					"BluTeamName"
+		"xpos"						"250"
+		"ypos"						"35"
+		"zpos"						"5"
+		"wide"						"100"
+		"tall"						"50"
+
+		"pin_to_sibling"			"RedBG"
+
+		"labelText"					"%blueteamname%"
+		"font"						"Product18"
+	}
+
 	"ScoreboardBG"
 	{
 		"ControlName"				"EditablePanel"
@@ -92,7 +141,7 @@
 		"ypos"						"130"
 		"zpos"						"2"
 		"wide"						"510"
-		"tall"						"257"
+		"tall"						"245"
 		"visible"					"1"
 		"enable"					"1"
 		"paintbackground"			"1"
@@ -111,7 +160,7 @@
 		"xpos"						"0"
 		"ypos"						"-4"
 		"zpos"						"0"
-		"wide"						"257"
+		"wide"						"260"
 		"tall"						"25"
 		"autoResize"				"0"
 		"pinCorner"					"0"
@@ -136,7 +185,7 @@
 		"xpos"						"0"
 		"ypos"						"-4"
 		"zpos"						"2"
-		"wide"						"258"
+		"wide"						"260"
 		"tall"						"25"
 		"autoResize"				"0"
 		"pinCorner"					"0"
@@ -158,12 +207,12 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"BlueTeamScore"
-		"font"						"Bebas24"
+		"font"						"Product18"
 		"fgcolor"					"White"
 		"labelText"					"%blueteamscore%"
 		"textAlignment"				"east"
 		"xpos"						"-199"
-		"ypos"						"-2" 
+		"ypos"						"11" 
 		"zpos"						"5"
 		"wide"						"50"
 		"tall"						"20"
@@ -173,34 +222,6 @@
 		"enabled"					"1"
 		
 		"pin_to_sibling" 			"BlueScoreBG"
-		
-		if_mvm
-		{
-			"visible"				"0"
-		}
-	}
-	
-	"BlueTeamLabel"
-	{
-		"ControlName"				"CExLabel"
-		"fieldName"					"BlueTeamLabel"
-		"font"						"Size 20"
-		"labelText"					"%blueteamname%"
-		"textAlignment"				"center"
-		"xpos"						"0"
-		"ypos"						"-2"
-		"zpos"						"20"
-		"wide"						"100"
-		"tall"						"20"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"1"
-		"enabled"					"1"
-		"AllCaps"					"1"
-		
-		"pin_to_sibling" 			"BlueScoreBG"
-		"pin_corner_to_sibling" 	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
 		
 		if_mvm
 		{
@@ -240,17 +261,15 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"BlueTeamPlayerCount"
-		"font"						"Product18"
+		"font"						"Product8"
 		"allcaps"					"1"
 		"labelText"					"%blueteamplayercount%"
 		"textAlignment"				"west"
-		"xpos"						"143"
-		"ypos"						"1"
+		"xpos"						"144"
+		"ypos"						"-4"
 		"zpos"						"5"
 		"wide"						"90"
-		"tall"						"20"
-		"autoResize"				"0"
-		"pinCorner"					"0"
+		"tall"						"19"
 		"visible"					"1"
 		"enabled"					"1"
 		
@@ -268,12 +287,12 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"RedTeamScore"
-		"font"						"Bebas24"
+		"font"						"Product18"
 		"fgcolor"					"White"
 		"labelText"					"%redteamscore%"
 		"textAlignment"				"west"
 		"xpos"						"-199"
-		"ypos"						"-2"
+		"ypos"						"11"
 		"zpos"						"5"
 		"wide"						"50"
 		"tall"						"20"
@@ -291,34 +310,7 @@
 			"visible"				"0"
 		}
 	}
-	
-	"RedTeamLabel"
-	{
-		"ControlName"				"CExLabel"
-		"fieldName"					"RedTeamLabel"
-		"font"						"Size 20"
-		"labelText"					"%redteamname%"
-		"textAlignment"				"center"
-		"xpos"						"0"
-		"ypos"						"-2"
-		"zpos"						"20"
-		"wide"						"100"
-		"tall"						"20"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"1"
-		"enabled"					"1"
-		"AllCaps"					"1"
-		
-		"pin_to_sibling" 			"RedScoreBG"
-		"pin_corner_to_sibling" 	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
-		
-		if_mvm
-		{
-			"visible"				"0"
-		}
-	}
+
 	
 	"RedTeamPlayerCountIcon"
 	{
@@ -350,15 +342,15 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"RedTeamPlayerCount"
-		"font"						"Product18"
+		"font"						"Product8"
 		"allcaps"					"1"
 		"labelText"					"%redteamplayercount%"
 		"textAlignment"				"east"
 		"xpos"						"143"
-		"ypos"						"1"
+		"ypos"						"-4"
 		"zpos"						"5"
 		"wide"						"90"
-		"tall"						"20"
+		"tall"						"19"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -431,6 +423,22 @@
  			"visible"				"0"
  		}
 	}
+
+	"MapBG"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"MapBG"
+		"xpos"						"cs-0.5"
+		"ypos"						"385"
+		"zpos"						"0"
+		"wide"						"300"
+		"tall"						"40"
+		"visible"					"1"
+		"enabled"					"1"
+
+		"paintbackground"			"1"
+		"bgcolor_override"			"0 0 0 175"
+	}
 	
 	"TimePanelBG"
 	{
@@ -455,25 +463,93 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"ServerTimeLeft"
-		"font"						"Product12"
+		"font"						"Product10"
 		"labelText"					"%servertime%"
-		"textAlignment"				"center"
-		"xpos"						"11"
-		"ypos"						"-95"
+		"textAlignment"				"west"
+		"xpos"						"-243"
+		"ypos"						"-20"
 		"zpos"						"2"
-		"wide"						"75sure"
+		"wide"						"75"
 		"tall"						"25"
 		"autoResize"				"0"
 		"pinCorner"					"0"
+		"allcaps"					"1"
 		"visible"					"1"
 		"enabled"					"1"
-		"fgcolor"					"White"
+		"fgcolor"					"255 255 255 100"
 		
-		"pin_to_sibling" 			"TimePanelBG"
+		"pin_to_sibling" 			"MapBG"
 		
 		if_mvm
 		{
 			"visible"				"0"
+		}
+	}
+	"MapIcon"
+	{
+		"ControlName"				"Label"
+		"fieldName"					"MapIcon"
+		"xpos"						"-5"
+		"ypos"						"-6"
+		"zpos"						"5"
+		"textAlignment"				"center"
+		"wide"						"25"
+		"tall"						"25"
+		
+		"pin_to_sibling"			"MapBG"
+
+		"font"						"Symbols32"
+		"labelText"					"t"
+		"fgcolor_override"			"255 255 255 255"
+	}
+	"MapName"
+	{
+		"ControlName"				"CExLabel"
+		"fieldName"					"mapname"
+		"font"						"Product18"
+		"labelText"					"%mapname%"
+		"textAlignment"				"center"
+ 		"xpos"						"-111"
+		"ypos"						"0"
+		"zpos"						"3"
+		"wide"						"75"
+		"tall"						"25"
+		"visible"					"1"
+		"enabled"					"1"
+		"fgcolor"					"255 255 255 255"
+
+		"pin_to_sibling"			"MapBG"
+
+		if_mvm
+		{
+			"visible"				"1"
+			"ypos"					"65"
+			"xpos"					"-140"
+		}
+	}
+	"ServerLabel"
+	{
+		"ControlName"				"CExLabel"
+		"fieldName"					"ServerLabel"
+		"font"						"Product12"
+		"labelText"					"%server%"
+		"textAlignment"				"center"
+		"xpos"						"0"
+		"ypos"						"-17"
+		"zpos"						"3"
+		"wide"						"300"
+		"tall"						"25"
+		"visible"					"1"
+		"enabled"					"1"
+		"fgcolor"					"213 139 221 255"
+
+		"pin_to_sibling"			"MapBG"
+
+		if_mvm
+		{
+			"visible"				"1"
+			"ypos"					"65"
+			"xpos"					"140"
 		}
 	}
 	
@@ -522,32 +598,6 @@
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 	}
 	
-	"ServerLabel"
-	{
-		"ControlName"				"CExLabel"
-		"fieldName"					"ServerLabel"
-		"font"						"Product10"
-		"labelText"					"%server%"
-		"textAlignment"				"west"
-		"xpos"						"255"
-		"ypos"						"363"
-		"zpos"						"3"
-		"wide"						"f0"
-		"tall"						"10"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"1"
-		"enabled"					"1"
-		"fgcolor"					"White"
-
-		if_mvm
-		{
-			"visible"				"1"
-			"ypos"					"65"
-			"xpos"					"140"
-		}
-	}
-	
 	"StatsSeparator"
 	{
 		"ControlName"				"EditablePanel"
@@ -571,31 +621,6 @@
  		{
  			"visible"				"0"
  		}
-	}
-	"MapName"
-	{
-		"ControlName"				"CExLabel"
-		"fieldName"					"mapname"
-		"font"						"Product10"
-		"labelText"					"%mapname%"
-		"textAlignment"				"west"
- 		"xpos"						"255"
-		"ypos"						"373"
-		"zpos"						"3"
-		"wide"						"f0"
-		"tall"						"10"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"1"
-		"enabled"					"1"
-		"fgcolor"					"195 195 50 255"
-
-		if_mvm
-		{
-			"visible"				"1"
-			"ypos"					"65"
-			"xpos"					"-140"
-		}
 	}
 
 	"LocalPlayerStatsPanel"
@@ -629,9 +654,9 @@
 			"fieldName"				"Killss"
 			"font"					"Product24"
 			"labelText"				"%kills%"
-			"textAlignment"			"center"
-			"xpos"					"10"
-			"ypos"					"10"
+			"textAlignment"			"east"
+			"xpos"					"35"
+			"ypos"					"1"
 			"zpos"					"3"
 			"wide"					"38"
 			"tall"					"20"
@@ -639,6 +664,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"56 203 56 255"
+
+			"pin_to_sibling"		"KDDivider"
 
 
 			if_mvm
@@ -648,36 +675,15 @@
 				"xpos"				"38"
 			}
 		}
-		"KillsLabel"
-		{
-			"ControlName"			"Label"
-			"fieldName"				"KillsLabel"
-			"font"					"Product8"
-			"labelText"				"FRAGS"
-			"textAlignment"			"center"
-			"xpos"					"11"
-			"ypos"					"-1"
-			"zpos"					"3"
-			"wide"					"38"
-			"tall"					"20"
-			"visible"				"1"
-			"enabled"				"1"
-			"fgcolor_override"				"56 203 56 255"
-
-			if_mvm
-			{
-				"visible"			"0"
-			}
-		}
 		"Deathss"
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"Deathss"
 			"font"					"Product24"
 			"labelText"				"%deaths%"
-			"textAlignment"			"center"
-			"xpos"					"10"
-			"ypos"					"30"
+			"textAlignment"			"west"
+			"xpos"					"-12"
+			"ypos"					"1"
 			"zpos"					"3"
 			"wide"					"38"
 			"tall"					"20"
@@ -686,6 +692,8 @@
 			"enabled"				"1"
 			"fgcolor"				"203 56 56 255"
 
+			"pin_to_sibling"		"KDDivider"
+
 			if_mvm
 			{
 				"visible"			"1"
@@ -693,37 +701,41 @@
 				"xpos"				"38"
 			}
 		}
-		"DeathsLabel"
+		"KDDivider"
 		{
-			"ControlName"			"Label"
-			"fieldName"				"DeathsLabel"
-			"font"					"Product8"
-			"labelText"				"DEATHS"
+			"ControlName"			"CExLabel"
+			"fieldName"				"KDDivider"
+			"font"					"Product24"
+			"labelText"				":"
 			"textAlignment"			"center"
-			"xpos"					"11"
-			"ypos"					"43"
+			"xpos"					"70"
+			"ypos"					"3"
 			"zpos"					"3"
-			"wide"					"38"
-			"tall"					"20"
+			"wide"					"15"
+			"tall"					"15"
+			"autoResize"			"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"fgcolor_override"				"203 56 56 255"
+			"fgcolor"				"255 255 255 255"
 
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
+				"ypos"				"24"
+				"xpos"				"38"
 			}
 		}
+
 		
 		"DamageLabel"
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"DamageLabel"
-			"font"					"Product12"
-			"labelText"				"Damage:"
-			"textAlignment"			"west"
-			"xpos"					"78"
-			"ypos"					"7"
+			"font"					"Product8"
+			"labelText"				"DAMAGE"
+			"textAlignment"			"center"
+			"xpos"					"50"
+			"ypos"					"23"
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"10"
@@ -732,7 +744,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"AllCaps"				"1"
-			"fgcolor"				"230 230 230 255"
+			"fgcolor"				"109 169 244 255"
 			
 			if_mvm
 			{
@@ -743,14 +755,14 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"Damagess"
-			"font"					"Product12"
+			"font"					"Product18"
 			"labelText"				"%damage%"
-			"textAlignment"			"west"
-			"xpos"					"0"
-			"ypos"					"0"
+			"textAlignment"			"center"
+			"xpos"					"1"
+			"ypos"					"-10"
 			"zpos"					"3"
-			"wide"					"50"
-			"tall"					"10"
+			"wide"					"55"
+			"tall"					"16"
 			"autoResize"			"0"
 			"pinCorner"				"0"
 			"visible"				"1"
@@ -758,62 +770,6 @@
 			"fgcolor"				"230 230 230 255"
 			
 			"pin_to_sibling"		"DamageLabel"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
-			if_mvm
-			{
-				"visible"			"1"
-			}
-		}
-		
-		"AssistsLabel"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"AssistsLabel"
-			"font"					"Product12"
-			"labelText"				"Assists:"
-			"textAlignment"			"west"
-			"xpos"					"0"
-			"ypos"					"-12"
-			"zpos"					"3"
-			"wide"					"55"
-			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"1"
-			"enabled"				"1"
-			"AllCaps"				"1"
-			"fgcolor"				"White"
-
-			"pin_to_sibling"		"DamageLabel"
-			
-			if_mvm
-			{
-				"visible"			"1"
-			}
-		}
-		"Assistss"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"Assistss"
-			"font"					"Product12"
-			"labelText"				"%assists%"
-			"textAlignment"			"west"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"3"
-			"wide"					"25"
-			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"1"
-			"enabled"				"1"
-			"fgcolor"				"White"
-			
-			"pin_to_sibling"		"AssistsLabel"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
 			if_mvm
 			{
@@ -825,11 +781,11 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"HeadshotsLabel"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"Headshots:"
 			"textAlignment"			"west"
-			"xpos"					"-100"
-			"ypos"					"0"
+			"xpos"					"125"
+			"ypos"					"6"
 			"zpos"					"3"
 			"wide"					"65"
 			"tall"					"10"
@@ -839,9 +795,7 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
-			"pin_to_sibling"		"DamageLabel"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
@@ -851,11 +805,11 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"Headshotss"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"%headshots%"
 			"textAlignment"			"west"
 			"xpos"					"-25"
-			"ypos"					"12"
+			"ypos"					"10"
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
@@ -875,15 +829,66 @@
 			}
 		}
 		
+		"AssistsLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"AssistsLabel"
+			"font"					"Product10"
+			"labelText"				"Assists:"
+			"textAlignment"			"west"
+			"xpos"					"0"
+			"ypos"					"-10"
+			"zpos"					"3"
+			"wide"					"55"
+			"tall"					"10"
+			"visible"				"1"
+			"enabled"				"1"
+			"AllCaps"				"1"
+			"fgcolor"				"White"
+
+			"pin_to_sibling"		"DefensesLabel"
+			
+			if_mvm
+			{
+				"visible"			"1"
+			}
+		}
+
+		"Assistss"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"Assistss"
+			"font"					"Product10"
+			"labelText"				"%assists%"
+			"textAlignment"			"west"
+			"xpos"					"0"
+			"ypos"					"-10"
+			"zpos"					"3"
+			"wide"					"25"
+			"tall"					"10"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"fgcolor"				"White"
+			
+			"pin_to_sibling"		"Defensess"
+			
+			if_mvm
+			{
+				"visible"			"1"
+			}
+		}
+		
 		"BackstabsLabel"
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"BackstabsLabel"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"Backstabs:"
 			"textAlignment"			"west"
 			"xpos"					"0"
-			"ypos"					"-12"
+			"ypos"					"-10"
 			"zpos"					"3"
 			"wide"					"65"
 			"tall"					"10"
@@ -905,7 +910,7 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"Backstabss"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"%backstabs%"
 			"textAlignment"			"west"
 			"xpos"					"-4"
@@ -933,11 +938,11 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"CapturesLabel"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"Captures:"
 			"textAlignment"			"west"
 			"xpos"					"0"
-			"ypos"					"-12"
+			"ypos"					"-10"
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"10"
@@ -948,7 +953,7 @@
 			"AllCaps"				"1"
 			"fgcolor"				"White"
 			
-			"pin_to_sibling"		"AssistsLabel"
+			"pin_to_sibling"		"InvulnLabel"
 			
 			if_mvm
 			{
@@ -959,11 +964,11 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"Capturess"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"%captures%"
 			"textAlignment"			"west"
 			"xpos"					"0"
-			"ypos"					"0"
+			"ypos"					"-10"
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
@@ -973,9 +978,7 @@
 			"enabled"				"1"
 			"fgcolor"				"White"
 			
-			"pin_to_sibling"		"CapturesLabel"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			"pin_to_sibling"		"Invulnss"
 			
 			if_mvm
 			{
@@ -987,11 +990,11 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"DefensesLabel"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"Defenses:"
 			"textAlignment"			"west"
 			"xpos"					"0"
-			"ypos"					"-12"
+			"ypos"					"-10"
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"10"
@@ -1013,11 +1016,11 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"Defensess"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"%defenses%"
 			"textAlignment"			"west"
 			"xpos"					"-25"
-			"ypos"					"-12"
+			"ypos"					"-10"
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
@@ -1041,7 +1044,7 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"DestructionLabel"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"Destructions:"
 			"textAlignment"			"west"
 			"xpos"					"-100"
@@ -1067,7 +1070,7 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"Destructionss"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"%destruction%"
 			"textAlignment"			"west"
 			"xpos"					"-15"
@@ -1095,11 +1098,11 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"TeleportsLabel"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"Teleports:"
 			"textAlignment"			"west"
 			"xpos"					"0"
-			"ypos"					"-12"
+			"ypos"					"-10"
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"10"
@@ -1121,11 +1124,11 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"Teleportss"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"%teleports%"
 			"textAlignment"			"west"
 			"xpos"					"0"
-			"ypos"					"-12"
+			"ypos"					"-10"
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
@@ -1147,11 +1150,11 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"InvulnLabel"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"Ubers:"
 			"textAlignment"			"west"
 			"xpos"					"0"
-			"ypos"					"-12"
+			"ypos"					"-10"
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"10"
@@ -1173,11 +1176,11 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"Invulnss"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"%invulns%"
 			"textAlignment"			"west"
 			"xpos"					"0"
-			"ypos"					"-12"
+			"ypos"					"-10"
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
@@ -1199,10 +1202,10 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"HealingLabel"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"Healing:"
 			"textAlignment"			"west"
-			"xpos"					"-100"
+			"xpos"					"-115"
 			"ypos"					"0"
 			"zpos"					"3"
 			"wide"					"55"
@@ -1225,11 +1228,11 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"Healingss"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"%healing%"
 			"textAlignment"			"west"
 			"xpos"					"0"
-			"ypos"					"12"
+			"ypos"					"10"
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
@@ -1251,11 +1254,11 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"DominationLabel"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"Dominations:"
 			"textAlignment"			"west"
 			"xpos"					"0"
-			"ypos"					"-12"
+			"ypos"					"-10"
 			"zpos"					"3"
 			"wide"					"75"
 			"tall"					"10"
@@ -1277,10 +1280,10 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"Dominationss"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"%dominations%"
 			"textAlignment"			"west"
-			"xpos"					"-2"
+			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"3"
 			"wide"					"25"
@@ -1305,11 +1308,11 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"RevengeLabel"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"Revenges:"
 			"textAlignment"			"west"
 			"xpos"					"0"
-			"ypos"					"-12"
+			"ypos"					"-10"
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"10"
@@ -1331,11 +1334,11 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"Revengess"
-			"font"					"Product12"
+			"font"					"Product10"
 			"labelText"				"%Revenge%"
 			"textAlignment"			"west"
 			"xpos"					"0"
-			"ypos"					"-12"
+			"ypos"					"-10"
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
@@ -1365,6 +1368,22 @@
 			"fieldName"				"Bonuss"
 			"xpos"					"9999"
 		}	
+
+		"LoveU"
+		{
+			"ControlName"			"Label"
+			"fieldName"				"LoveU"
+			"xpos"					"15"
+			"ypos"					"0"
+			"zpos"					"1001"
+			"visible"				"1"
+			"enabled"				"1"
+			"tall"					"50"
+			"wide"					"50"
+
+			"font"					"Symbols32"
+			"labelText"				"n"
+		}
 		
 		/////////////////////////////////////////////////////////////////
 		///////////////////////////////MVM///////////////////////////////

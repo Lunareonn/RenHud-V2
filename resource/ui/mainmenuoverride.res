@@ -816,8 +816,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Notifications_ShowButtonPanel"
-		"xpos"										"345"
-		"ypos"										"95"
+		"xpos"										"225"
+		"ypos"										"73"
 		"zpos"										"15"
 		"wide"										"150"
 		"tall"										"30"
@@ -835,7 +835,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets" 				"1"
-			"font"									"Symbols32"
+			"font"									"Symbols24"
 			"labeltext"								"G"
 			"textAlignment"							"center"
 			"default"								"0"
@@ -847,7 +847,7 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"defaultfgcolor_override"				"225 232 29 255"
+			"defaultfgcolor_override"				"255 255 255 255"
 			"armedfgcolor_override"					"211 218 25 255"
 			"depressedfgcolor_override"				"170 127 37 255"
 		}
@@ -858,7 +858,7 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"Notifications_Panel"
 		"xpos"					"cs-0.5"
-		"ypos"					"97"
+		"ypos"					"155"
 		"zpos"					"10"
 		"wide"					"150"
 		"tall"					"60"
