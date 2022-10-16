@@ -16,9 +16,9 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"22 22 22 255"
-		"infocus_bgcolor_override" "22 22 22 255"
-		"outoffocus_bgcolor_override" "22 22 22 255"
+		"bgcolor_override"	"11 11 11 255"
+		"infocus_bgcolor_override" "11 11 11 255"
+		"outoffocus_bgcolor_override" "11 11 11 255"
 		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"

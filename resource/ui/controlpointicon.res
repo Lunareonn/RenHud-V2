@@ -85,7 +85,6 @@
 		"brighttext"			"0"
 		"wrap"					"0"
 		"font"					"ControlPointTimer"
-		"font_minmode"			"ControlPointTimerSmaller"
 	}
 				
 	"CPTimerBG"
