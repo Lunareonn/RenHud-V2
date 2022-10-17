@@ -4,8 +4,8 @@
 
 # | How to install
 
-- Download the 7z from [Releases.](https://github.com/AleksiVibes/RenHud-V2/releases)
-- Extract the contents of the 7z file you just downloaded into the custom
+- Download the .zip/.7z from [Releases.](https://github.com/AleksiVibes/RenHud-V2/releases)
+- Extract the contents of the .zip/.7z file you just downloaded into the custom
 - Launch the game.
 - Tada! You're done.
 
