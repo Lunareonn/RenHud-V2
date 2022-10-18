@@ -52,7 +52,7 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"BlueBG"
-		"xpos"						"172"
+		"xpos"						"c-255"
 		"ypos"						"118"
 		"zpos"						"0"
 		"wide"						"255"
@@ -70,7 +70,7 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"RedBG"
-		"xpos"						"427"
+		"xpos"						"c0"
 		"ypos"						"118"
 		"zpos"						"0"
 		"wide"						"255"
@@ -88,7 +88,7 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"RedBG"
-		"xpos"						"172"
+		"xpos"						"c-255"
 		"ypos"						"99"
 		"zpos"						"0"
 		"wide"						"510"
