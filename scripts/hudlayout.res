@@ -84,7 +84,7 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"495"	 
+		"xpos"			"c69"	 
 		"ypos"			"350"	 
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"80"
