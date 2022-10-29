@@ -77,7 +77,9 @@
 		"wide"										"190"
 		"tall"										"100"
 		"visible"									"0"
-		"bgcolor_override"							"255 255 255 0"
+		"border"									"none"
+		"paintbackground"							"1"
+		"bgcolor_override"							"0 0 0 225"
 		"PaintBackgroundType"						"0"
 
 		"model_ypos"								"10"
