@@ -1,0 +1,10 @@
+// This file is used for notices that I want to announce through console. This will get updated with every update
+
+engine toggleconsole
+echo ""
+echo ""
+echo "--- RENHUD  !  IMPORTANT ---"
+echo "- Remember to join the discord server if you want to get announcements for RenHUD updates!"
+echo "- discord.gg/jcevymcSh6"
+echo ""
+echo ""
