@@ -31,6 +31,6 @@ Operating System <br/>
 | Resolutions | Supported Resolutions |
 | ----------- | ----------- |
 | 16:9 | Supported |
-| 16:10 |  Unsupported |
-| 4:3 | Unsupported |
+| 16:10 |  Supported |
+| 4:3 | Ssupported |
 | 5:4 | Unsupported |
