@@ -1,6 +1,5 @@
 #base "preload.res"
 #base "../../customization/enabled/bookmarks.res"
-#base "../../customization/enabled/4x3.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -63,6 +62,8 @@
 		// Aleksi 29.7.2022 - 5.02 AM
 		// Fixing 4:3 is literally my personal hell kill me immediately
 		// Luna 18.10.2022 - 2.40 AM
+		// No not really :P
+		// Luna 29.10.2022 - 8.03 PM
 
 		"SaxxySettings"
 		{
