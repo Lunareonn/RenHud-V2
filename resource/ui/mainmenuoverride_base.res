@@ -658,6 +658,27 @@
 		}
 	}
 
+	"BugReport"
+	{
+		"ControlName"								"URLLabel"
+		"fieldName"									"BugReport"
+		"xpos"										"c-197"
+		"ypos"										"c-160"
+		"zpos"										"10"
+		"wide"										"15"
+		"tall"										"15"
+		"visible"									"1"
+		"enabled"									"1"
+
+		"labelText"									"f"
+		"URLText"									"https://github.com/LunaXCBN/RenHud-V2/issues"
+		"textAlignment"								"center"
+		"font"										"Symbols12"
+
+		"fgcolor_override"							"255 255 255 255"
+		"bgcolor_override"							"0 0 0 175"
+	}
+
 	"RankPanel"
 	{
 		"ControlName"				"CPvPRankPanel"

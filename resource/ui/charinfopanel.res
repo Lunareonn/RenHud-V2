@@ -12,9 +12,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"22 22 22 0"
-		"infocus_bgcolor_override"					"22 22 22 0"
-		"outoffocus_bgcolor_override"				"22 22 22 0"
+		"bgcolor_override"							"11 11 11 255"
+		"infocus_bgcolor_override"					"11 11 11 255"
+		"outoffocus_bgcolor_override"				"11 11 11 255"
 
 		"title"										"#CharInfoAndSetup"
 		"title_font"								"Product32"
