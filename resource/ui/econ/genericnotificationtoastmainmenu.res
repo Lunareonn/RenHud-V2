@@ -69,10 +69,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
-		"fgcolor"		"tanlight60"
-		"fgcolor_override" "tanlight60"
-		"xpos"			"25"
-		"ypos"			"-2"
+		"fgcolor_override" "255 255 255 255"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"138"
 		"tall"			"45"
@@ -82,7 +81,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%text%"
-		"textAlignment"	"West"
-		"font"			"product12"
+		"textAlignment"	"center"
+		"font"			"product10"
 	}
 }

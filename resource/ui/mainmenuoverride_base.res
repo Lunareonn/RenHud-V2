@@ -836,8 +836,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Notifications_ShowButtonPanel"
-		"xpos"										"225"
-		"ypos"										"73"
+		"xpos"										"c-225"
+		"ypos"										"c-183"
 		"zpos"										"15"
 		"wide"										"150"
 		"tall"										"30"
@@ -868,7 +868,7 @@
 			"paintborder"							"0"
 
 			"defaultfgcolor_override"				"255 255 255 255"
-			"armedfgcolor_override"					"211 218 25 255"
+			"armedfgcolor_override"					"MainPink"
 			"depressedfgcolor_override"				"170 127 37 255"
 		}
 	}
@@ -877,11 +877,11 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"Notifications_Panel"
-		"xpos"					"cs-0.5"
-		"ypos"					"155"
+		"xpos"					"c-300"
+		"ypos"					"c-207"
 		"zpos"					"10"
 		"wide"					"150"
-		"tall"					"60"
+		"tall"					"48"
 		"visible"				"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
@@ -946,11 +946,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_TitleLabel"
-			"font"			"product12"
+			"font"			"product8"
 			"labelText"		"%notititle%"
 			"textAlignment"	"center"
-			"xpos"			"50"
-			"ypos"			"6"
+			"xpos"			"5"
+			"ypos"			"2"
 			"wide"			"250"
 			"tall"			"10"
 			"autoResize"	"0"
@@ -968,8 +968,8 @@
 			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"-10"
-			"wide"				"f0"
-			"tall"				"58"
+			"wide"				"100"
+			"tall"				"45"
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
@@ -981,8 +981,8 @@
 		{
 			"ControlName"			"ScrollableEditablePanel"
 			"fieldName"				"Notifications_Scroller"
-			"xpos"					"6"
-			"ypos"					"22"
+			"xpos"					"5"
+			"ypos"					"15"
 			"wide"					"f0"
 			"proportionaltoparent"	"1"
 			"tall"					"f0"
@@ -1158,7 +1158,7 @@
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"1"
 		"border"									"NoBorder"
-		"bgcolor_override"							"25 25 25 200"
+		"bgcolor_override"							"11 11 11 200"
 
 		"TipSubLabel"
 		{
