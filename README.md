@@ -13,7 +13,6 @@
 
 - Custom Crosshairs
 - Toggleable Bookmarks
-- Transparent Viewmodel Support
 - More to come... <br/>
 
 # | Support
