@@ -156,11 +156,11 @@
 		
 		"defaultfgcolor_override"	"230 230 230 255"
 		"defaultbgcolor_override"	"0 0 0 175"
-		"armedfgcolor_override"		"232 192 91 255"
+		"armedfgcolor_override"		"MainPink"
 		"armedbgcolor_override"		"0 0 0 185"
 
 		"image_drawcolor"			"150 150 150 40"
-		"image_armedcolor"			"199 165 79 75"
+		"image_armedcolor"			"231 172 207 75"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -215,7 +215,7 @@
 
 		"defaultfgcolor_override"	"230 230 230 255"
 		"defaultbgcolor_override"	"0 0 0 175"
-		"armedfgcolor_override"		"232 192 91 255"
+		"armedfgcolor_override"		"MainPink"
 		"armedbgcolor_override"		"0 0 0 185"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -224,7 +224,7 @@
 		"paintbackground"			"1"
 		
 		"image_drawcolor"			"255 255 255 255"
-		"image_armedcolor"			"232 192 91 200"
+		"image_armedcolor"			"231 172 207 255" // "MainPink"
 		
 		"SubImage"
 		{
@@ -275,7 +275,7 @@
 		"border_default"			"noborder"
 		
 		"defaultfgcolor_override"	"255 255 255 255"
-		"armedfgcolor_override"		"232 192 91 200"
+		"armedfgcolor_override"		"MainPink"
 
 		"pin_to_sibling" 			"SettingsButtonR"
 		"pin_corner_to_sibling" 	"PIN_TOPRIGHT" // This Element
@@ -313,7 +313,7 @@
 
 		"defaultfgcolor_override"	"230 230 230 255"
 		"defaultbgcolor_override"	"0 0 0 175"
-		"armedfgcolor_override"		"232 192 91 255"
+		"armedfgcolor_override"		"MainPink"
 		"armedbgcolor_override"		"0 0 0 185"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -322,7 +322,7 @@
 		"paintbackground"			"1"
 		
 		"image_drawcolor"			"255 255 255 255"
-		"image_armedcolor"			"232 192 91 200"
+		"image_armedcolor"			"231 172 207 255" // "MainPink"
 		
 		"SubImage"
 		{
@@ -373,7 +373,7 @@
 
 		"defaultfgcolor_override"	"230 230 230 255"
 		"defaultbgcolor_override"	"0 0 0 175"
-		"armedfgcolor_override"		"232 192 91 255"
+		"armedfgcolor_override"		"MainPink"
 		"armedbgcolor_override"		"0 0 0 185"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -382,7 +382,7 @@
 		"paintbackground"			"1"
 		
 		"image_drawcolor"			"255 255 255 255"
-		"image_armedcolor"			"232 192 91 200"
+		"image_armedcolor"			"231 172 207 255" // "MainPink"
 		
 		"SubImage"
 		{
@@ -433,7 +433,7 @@
 
 		"defaultfgcolor_override"	"230 230 230 255"
 		"defaultbgcolor_override"	"0 0 0 175"
-		"armedfgcolor_override"		"232 192 91 255"
+		"armedfgcolor_override"		"MainPink"
 		"armedbgcolor_override"		"0 0 0 185"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -442,7 +442,7 @@
 		"paintbackground"			"1"
 		
 		"image_drawcolor"			"255 255 255 255"
-		"image_armedcolor"			"232 192 91 200"
+		"image_armedcolor"			"231 172 207 255" // "MainPink"
 		
 		"SubImage"
 		{
@@ -492,11 +492,11 @@
 		
 		"defaultfgcolor_override"	"230 230 230 255"
 		"defaultbgcolor_override"	"0 0 0 175"
-		"armedfgcolor_override"		"232 192 91 255"
+		"armedfgcolor_override"		"MainPink"
 		"armedbgcolor_override"		"0 0 0 185"
 
 		"image_drawcolor"			"150 150 150 40"
-		"image_armedcolor"			"199 165 79 75"
+		"image_armedcolor"			"231 172 207 75"
 		
 		"SubImage"
 		{
@@ -794,18 +794,14 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"textinsetx"	"0"
 		"labelText"		"|"
 		"use_proportional_insets" "1"
 		"font"			"Symbols14"
 		"command"		"open_rank_type_menu"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"roundedcorners"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"vo/null.mp3"
 		"actionsignallevel" "1"
 		"proportionaltoparent"	"1"
 				
@@ -961,7 +957,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"232 192 91 255"
+			"fgcolor"		"MainPink"
 			"wrap"			"1"
 		}
 		

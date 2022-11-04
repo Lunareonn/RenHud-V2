@@ -11,7 +11,7 @@
 		"PurpleDim"											"92  69 111 255"
 		"PurpleGrey"										"35 23 47 255"
 		"SkyBlue"											"255 255 255 255"
-		"SkyBlueDim"										"180 148 67 255"
+		"MainPink"											"231 172 207 255"
 
 		"QuestGold"											"208 147 75 255"
 		"HalloweenThemeColor2015_Light"						"238 126 17 255"
@@ -220,8 +220,8 @@
 		"Econ.Button.PresetDepressedColorFg"				"TanLight"
 
 		"Econ.Button.PresetDefaultColorBg"					"48 48 48 255"
-		"Econ.Button.PresetArmedColorBg"					"SkyBlueDim"
-		"Econ.Button.PresetDepressedColorBg"				"SkyBlueDim"
+		"Econ.Button.PresetArmedColorBg"					"MainPink"
+		"Econ.Button.PresetDepressedColorBg"				"MainPink"
 
 		"Border.Bright"										"Blank"
 		"Border.Dark"										"Black"
@@ -230,7 +230,7 @@
 		"Button.TextColor"									"TanLight"
 		"Button.BgColor"									"28 28 28 255"
 		"Button.ArmedTextColor"								"TanLight"
-		"Button.ArmedBgColor"								"SkyBlueDim"
+		"Button.ArmedBgColor"								"MainPink"
 		"Button.SelectedTextColor"							"TanLight"
 		"Button.SelectedBgColor"							"TFOrange"
 		"Button.DepressedTextColor"							"Black"

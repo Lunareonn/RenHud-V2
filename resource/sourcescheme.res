@@ -18,7 +18,7 @@
 		"LightTransparentBlack"								"35 35 35 210"
 		"LightTransparentBlackInactive"						"35 35 35 125"
 
-		"MainTheme"											"180 148 67 255"
+		"MainPink"											"231 172 207 255"
 	}
 
 	"BaseSettings"
@@ -31,7 +31,7 @@
 		Button.TextColor									"White"
 		Button.BgColor										"Black"
 		Button.ArmedTextColor								"White"
-		Button.ArmedBgColor									"MainTheme"
+		Button.ArmedBgColor									"MainPink"
 		Button.DepressedTextColor							"White"
 		Button.DepressedBgColor								"Blank"
 		Button.FocusBorderColor								"Black"
@@ -39,7 +39,7 @@
 		CheckButton.TextColor								"OffWhite"
 		CheckButton.SelectedTextColor						"White"
 		CheckButton.BgColor									"Black"
-		CheckButton.HighlightFgColor						"MainTheme"
+		CheckButton.HighlightFgColor						"MainPink"
 		CheckButton.ArmedBgColor							"Blank"
 		CheckButton.DepressedBgColor						"Blank"
 		CheckButton.Border1  								"Blank"
@@ -64,7 +64,7 @@
 		FrameGrip.Color2									"0 0 0 0"
 		FrameTitleButton.FgColor							"200 200 200 196"
 		FrameTitleBar.Font									"UiBold"
-		FrameTitleBar.TextColor								"MainTheme"
+		FrameTitleBar.TextColor								"MainPink"
 		FrameTitleBar.DisabledTextColor						"255 255 255 192"
 
 		Label.TextDullColor									"DullWhite"
@@ -77,16 +77,16 @@
 
 		ListPanel.TextColor									"OffWhite"
 		ListPanel.BgColor									"Black"
-		ListPanel.SelectedBgColor							"MainTheme"
+		ListPanel.SelectedBgColor							"MainPink"
 		ListPanel.SelectedOutOfFocusBgColor					"Black"
 
 		MainMenu.TextColor									"White"
-		MainMenu.ArmedTextColor								"MainTheme"
+		MainMenu.ArmedTextColor								"MainPink"
 
 		Menu.FgColor										"White"
 		Menu.BgColor										"17 17 17 255"
-		Menu.ArmedFgColor									"MainTheme"
-		Menu.ArmedBgColor									"MainTheme"
+		Menu.ArmedFgColor									"MainPink"
+		Menu.ArmedBgColor									"MainPink"
 		Menu.DividerColor									"BorderDark"
 
 		ScrollBarButton.FgColor								"White"
@@ -105,17 +105,17 @@
 		Slider.DisabledTextColor1							"117 117 117 255"
 		Slider.DisabledTextColor2							"30 30 30 255"
 
-		TextEntry.TextColor									"MainTheme"
-		TextEntry.DisabledTextColor							"MainTheme"
-		TextEntry.SelectedBgColor							"MainTheme"
+		TextEntry.TextColor									"MainPink"
+		TextEntry.DisabledTextColor							"MainPink"
+		TextEntry.SelectedBgColor							"MainPink"
 
-		RichText.SelectedBgColor							"MainTheme"
+		RichText.SelectedBgColor							"MainPink"
 
-		SectionedListPanel.SelectedBgColor					"MainTheme"
+		SectionedListPanel.SelectedBgColor					"MainPink"
 
-		Tooltip.BgColor										"MainTheme"
+		Tooltip.BgColor										"MainPink"
 
-		Console.TextColor									"MainTheme"
+		Console.TextColor									"MainPink"
 	}
 
 	"Borders"
@@ -176,6 +176,192 @@
 					"color"									"Border.DarkSolid"
 					"offset" 								"0 0"
 				}
+			}
+		}
+	}
+
+	"Fonts"
+	{
+		"ConsoleText"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+
+		"DebugFixed"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"10"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		// fonts are used in order that they are listed
+		"DebugFixedSmall"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"7"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"DefaultFixedOutline"
+		{
+			"1"
+			{
+				"name"		 "Product Sans"
+				"tall"		 "10"
+				"weight"	 "0"
+				"outline"	 "1"
+				"antialias" "1"
+			}
+		}
+		"Default"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"DefaultBold"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"16"
+				"weight"	"1000"
+				"antialias" "1"
+			}
+		}
+		"DefaultUnderline"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"16"
+				"weight"	"500"
+				"underline" "1"
+				"antialias" "1"
+			}
+		}
+		"DefaultSmall"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"12"
+				"weight"	"0"
+				"antialias" "1"
+			}
+		}
+		"DefaultSmallDropShadow"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"13"
+				"weight"	"0"
+				"dropshadow" "1"
+				"antialias" "1"
+			}
+		}
+		"DefaultVerySmall"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"12"
+				"weight"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"DefaultLarge"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"18"
+				"weight"	"0"
+				"antialias" "1"
+			}
+		}
+		"UiBold"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"12"
+				"weight"	"1000"
+				"antialias" "1"
+			}
+		}
+
+		"MenuLarge"
+		{
+			"1"
+			{
+				"name"		"Product Sans" 
+				"tall"		"16" 
+				"weight"	"600"
+				"antialias" "1"
+			}
+		}
+		"AchievementTitleFont"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"20"
+				"weight"	"1200"
+				"antialias" "1"
+				"outline" "1"
+			}
+		}
+		
+		"AchievementTitleFontSmaller"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"18"
+				"weight"	"1200"
+				"antialias" "1"
+				//"outline" "1"
+			}
+		}
+		
+		"AchievementDescriptionFont"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"15"
+				"weight"	"1200"
+				"antialias" "1"
+				"outline" "1"
+				"yres"		"0 480"
+			}
+			"2"
+			{
+				"name"		"Product Sans"
+				"tall"		"20"
+				"weight"	"1200"
+				"antialias" "1"
+				"outline" "1"
+				"yres"	 "481 10000"
 			}
 		}
 	}

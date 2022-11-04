@@ -167,7 +167,7 @@
 		"armedbgcolor_override"	"15 15 15 255"
 		
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "232 192 91 255"
+		"armedFgColor_override" "MainPink"
 	}
 	
 }
