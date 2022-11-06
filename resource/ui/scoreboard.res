@@ -551,12 +551,12 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"Spectators"
-		"font"						"Product12"
+		"font"						"Product8"
 		"labelText"					"%spectators%"
 		"allcaps"					"1"
 		"textAlignment"				"west"
 		"xpos"						"0"
-		"ypos"						"10"
+		"ypos"						"43"
 		"zpos"						"4"
 		"wide"						"600"
 		"tall"						"13"
@@ -564,10 +564,10 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
+
+		"fgcolor_override"			"255 255 255 150"
 		
 		"pin_to_sibling" 			"MainBG"
-		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 	}
 	
 	"SpectatorsInQueue"

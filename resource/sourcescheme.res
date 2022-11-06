@@ -218,11 +218,11 @@
 		{
 			"1"
 			{
-				"name"		 "Product Sans"
-				"tall"		 "10"
+				"name"		 "Code-Bold"
+				"tall"		 "16"
 				"weight"	 "0"
 				"outline"	 "1"
-				"antialias" "1"
+				"antialias"  "1"
 			}
 		}
 		"Default"
