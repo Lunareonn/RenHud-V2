@@ -2,12 +2,8 @@
 
 
 
-# | How to install
+### [Official Wiki](https://github.com/LunaXCBN/RenHud-V2/wiki)
 
-- Download the .zip/.7z from [Releases.](https://github.com/AleksiVibes/RenHud-V2/releases)
-- Extract the contents of the .zip/.7z file you just downloaded into the custom
-- Launch the game.
-- Tada! You're done.
 
 # | Features
 
