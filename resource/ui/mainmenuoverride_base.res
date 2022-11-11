@@ -1059,8 +1059,8 @@
 			"xpos"					"3"
 			"ypos"					"19"
 			"zpos"					"500"
-			"wide"					"150"
-			"tall"					"f15"
+			"wide"					"175"
+			"tall"					"f20"
 			"visible"				"1"
 			"proportionaltoparent"	"1"
 			

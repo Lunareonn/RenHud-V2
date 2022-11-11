@@ -30,7 +30,7 @@
 
 	"BackgroundHeader"
 	{
-		"ControlName"								"ImagePanel"
+		"ControlName"								"EditablePanel"
 		"fieldName"									"BackgroundHeader"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -39,13 +39,16 @@
 		"tall"										"120"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/backpack/loadout_header"
+		"image"										""
 		"tileImage"									"1"
+
+		"paintbackground"							"1"
+		"bgcolor_override"							"11 11 11 255"
 	}
 
 	"BackgroundFooter"
 	{
-		"ControlName"								"ImagePanel"
+		"ControlName"								"EditablePanel"
 		"fieldName"									"BackgroundFooter"
 		"xpos"										"0"
 		"ypos"										"420"
@@ -54,8 +57,11 @@
 		"tall"										"60"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/backpack/loadout_header"
+		"image"										""
 		"tileImage"									"1"
+
+		"paintbackground"							"1"
+		"bgcolor_override"							"11 11 11 255"
 	}
 
 	"FooterLine"
