@@ -9,6 +9,7 @@
 
 - Custom Crosshairs
 - Toggleable Bookmarks
+- [Jofre Problem?'s Speedometer](https://gamebanana.com/mods/378554)
 - More to come... <br/>
 
 # | Support
