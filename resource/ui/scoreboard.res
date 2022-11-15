@@ -116,6 +116,11 @@
 
 		"labelText"					"%redteamname%"
 		"font"						"Product18"
+
+		if_mvm
+		{
+			"visible"				"0"
+		}
 	}
 	"BluTeamName"
 	{
@@ -131,6 +136,11 @@
 
 		"labelText"					"%blueteamname%"
 		"font"						"Product18"
+
+		if_mvm
+		{
+			"visible"				"0"
+		}
 	}
 
 	"ScoreboardBG"
@@ -438,6 +448,12 @@
 
 		"paintbackground"			"1"
 		"bgcolor_override"			"0 0 0 175"
+
+		if_mvm
+		{
+			"visible"				"0"
+		}
+		
 	}
 	
 	"TimePanelBG"
@@ -499,6 +515,11 @@
 		"font"						"Symbols32"
 		"labelText"					"t"
 		"fgcolor_override"			"255 255 255 255"
+
+		if_mvm
+		{
+			"visible"				"0"
+		}
 	}
 	"MapName"
 	{
@@ -519,8 +540,10 @@
 		if_mvm
 		{
 			"visible"				"1"
-			"ypos"					"65"
-			"xpos"					"-140"
+			"ypos"					"c156"
+			"xpos"					"c139"
+			"font"					"Product10"
+			"fgcolor_override"		"255 255 255 100"
 		}
 	}
 	"ServerLabel"
@@ -541,9 +564,7 @@
 
 		if_mvm
 		{
-			"visible"				"1"
-			"ypos"					"65"
-			"xpos"					"140"
+			"visible"				"0"
 		}
 	}
 	
@@ -664,9 +685,10 @@
 
 			if_mvm
 			{
-				"visible"			"1"
-				"ypos"				"4"
-				"xpos"				"38"
+				"visible"				"1"
+				"textAlignment"			"east"
+				"xpos"					"35"
+				"ypos"					"1"
 			}
 		}
 		"Deathss"
@@ -690,9 +712,10 @@
 
 			if_mvm
 			{
-				"visible"			"1"
-				"ypos"				"24"
-				"xpos"				"38"
+				"visible"				"1"
+				"textAlignment"			"west"
+				"xpos"					"-12"
+				"ypos"					"1"
 			}
 		}
 		"KDDivider"
@@ -714,9 +737,10 @@
 
 			if_mvm
 			{
-				"visible"			"1"
-				"ypos"				"24"
-				"xpos"				"38"
+				"visible"				"1"
+				"textAlignment"			"center"
+				"xpos"					"70"
+				"ypos"					"3"
 			}
 		}
 
@@ -1377,6 +1401,11 @@
 
 			"font"					"Symbols32"
 			"labelText"				"n"
+
+			if_mvm
+			{
+				"visible"				"1"
+			}
 		}
 		
 		/////////////////////////////////////////////////////////////////
