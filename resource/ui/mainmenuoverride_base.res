@@ -62,10 +62,6 @@
 		// Aleksi 29.7.2022 - 5.02 AM
 		// Fixing 4:3 is literally my personal hell kill me immediately
 		// Luna 18.10.2022 - 2.40 AM
-		// No not really :P
-		// Luna 29.10.2022 - 8.03 PM
-		// You people are fucking pussies
-		// Emma 25.1.2023 - 1.07 AM
 
 		"MOTD_ShowButtonPanel"
 		{
@@ -2270,54 +2266,6 @@
 				"proportionaltoparent"	"1"
 			}				
 		}
-	}
-
-	"BugReport"
-	{
-		"ControlName"								"URLLabel"
-		"fieldName"									"BugReport"
-		"xpos"										"c-197"
-		"ypos"										"c-160"
-		"zpos"										"10"
-		"wide"										"15"
-		"tall"										"15"
-		"visible"									"1"
-		"enabled"									"1"
-
-		"labelText"									"f"
-		"URLText"									"https://github.com/LunaXCBN/RenHud-V2/issues"
-		"textAlignment"								"center"
-		"font"										"Symbols12"
-
-		"fgcolor_override"							"255 255 255 255"
-		"bgcolor_override"							"0 0 0 175"
-	}
-	"ContrackerButton"
-	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"ContrackerButton"
-		"xpos"										"17"
-		"ypos"										"0"
-		"zpos"										"5"
-		"wide"										"15"
-		"tall"										"15"
-		"visible"									"1"
-		"enabled"									"1"
-		
-		"labelText"									"B"
-		"font"										"Symbols12"
-		"textAlignment"								"center"
-		"command"									"engine show_quest_log;motd_hide"
-		
-		"PIN_TO_SIBLING"							"MOTD_ShowButtonPanel"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"roundedcorners"	"0"
-		"defaultfgcolor_override"	"230 230 230 255"
-		"defaultbgcolor_override"	"0 0 0 175"
-		"armedfgcolor_override"		"MainPink"
-		"armedbgcolor_override"		"0 0 0 185"
 	}
 
 	"RankPanel"
