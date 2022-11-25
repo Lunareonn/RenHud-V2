@@ -65,6 +65,70 @@
 		// No not really :P
 		// Luna 29.10.2022 - 8.03 PM
 
+		// // Socials
+
+		"GitHub"
+		{
+			"ControlName"								"URLLabel"
+			"fieldName"									"GitHub"
+			"xpos"										"c-80"
+			"ypos"										"c-115"
+			"zpos"										"10"
+			"wide"										"15"
+			"tall"										"15"
+			"visible"									"1"
+			"enabled"									"1"
+
+			"labelText"									"2"
+			"URLText"									"https://github.com/LunaXCBN/RenHud-V2"
+			"textAlignment"								"center"
+			"font"										"Symbols16"
+
+			"fgcolor_override"							"255 255 255 185"
+		}
+		"SteamGroup"
+		{
+			"ControlName"								"URLLabel"
+			"fieldName"									"SteamGroup"
+			"xpos"										"0"
+			"ypos"										"15"
+			"zpos"										"10"
+			"wide"										"15"
+			"tall"										"15"
+			"visible"									"1"
+			"enabled"									"1"
+
+			"PIN_TO_SIBLING"							"GitHub"
+
+			"labelText"									"p"
+			"URLText"									"https://steamcommunity.com/groups/RenHUD"
+			"textAlignment"								"center"
+			"font"										"Symbols16"
+
+			"fgcolor_override"							"255 255 255 185"
+		}
+		"Discord"
+		{
+			"ControlName"								"URLLabel"
+			"fieldName"									"Discord"
+			"xpos"										"0"
+			"ypos"										"15"
+			"zpos"										"10"
+			"wide"										"15"
+			"tall"										"15"
+			"visible"									"1"
+			"enabled"									"1"
+
+			"PIN_TO_SIBLING"							"SteamGroup"
+
+			"labelText"									"c"
+			"URLText"									"https://discord.gg/jcevymcSh6"
+			"textAlignment"								"center"
+			"font"										"Symbols16"
+
+			"fgcolor_override"							"255 255 255 185"
+		}
+
 		"MOTD_ShowButtonPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -216,7 +280,7 @@
 				"tall"					"90"
 
 				"paintbackground"		"1"
-				"bgcolor_override"		"16 16 16 255"
+				"bgcolor_override"		"16 16 16 200"
 			}
 
 			"FOVSlider"

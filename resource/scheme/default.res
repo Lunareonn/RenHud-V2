@@ -1054,7 +1054,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"Product Sans"
 				"tall"										"9"
 				"weight"									"0"
 				"additive"									"0"
@@ -1078,7 +1078,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"Product Sans"
 				"tall"										"6"
 				"weight"									"0"
 				"additive"									"0"
