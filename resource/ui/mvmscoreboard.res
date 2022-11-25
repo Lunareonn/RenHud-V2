@@ -28,20 +28,6 @@
 		"tall"			"20"
 		"fgcolor"		"White"
 	}
-	"PopFileLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PopFileLabelShadow"
-		"font"			"Product12"
-		"labelText"		"%popfile%"
-		"textAlignment"	"west"
-		"xpos"			"10"
-		"ypos"			"451"
-		"zpos"			"18"
-		"wide"			"595"
-		"tall"			"20"
-		"fgcolor"		"Black"
-	}
 
 	"DifficultyContainer"
 	{
@@ -83,22 +69,6 @@
 			"wide"			"80"
 			"tall"			"25"
 			"fgcolor"		"195 195 50 255"
-		}
-		"DifficultyValueShadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"DifficultyValueShadow"
-			"font"			"Product12"
-			"labelText"		"%difficultyvalue%"
-			"textAlignment"	"west"
-			"xpos"			"0"
-			"ypos"			"-1"
-			"zpos"			"0"
-			"wide"			"80"
-			"tall"			"25"
-			"fgcolor"		"Black"
-
-			"pin_to_sibling"	"DifficultyValue"
 		}
 	}
 	

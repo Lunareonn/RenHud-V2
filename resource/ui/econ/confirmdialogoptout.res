@@ -35,7 +35,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "232 192 91 255"
+		"fgcolor_override" "MainPink"
 	}
 	
 	"ExplanationLabel"
