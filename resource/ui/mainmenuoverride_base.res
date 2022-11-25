@@ -69,11 +69,11 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MOTD_ShowButtonPanel"
-			"xpos"			"cs-0.5"
-			"ypos"			"c100"
+			"xpos"			"c-97"
+			"ypos"			"c-160"
 			"zpos"			"11"
-			"wide"			"8"
-			"tall"			"8"
+			"wide"			"15"
+			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
 			
@@ -82,27 +82,23 @@
 			"navLeft"		"Notifications_Panel"		
 			"navRight"		"MOTD_Panel"				
 			"navToRelay"	"MOTD_ShowButtonPanel_SB"
-	
-			"pin_to_sibling"		"MenuPanel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
 			"MOTD_ShowButtonPanel_SB"
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"MOTD_ShowButtonPanel_SB"
-				"font"			"Product16"
+				"font"			"Symbols12"
 				"textAlignment"	"center"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"8"
-				"tall"			"8"
+				"wide"			"15"
+				"tall"			"15"
 				"visible"		"1"
 				"enabled"		"1"
-				"labelText"		"+"
-				"textinsety"	"-1"
-				"textinsetx"	"-1"
+				"labelText"		"{"
+				"textAlignment"	"center"
+				"textInsetX"	"-1"
 	
 				"actionsignallevel" "2"
 				"Command"		"motd_show"
@@ -115,11 +111,9 @@
 				"paintbackground" "1"
 	
 				"defaultFgColor_override" "255 255 255 255"
-				"armedFgColor_override"   "0 0 0 255"
-				"depressedFgColor_override" "255 255 255 255"
-				"defaultBgColor_override" "0 0 0 255"
-				"armedBgColor_override"   "45 45 45 215"
-				"depressedBgColor_override" "45 45 45 215"
+				"armedFgColor_override"   "MainPink"
+				"defaultBgColor_override" "0 0 0 175"
+				"armedBgColor_override"   "0 0 0 185"
 	
 				"image_drawcolor"	"255 255 255 255"
 				"image_armedcolor"	"255 255 255 255"		
@@ -130,15 +124,15 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"MOTD_Panel"
-			"xpos"				"cs-0.5"
-			"ypos"				"cs-0.5"
+			"xpos"				"c-65"
+			"ypos"				"c-160"
 			"zpos"				"100"
 			"wide"				"375"
-			"tall"				"350"
+			"tall"				"195"
 			"visible"			"0"
 			"paintbackground"	"1"
 			"paintborder"		"0"
-			"bgcolor_override"	"11 11 11 255"
+			"bgcolor_override"	"11 11 11 205"
 			"PaintBackgroundType"	"0"
 	
 			"MOTD_HeaderContainer"
@@ -369,7 +363,7 @@
 				"ControlName"			"CExLabel"
 				"fieldName"				"CrosshairColorsLabel"
 				"xpos"					"165"
-				"ypos"					"35"
+				"ypos"					"26"
 				"zpos"					"5"
 				"wide"					"75"
 				"tall"					"18"
@@ -512,7 +506,7 @@
 				"ControlName"			"CExLabel"
 				"fieldName"				"DamageColorsLabel"
 				"xpos"					"165"
-				"ypos"					"60"
+				"ypos"					"51"
 				"zpos"					"5"
 				"wide"					"75"
 				"tall"					"18"
@@ -666,7 +660,7 @@
 				"ControlName"			"CExImageButton"
 				"fieldName"				"ToggleDamageNumbers"
 				"xpos"					"172"
-				"ypos"					"90"
+				"ypos"					"84"
 				"zpos"					"20"
 				"wide"					"60"
 				"tall"					"10"
@@ -681,15 +675,35 @@
 
 				"actionsignallevel"		"2"
 			}
+			"ToggleCrosshair"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"ToggleDamageNumbers"
+				"xpos"					"172"
+				"ypos"					"99"
+				"zpos"					"20"
+				"wide"					"60"
+				"tall"					"10"
+
+				"labelText"				"Toggle Crosshair"
+				"textAlignment"			"center"
+				"font"					"Product8"
+				"command"				"engine toggle crosshair"
+
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
 
 			"FixSound"
 			{
 				"ControlName"			"CExImageButton"
 				"fieldName"				"FixSoundNumbers"
 				"xpos"					"7"
-				"ypos"					"123"
+				"ypos"					"120"
 				"zpos"					"20"
-				"wide"					"100"
+				"wide"					"147"
 				"tall"					"20"
 
 				"labelText"				"Fix Sound"
@@ -703,7 +717,128 @@
 
 				"actionsignallevel"		"2"
 			}
-			
+			"FixVisuals"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"FixVisuals"
+				"xpos"					"7"
+				"ypos"					"145"
+				"zpos"					"20"
+				"wide"					"147"
+				"tall"					"20"
+
+				"labelText"				"Fix Invisible Players"
+				"textAlignment"			"center"
+				"font"					"Product12"
+				"command"				"engine record fix;stop"
+				"roundedcorners"		"0"
+
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
+
+			"ToggleChat"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"ToggleChat"
+				"xpos"					"7"
+				"ypos"					"170"
+				"zpos"					"20"
+				"wide"					"147"
+				"tall"					"20"
+
+				"labelText"				"Toggle Chat"
+				"textAlignment"			"center"
+				"font"					"Product12"
+				"command"				"engine toggle cl_enable_text_chat"
+				"roundedcorners"		"0"
+
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
+
+			"Walkway"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"Walkway"
+				"xpos"					"165"
+				"ypos"					"120"
+				"zpos"					"20"
+				"wide"					"75"
+				"tall"					"20"
+
+				"labelText"				"Walkway"
+				"textAlignment"			"center"
+				"font"					"Product12"
+				"command"				"engine map tr_walkway_rc2"
+				"roundedcorners"		"0"
+
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
+			"Newbots"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"Newbots"
+				"xpos"					"165"
+				"ypos"					"145"
+				"zpos"					"20"
+				"wide"					"75"
+				"tall"					"20"
+
+				"labelText"				"Newbots"
+				"textAlignment"			"center"
+				"font"					"Product12"
+				"command"				"engine map tr_newbots"
+				"roundedcorners"		"0"
+
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
+			"Itemtest"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"Itemtest"
+				"xpos"					"165"
+				"ypos"					"170"
+				"zpos"					"20"
+				"wide"					"75"
+				"tall"					"20"
+
+				"labelText"				"Itemtest"
+				"textAlignment"			"center"
+				"font"					"Product12"
+				"command"				"engine map itemtest"
+				"roundedcorners"		"0"
+
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
+
+			"VersionLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"VersionLabel"
+				"xpos"					"245"
+				"ypos"					"179"
+				"zpos"					"5"
+				"wide"					"125"
+				"tall"					"18"
+
+				"labelText"				"HUD Version: 1.1.1b-25.11.22"
+				"textAlignment"			"east"
+				"font"					"Product10"
+			}
 	
 			"MOTD_HeaderIcon"
 			{
@@ -2766,7 +2901,7 @@
 		"fieldName"									"LJxK4ujfayHmYgji"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
-		"zpos"										"1001"
+		"zpos"										"5"
 		"wide"										"10"
 		"tall"										"10"
 		"visible"									"1"
@@ -2775,6 +2910,6 @@
 		"labelText"									"?"
 		"URLText"									"https://www.youtube.com/watch?v=VHcpSCmHqHM"
 		"font"										"Product10"
-		"fgcolor_override"							"49 83 145 60"
+		"fgcolor_override"							"49 83 145 20"
 	}
 }
