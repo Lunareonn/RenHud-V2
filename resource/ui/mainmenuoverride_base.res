@@ -64,6 +64,704 @@
 		// Fixing 4:3 is literally my personal hell kill me immediately
 		// Luna 18.10.2022 - 2.40 AM
 
+		"MOTD_ShowButtonPanel"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"MOTD_ShowButtonPanel"
+			"xpos"			"cs-0.5"
+			"ypos"			"c100"
+			"zpos"			"11"
+			"wide"			"8"
+			"tall"			"8"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"navUp"			"MOTD_Panel"				
+			"navDown"		"Notifications_Panel"		
+			"navLeft"		"Notifications_Panel"		
+			"navRight"		"MOTD_Panel"				
+			"navToRelay"	"MOTD_ShowButtonPanel_SB"
+	
+			"pin_to_sibling"		"MenuPanel"
+			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			
+			"MOTD_ShowButtonPanel_SB"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"MOTD_ShowButtonPanel_SB"
+				"font"			"Product16"
+				"textAlignment"	"center"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"8"
+				"tall"			"8"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"+"
+				"textinsety"	"-1"
+				"textinsetx"	"-1"
+	
+				"actionsignallevel" "2"
+				"Command"		"motd_show"
+				"navActivate"	"<QuickplayButton"		
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				"border_default"	"NoBorder"
+				"border_armed"		"NoBorder"
+				"paintbackground" "1"
+	
+				"defaultFgColor_override" "255 255 255 255"
+				"armedFgColor_override"   "0 0 0 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"defaultBgColor_override" "0 0 0 255"
+				"armedBgColor_override"   "45 45 45 215"
+				"depressedBgColor_override" "45 45 45 215"
+	
+				"image_drawcolor"	"255 255 255 255"
+				"image_armedcolor"	"255 255 255 255"		
+			}
+		}
+		
+		"MOTD_Panel"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"MOTD_Panel"
+			"xpos"				"cs-0.5"
+			"ypos"				"cs-0.5"
+			"zpos"				"100"
+			"wide"				"375"
+			"tall"				"350"
+			"visible"			"0"
+			"paintbackground"	"1"
+			"paintborder"		"0"
+			"bgcolor_override"	"11 11 11 255"
+			"PaintBackgroundType"	"0"
+	
+			"MOTD_HeaderContainer"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"MOTD_HeaderContainer"
+				"xpos"				"0"
+				"ypos"				"0"
+				"wide"				"375"
+				"tall"				"22"
+				"visible"			"1"
+				"bgcolor_override"	"8 8 8 255"
+	
+				"HeaderLabel"
+				{
+					"ControlName"			"Label"
+					"fieldName"				"HeaderLabel"
+					"font"					"Product16"
+					"textAlignment"			"center"
+					"xpos"					"5"
+					"ypos"					"0"
+					"wide"					"375"
+					"tall"					"24"
+					"autoResize"			"0"
+					"pinCorner"				"0"
+					"visible"				"1"
+					"enabled"				"1"
+					"paintbackground" 		"0"
+					"fgcolor_override"		"255 255 255 255"
+					"labelText"				"#TF_OptionCategory_HUD"
+					"allcaps"				"1"
+				}
+			}
+	
+			"MOTD_CloseButton"
+			{
+				"ControlName"		"CExImageButton"
+				"fieldName"			"MOTD_CloseButton"
+				"xpos"				"355"
+				"ypos"				"2"
+				"zpos"				"10"
+				"wide"				"18"
+				"tall"				"18"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"tabPosition"		"0"
+				"labeltext"			"%"
+				"font"				"Symbols18"
+				"textAlignment"		"center"
+				"dulltext"			"0"
+				"brighttext"		"0"
+				"default"			"0"
+				"actionsignallevel"	"2"
+				"Command"			"motd_hide"
+				"paintbackground"	"0"
+	
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+	
+				"defaultFgColor_override" 	"255 255 255 255"
+				"armedFgColor_override" 	"MainPink"
+				"depressedFgColor_override" "255 255 255 255"
+			}
+
+			"SliderBG"
+			{
+				"ControlName"			"EditablePanel"
+				"fieldName"				"SliderBG"
+				"xpos"					"4"
+				"ypos"					"25"
+				"zpos"					"5"
+				"wide"					"152"
+				"tall"					"90"
+
+				"paintbackground"		"1"
+				"bgcolor_override"		"16 16 16 255"
+			}
+
+			"FOVSlider"
+			{
+				"ControlName"			"EditablePanel"
+				"fieldName"				"FOVSlider"
+				"xpos"					"7"
+				"ypos"					"28"
+				"zpos"					"15"
+
+				"wide"					"152"
+				"tall"					"28"
+
+				"SubButton"
+				{
+					"ControlName"		"CExImageButton"
+					"fieldName"			"SubButton"
+					"xpos"				"-3"
+					"ypos"				"0"
+					"wide"				"100"
+					"tall"				"10"
+					"font"				"Product10"
+					"labelText"			"Viewmodel FOV:"
+					"textAlignment"		"west"
+
+					"paintbackground"	"0"
+					"paintborder"		"0"
+					"defaultfgcolor_override"	"255 255 255 255"
+				}
+
+				"Slider"
+				{
+					"ControlName"		"CCvarSlider"
+					"fieldName"			"Slider"
+					"xpos"				"0"
+					"ypos"				"10"
+					"wide"				"150"
+					"tall"				"50"
+
+					"lefttext"				"54"
+					"righttext"				"120"
+					"minvalue"				"54"
+					"maxvalue"				"120"
+
+					"cvar_name"				"viewmodel_fov"
+					"allotoutofrange"		"0"
+
+				}
+			}
+
+			"VolumeSlider"
+			{
+				"ControlName"			"EditablePanel"
+				"fieldName"				"VolumeSlider"
+				"xpos"					"7"
+				"ypos"					"55"
+				"zpos"					"15"
+
+				"wide"					"152"
+				"tall"					"28"
+
+				"SubButton"
+				{
+					"ControlName"		"CExImageButton"
+					"fieldName"			"SubButton"
+					"xpos"				"-3"
+					"ypos"				"0"
+					"wide"				"100"
+					"tall"				"10"
+					"font"				"Product10"
+					"labelText"			"Volume:"
+					"textAlignment"		"west"
+
+					"paintbackground"	"0"
+					"paintborder"		"0"
+					"defaultfgcolor_override"	"255 255 255 255"
+				}
+
+				"Slider"
+				{
+					"ControlName"		"CCvarSlider"
+					"fieldName"			"Slider"
+					"xpos"				"0"
+					"ypos"				"10"
+					"wide"				"150"
+					"tall"				"20"
+
+					"leftText"				"0"
+					"rightText"				"1"
+					"minvalue"				"0"
+					"maxvalue"				"1"
+
+					"cvar_name"				"volume"
+					"allotoutofrange"		"0"
+
+				}
+			}
+
+			"NetGraphSlider"
+			{
+				"ControlName"			"EditablePanel"
+				"fieldName"				"NetGraphSlider"
+				"xpos"					"7"
+				"ypos"					"85"
+				"zpos"					"15"
+
+				"wide"					"152"
+				"tall"					"28"
+
+				"SubButton"
+				{
+					"ControlName"		"CExImageButton"
+					"fieldName"			"SubButton"
+					"xpos"				"-3"
+					"ypos"				"0"
+					"wide"				"100"
+					"tall"				"10"
+					"font"				"Product10"
+					"labelText"			"Net Graph:"
+					"textAlignment"		"west"
+
+					"paintbackground"	"0"
+					"paintborder"		"0"
+					"defaultfgcolor_override"	"255 255 255 255"
+				}
+
+				"Slider"
+				{
+					"ControlName"		"CCvarSlider"
+					"fieldName"			"Slider"
+					"xpos"				"0"
+					"ypos"				"10"
+					"wide"				"150"
+					"tall"				"20"
+
+					"leftText"				"0"
+					"rightText"				"4"
+					"numticks"				"4"
+					"minvalue"				"0"
+					"maxvalue"				"4"
+
+					"cvar_name"				"net_graph"
+					"allotoutofrange"		"0"
+
+				}
+			}
+
+			"CrosshairColorsLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"CrosshairColorsLabel"
+				"xpos"					"165"
+				"ypos"					"35"
+				"zpos"					"5"
+				"wide"					"75"
+				"tall"					"18"
+
+				"labelText"				"Crosshair Colors"
+				"textAlignment"			"center"
+				"font"					"Product12"
+			}
+			"CrosshairRed"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"CrosshairRed"
+				"xpos"					"-10"
+				"ypos"					"-15"
+				"zpos"					"5"
+				"wide"					"12"
+				"tall"					"12"
+
+				"paintbackground"		"0"
+
+				"labelText"				"v"
+				"font"					"Symbols12"
+				"command"				"engine cl_crosshair_red 255;cl_crosshair_blue 43;cl_crosshair_green 43"
+				"defaultfgcolor_override"		"255 43 43 255"
+				"armedfgcolor_override"			"192 31 31 255"
+
+				"PIN_TO_SIBLING"	"CrosshairColorsLabel"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
+			"CrosshairGreen"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"CrosshairGreen"
+				"xpos"					"-10"
+				"ypos"					"0"
+				"zpos"					"5"
+				"wide"					"12"
+				"tall"					"12"
+
+				"paintbackground"		"0"
+
+				"labelText"				"v"
+				"font"					"Symbols12"
+				"command"				"engine cl_crosshair_red 43;cl_crosshair_blue 43;cl_crosshair_green 255"
+				"defaultfgcolor_override"		"43 255 43 255"
+				"armedfgcolor_override"			"31 192 31 255"
+
+				"PIN_TO_SIBLING"	"CrosshairRed"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
+			"CrosshairBlue"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"CrosshairBlue"
+				"xpos"					"-10"
+				"ypos"					"0"
+				"zpos"					"5"
+				"wide"					"12"
+				"tall"					"12"
+
+				"paintbackground"		"0"
+
+				"labelText"				"v"
+				"font"					"Symbols12"
+				"command"				"engine cl_crosshair_red 43;cl_crosshair_blue 255;cl_crosshair_green 43"
+				"defaultfgcolor_override"		"43 43 255 255"
+				"armedfgcolor_override"			"31 31 192 255"
+
+				"PIN_TO_SIBLING"	"CrosshairGreen"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
+			"CrosshairPink"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"CrosshairPink"
+				"xpos"					"-10"
+				"ypos"					"0"
+				"zpos"					"5"
+				"wide"					"12"
+				"tall"					"12"
+
+				"paintbackground"		"0"
+
+				"labelText"				"v"
+				"font"					"Symbols12"
+				"command"				"engine cl_crosshair_red 210;cl_crosshair_blue 250;cl_crosshair_green 67"
+				"defaultfgcolor_override"		"210 67 250 255"
+				"armedfgcolor_override"			"153 46 182 255"
+
+				"PIN_TO_SIBLING"	"CrosshairBlue"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
+			"CrosshairYellow"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"CrosshairYellow"
+				"xpos"					"-10"
+				"ypos"					"0"
+				"zpos"					"5"
+				"wide"					"12"
+				"tall"					"12"
+
+				"visible"				"1"
+				"enabled"				"1"
+
+				"paintbackground"		"0"
+
+				"labelText"				"v"
+				"font"					"Symbols12"
+				"command"				"engine cl_crosshair_red 218;cl_crosshair_blue 67;cl_crosshair_green 250"
+				"defaultfgcolor_override"		"218 250 67 255"
+				"armedfgcolor_override"			"157 181 49 255"
+
+				"PIN_TO_SIBLING"	"CrosshairPink"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
+
+			"DamageColorsLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"DamageColorsLabel"
+				"xpos"					"165"
+				"ypos"					"60"
+				"zpos"					"5"
+				"wide"					"75"
+				"tall"					"18"
+
+				"labelText"				"Damage Colors"
+				"textAlignment"			"center"
+				"font"					"Product12"
+			}
+			"DamageRed"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"DamageRed"
+				"xpos"					"-10"
+				"ypos"					"-15"
+				"zpos"					"5"
+				"wide"					"12"
+				"tall"					"12"
+
+				"paintbackground"		"0"
+
+				"labelText"				"v"
+				"font"					"Symbols12"
+				"command"				"engine hud_combattext_red 255;hud_combattext_blue 43;hud_combattext_green 43"
+				"defaultfgcolor_override"		"255 43 43 255"
+				"armedfgcolor_override"			"192 31 31 255"
+
+				"PIN_TO_SIBLING"	"DamageColorsLabel"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
+			"DamageGreen"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"DamageGreen"
+				"xpos"					"-10"
+				"ypos"					"0"
+				"zpos"					"5"
+				"wide"					"12"
+				"tall"					"12"
+
+				"paintbackground"		"0"
+
+				"labelText"				"v"
+				"font"					"Symbols12"
+				"command"				"engine hud_combattext_red 43;hud_combattext_blue 43;hud_combattext_green 255"
+				"defaultfgcolor_override"		"43 255 43 255"
+				"armedfgcolor_override"			"31 192 31 255"
+
+				"PIN_TO_SIBLING"	"DamageRed"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
+			"DamageBlue"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"DamageBlue"
+				"xpos"					"-10"
+				"ypos"					"0"
+				"zpos"					"5"
+				"wide"					"12"
+				"tall"					"12"
+
+				"paintbackground"		"0"
+
+				"labelText"				"v"
+				"font"					"Symbols12"
+				"command"				"engine hud_combattext_red 43;hud_combattext_blue 255;hud_combattext_green 43"
+				"defaultfgcolor_override"		"43 43 255 255"
+				"armedfgcolor_override"			"31 31 192 255"
+
+				"PIN_TO_SIBLING"	"DamageGreen"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
+			"DamagePink"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"DamagePink"
+				"xpos"					"-10"
+				"ypos"					"0"
+				"zpos"					"5"
+				"wide"					"12"
+				"tall"					"12"
+
+				"paintbackground"		"0"
+
+				"labelText"				"v"
+				"font"					"Symbols12"
+				"command"				"engine hud_combattext_red 210;hud_combattext_blue 250;hud_combattext_green 67"
+				"defaultfgcolor_override"		"210 67 250 255"
+				"armedfgcolor_override"			"153 46 182 255"
+
+				"PIN_TO_SIBLING"	"DamageBlue"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
+			"DamageYellow"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"DamageYellow"
+				"xpos"					"-10"
+				"ypos"					"0"
+				"zpos"					"5"
+				"wide"					"12"
+				"tall"					"12"
+
+				"paintbackground"		"0"
+
+				"labelText"				"v"
+				"font"					"Symbols12"
+				"command"				"engine hud_combattext_red 218;hud_combattext_blue 67;hud_combattext_green 250"
+				"defaultfgcolor_override"		"218 250 67 255"
+				"armedfgcolor_override"			"157 181 49 255"
+
+				"PIN_TO_SIBLING"	"DamagePink"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
+
+			"ColorsBG"
+			{
+				"ControlName"			"EditablePanel"
+				"fieldName"				"ColorsBG"
+				"xpos"					"163"
+				"ypos"					"25"
+				"zpos"					"1"
+				"wide"					"80"
+				"tall"					"90"
+
+				"paintbackground"		"1"
+				"bgcolor_override"		"16 16 16 255"
+			}
+
+			"ToggleDamageNumbers"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"ToggleDamageNumbers"
+				"xpos"					"172"
+				"ypos"					"90"
+				"zpos"					"20"
+				"wide"					"60"
+				"tall"					"10"
+
+				"labelText"				"Toggle Damage"
+				"textAlignment"			"center"
+				"font"					"Product8"
+				"command"				"engine toggle hud_combattext"
+
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
+
+			"FixSound"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"FixSoundNumbers"
+				"xpos"					"7"
+				"ypos"					"123"
+				"zpos"					"20"
+				"wide"					"100"
+				"tall"					"20"
+
+				"labelText"				"Fix Sound"
+				"textAlignment"			"center"
+				"font"					"Product12"
+				"command"				"engine snd_restart"
+				"roundedcorners"		"0"
+
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+
+				"actionsignallevel"		"2"
+			}
+			
+	
+			"MOTD_HeaderIcon"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"MOTD_HeaderIcon"
+				"xpos"					"9999"
+			}
+	
+			"MOTD_Label"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"MOTD_Label"
+				"xpos"					"9999"
+			}
+	
+			"MOTD_TitleImageBg"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"MOTD_TitleImageBg"
+				"xpos"					"9999"
+			}
+	
+			"MOTD_TitleImageContainer"
+			{
+				"ControlName"			"EditablePanel"
+				"fieldName"				"MOTD_TitleImageContainer"
+				"xpos"					"9999"
+			}
+	
+			"MOTD_TextScroller"
+			{
+				"ControlName"			"ScrollableEditablePanel"
+				"fieldName"				"MOTD_TextScroller"
+				"xpos"					"9999"
+			}
+	
+			"MOTD_URLButton"
+			{
+				"ControlName"			"CExButton"
+				"fieldName"				"MOTD_URLButton"
+				"xpos"					"9999"
+			}
+	
+			"MOTD_PrevButton"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"MOTD_PrevButton"
+				"xpos"					"9999"
+			}
+	
+			"MOTD_NextButton"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"MOTD_NextButton"
+				"xpos"					"9999"
+			}
+
+		}
+
 		"SaxxySettings"
 		{
 			"xpos"									"0"
@@ -1218,13 +1916,6 @@
 			"fgcolor"								"White"
 			"centerwrap"							"1"
 		}
-	}
-
-	"MOTD_Panel"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"MOTD_Panel"
-		"xpos"										"9999"
 	}
  
  

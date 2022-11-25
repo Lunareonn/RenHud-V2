@@ -96,7 +96,7 @@
 		ScrollBarButton.DepressedFgColor					"White"
 		ScrollBarButton.DepressedBgColor					"Blank"
 
-		ScrollBarSlider.FgColor								"55 55 55 255"
+		ScrollBarSlider.FgColor								"255 255 255 255"
 		ScrollBarSlider.BgColor								"0 0 0 0"
 
 		Slider.NobColor										"108 108 108 255"
