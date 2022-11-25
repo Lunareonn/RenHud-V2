@@ -107,19 +107,17 @@
 
 		"tabskv"
 		{
-			"textinsetx"							"19"
-			"textinsety"							"0"
-			"xpos"									"100"
-			"textalignment"							"center"
-			"font"									"Product14"
-			"selectedcolor"							"TanLight"
-			"unselectedcolor"						"TanDark"
-			"defaultBgColor_override"				"25 25 25 255"
-			"paintbackground"						"1"
-			"activeborder_override"					"GreyBorderTabs"
-			"normalborder_override"					"GreyBorderTabsInactive"
-			"unselectedBgColor_override"			"10 10 10 255"
-			"depressedBgColor_override"				"5 5 5 255"
+			"textinsetx"		"6"
+			"textAlignment"		"center"
+			"font"				"Product12"
+			"allcaps"			"1"
+			"selectedcolor"		"255 255 255 255"
+			"unselectedcolor"	"130 120 104 255"	
+			"defaultBgColor_override"	"46 43 42 0"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"activeborder_override"	"none"
+			"normalborder_override" "none"
 		}
 	}
 
