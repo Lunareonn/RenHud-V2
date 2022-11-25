@@ -62,6 +62,8 @@
 		// Aleksi 29.7.2022 - 5.02 AM
 		// Fixing 4:3 is literally my personal hell kill me immediately
 		// Luna 18.10.2022 - 2.40 AM
+		// No not really :P
+		// Luna 29.10.2022 - 8.03 PM
 
 		"MOTD_ShowButtonPanel"
 		{
@@ -2266,6 +2268,27 @@
 				"proportionaltoparent"	"1"
 			}				
 		}
+	}
+
+	"BugReport"
+	{
+		"ControlName"								"URLLabel"
+		"fieldName"									"BugReport"
+		"xpos"										"c-197"
+		"ypos"										"c-160"
+		"zpos"										"10"
+		"wide"										"15"
+		"tall"										"15"
+		"visible"									"1"
+		"enabled"									"1"
+
+		"labelText"									"f"
+		"URLText"									"https://github.com/LunaXCBN/RenHud-V2/issues"
+		"textAlignment"								"center"
+		"font"										"Symbols12"
+
+		"fgcolor_override"							"255 255 255 255"
+		"bgcolor_override"							"0 0 0 175"
 	}
 
 	"RankPanel"
