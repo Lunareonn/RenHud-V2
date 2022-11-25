@@ -1,6 +1,4 @@
 "UnlitGeneric"
 {
 	"$basetexture" "vgui/replay/thumbnails/backpack/loadout_header"
-	"$translucent" 1
-	"$ignorez" 1
 }

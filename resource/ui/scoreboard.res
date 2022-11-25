@@ -116,6 +116,11 @@
 
 		"labelText"					"%redteamname%"
 		"font"						"Product18"
+
+		if_mvm
+		{
+			"visible"				"0"
+		}
 	}
 	"BluTeamName"
 	{
@@ -131,6 +136,11 @@
 
 		"labelText"					"%blueteamname%"
 		"font"						"Product18"
+
+		if_mvm
+		{
+			"visible"				"0"
+		}
 	}
 
 	"ScoreboardBG"
@@ -438,6 +448,12 @@
 
 		"paintbackground"			"1"
 		"bgcolor_override"			"0 0 0 175"
+
+		if_mvm
+		{
+			"visible"				"0"
+		}
+		
 	}
 	
 	"TimePanelBG"
@@ -463,16 +479,14 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"ServerTimeLeft"
-		"font"						"Product10"
+		"font"						"Product8"
 		"labelText"					"%servertime%"
-		"textAlignment"				"west"
-		"xpos"						"-243"
-		"ypos"						"-20"
+		"textAlignment"				"east"
+		"xpos"						"-220"
+		"ypos"						"5"
 		"zpos"						"2"
 		"wide"						"75"
 		"tall"						"25"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"allcaps"					"1"
 		"visible"					"1"
 		"enabled"					"1"
@@ -501,6 +515,11 @@
 		"font"						"Symbols32"
 		"labelText"					"t"
 		"fgcolor_override"			"255 255 255 255"
+
+		if_mvm
+		{
+			"visible"				"0"
+		}
 	}
 	"MapName"
 	{
@@ -509,33 +528,33 @@
 		"font"						"Product18"
 		"labelText"					"%mapname%"
 		"textAlignment"				"center"
- 		"xpos"						"-111"
-		"ypos"						"0"
+ 		"xpos"						"cs-0.5"
+		"ypos"						"c145"
 		"zpos"						"3"
-		"wide"						"75"
+		"wide"						"250"
 		"tall"						"25"
 		"visible"					"1"
 		"enabled"					"1"
 		"fgcolor"					"255 255 255 255"
 
-		"pin_to_sibling"			"MapBG"
-
 		if_mvm
 		{
 			"visible"				"1"
-			"ypos"					"65"
-			"xpos"					"-140"
+			"ypos"					"c156"
+			"xpos"					"c139"
+			"font"					"Product10"
+			"fgcolor_override"		"255 255 255 100"
 		}
 	}
 	"ServerLabel"
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"ServerLabel"
-		"font"						"Product12"
+		"font"						"Product10"
 		"labelText"					"%server%"
 		"textAlignment"				"center"
-		"xpos"						"0"
-		"ypos"						"-17"
+		"xpos"						"cs-0.5"
+		"ypos"						"c162"
 		"zpos"						"3"
 		"wide"						"300"
 		"tall"						"25"
@@ -543,13 +562,9 @@
 		"enabled"					"1"
 		"fgcolor"					"213 139 221 255"
 
-		"pin_to_sibling"			"MapBG"
-
 		if_mvm
 		{
-			"visible"				"1"
-			"ypos"					"65"
-			"xpos"					"140"
+			"visible"				"0"
 		}
 	}
 	
@@ -557,12 +572,12 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"Spectators"
-		"font"						"Product12"
+		"font"						"Product8"
 		"labelText"					"%spectators%"
 		"allcaps"					"1"
 		"textAlignment"				"west"
 		"xpos"						"0"
-		"ypos"						"10"
+		"ypos"						"43"
 		"zpos"						"4"
 		"wide"						"600"
 		"tall"						"13"
@@ -570,10 +585,10 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
+
+		"fgcolor_override"			"255 255 255 150"
 		
 		"pin_to_sibling" 			"MainBG"
-		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 	}
 	
 	"SpectatorsInQueue"
@@ -670,9 +685,10 @@
 
 			if_mvm
 			{
-				"visible"			"1"
-				"ypos"				"4"
-				"xpos"				"38"
+				"visible"				"1"
+				"textAlignment"			"east"
+				"xpos"					"35"
+				"ypos"					"1"
 			}
 		}
 		"Deathss"
@@ -696,9 +712,10 @@
 
 			if_mvm
 			{
-				"visible"			"1"
-				"ypos"				"24"
-				"xpos"				"38"
+				"visible"				"1"
+				"textAlignment"			"west"
+				"xpos"					"-12"
+				"ypos"					"1"
 			}
 		}
 		"KDDivider"
@@ -720,9 +737,10 @@
 
 			if_mvm
 			{
-				"visible"			"1"
-				"ypos"				"24"
-				"xpos"				"38"
+				"visible"				"1"
+				"textAlignment"			"center"
+				"xpos"					"70"
+				"ypos"					"3"
 			}
 		}
 
@@ -1383,6 +1401,11 @@
 
 			"font"					"Symbols32"
 			"labelText"				"n"
+
+			if_mvm
+			{
+				"visible"				"1"
+			}
 		}
 		
 		/////////////////////////////////////////////////////////////////

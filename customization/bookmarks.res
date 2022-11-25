@@ -25,7 +25,7 @@
 
         "defaultfgcolor_override"	"230 230 230 255"
 		"defaultbgcolor_override"	"10 10 10 160"
-		"armedfgcolor_override"		"232 192 91 255"
+		"armedfgcolor_override"		"MainPink"
 		"armedbgcolor_override"		"15 15 15 185"
 
 		"image_drawcolor"			"150 150 150 40"
@@ -56,7 +56,7 @@
 
         "defaultfgcolor_override"	"230 230 230 255"
 		"defaultbgcolor_override"	"10 10 10 160"
-		"armedfgcolor_override"		"232 192 91 255"
+		"armedfgcolor_override"		"MainPink"
 		"armedbgcolor_override"		"15 15 15 185"
 
 		"image_drawcolor"			"150 150 150 40"
@@ -87,7 +87,7 @@
 
         "defaultfgcolor_override"	"230 230 230 255"
 		"defaultbgcolor_override"	"10 10 10 160"
-		"armedfgcolor_override"		"232 192 91 255"
+		"armedfgcolor_override"		"MainPink"
 		"armedbgcolor_override"		"15 15 15 185"
 
 		"image_drawcolor"			"150 150 150 40"
@@ -118,7 +118,7 @@
 
         "defaultfgcolor_override"	"230 230 230 255"
 		"defaultbgcolor_override"	"10 10 10 160"
-		"armedfgcolor_override"		"232 192 91 255"
+		"armedfgcolor_override"		"MainPink"
 		"armedbgcolor_override"		"15 15 15 185"
 
 		"image_drawcolor"			"150 150 150 40"

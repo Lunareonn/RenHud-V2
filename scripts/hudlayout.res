@@ -4,6 +4,7 @@
 //#base "../resource/ui/freezepanel_basic.res"
 //#base "../resource/ui/statsummary.res"
 #base "../customization/crosshair.res"
+#base "../customization/enabled/speedometer.res"
 
 "Resource/HudLayout.res"
 {
