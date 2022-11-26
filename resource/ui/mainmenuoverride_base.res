@@ -913,7 +913,7 @@
 				"wide"					"125"
 				"tall"					"18"
 
-				"labelText"				"HUD Version: 1.1.1-b2-25.11.22"
+				"labelText"				"HUD Version: 1.1.1-b2-26.11.22"
 				"textAlignment"			"east"
 				"font"					"Product10"
 			}
