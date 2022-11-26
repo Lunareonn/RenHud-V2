@@ -253,7 +253,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"AveragesLabel"
-			"font"			"ScoreboardMedium"
+			"font"			"Product18"
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"		"west"
 			"xpos"			"c-285"

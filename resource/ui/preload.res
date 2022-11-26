@@ -123,7 +123,7 @@
 	"CartArrowLeft"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"CartBlue"
+		"fieldName"		"CartArrowLeft"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -132,7 +132,7 @@
 	"CartArrowRight"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"CartBlue"
+		"fieldName"		"CartArrowRight"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -141,7 +141,7 @@
 	"CartHomeBlue"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"CartBlue"
+		"fieldName"		"CartHomeBlue"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -150,7 +150,7 @@
 	"CartHomeRed"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"CartBlue"
+		"fieldName"		"CartHomeRed"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -159,7 +159,7 @@
 	"CartPointRed"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"CartBlue"
+		"fieldName"		"CartPointRed"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -168,7 +168,7 @@
 	"CartPointBlue"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"CartBlue"
+		"fieldName"		"CartPointBlue"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -177,7 +177,7 @@
 	"CartPointRedOpaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"CartBlue"
+		"fieldName"		"CartPointRedOpaque"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -186,10 +186,31 @@
 	"CartPointBlueOpaque"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"CartBlue"
+		"fieldName"		"CartPointBlueOpaque"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/hud/cart_point_blue_opaque"
+	}
+
+	// Backpack
+
+	"LoadoutRectangle"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LoadoutRectangle"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/backpack/loadout_rect"
+	}
+	"White"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"White"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/white"
 	}
 }

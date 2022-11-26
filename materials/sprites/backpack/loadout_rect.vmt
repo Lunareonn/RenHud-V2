@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/backpack/loadout_rect"
+	"$translucent" 1
+}
