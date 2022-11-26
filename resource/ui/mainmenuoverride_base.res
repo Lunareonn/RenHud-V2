@@ -72,7 +72,7 @@
 			"ControlName"								"URLLabel"
 			"fieldName"									"GitHub"
 			"xpos"										"c-80"
-			"ypos"										"c-115"
+			"ypos"										"c-39"
 			"zpos"										"10"
 			"wide"										"15"
 			"tall"										"15"
@@ -83,6 +83,8 @@
 			"URLText"									"https://github.com/LunaXCBN/RenHud-V2"
 			"textAlignment"								"center"
 			"font"										"Symbols16"
+
+			"tooltiptext"								"owo"
 
 			"fgcolor_override"							"255 255 255 185"
 		}
@@ -188,7 +190,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"MOTD_Panel"
-			"xpos"				"c-65"
+			"xpos"				"c-50"
 			"ypos"				"c-160"
 			"zpos"				"100"
 			"wide"				"375"
