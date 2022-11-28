@@ -244,8 +244,8 @@
 		"tall"	 	"35"
 		"priority"	"40"
 		
-		"x_offset" "20"
-		"y_offset" "20"
+		"x_offset" "375"
+		"y_offset" "175"
 	}
 	
 	CSecondaryTargetID

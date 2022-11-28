@@ -80,7 +80,7 @@
 		"tall"			           					"11"
 		"visible"		          					"1"
 		"enabled"		           					"1"
-		"font"			           					"m0refont11Shadow"
+		"font"			           					"Product10"
 		"labelText"		        					"%targetdata%"
 		"textAlignment"		     					"north-west"
 		"fgcolor"     								"White"

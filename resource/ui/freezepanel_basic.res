@@ -196,15 +196,17 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"9999"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
-		"paintbackground"		"1"
-		"PaintBackgroundType"	"0"
+		"border"			"none"
+
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 225"
+		"roundedcorners"	"0"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -225,15 +227,15 @@
 		{
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
-			"useparentbg"		"1"
+			"useparentbg"		"0"
 		}
 		
 		"ItemLabel"
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
-			"xpos"			"10"
+			"font"			"Product8"
+			"xpos"			"5"
 			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"270"
