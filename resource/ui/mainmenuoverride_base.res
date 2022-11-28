@@ -986,7 +986,7 @@
 					"textAlignment"			"center"
 					"xpos"					"5"
 					"ypos"					"-1"
-					"wide"					"247"
+					"wide"					"375"
 					"tall"					"24"
 					"autoResize"			"0"
 					"pinCorner"				"0"
@@ -1659,6 +1659,30 @@
 				"textAlignment"			"center"
 				"font"					"Product12"
 				"command"				"engine map itemtest"
+				"roundedcorners"		"0"
+
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+
+				"defaultbgcolor_override"	"16 16 16 255"
+
+				"actionsignallevel"		"2"
+			}
+
+			"ReloadHUD"
+			{
+				"ControlName"			"CExImageButton"
+				"fieldName"				"ReloadHUD"
+				"xpos"					"250"
+				"ypos"					"28"
+				"zpos"					"20"
+				"wide"					"117"
+				"tall"					"20"
+
+				"labelText"				"Reload HUD"
+				"textAlignment"			"center"
+				"font"					"Product12"
+				"command"				"engine hud_reloadscheme"
 				"roundedcorners"		"0"
 
 				"sound_depressed"		"UI/buttonclick.wav"
