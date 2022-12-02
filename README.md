@@ -5,6 +5,7 @@
 1.1.1 Update To-Do list
 
 - [x] Add HUD Options menu
+- [ ] Rework class select menu
 - [ ] Rework item meters
 - [ ] Add minmode support
 - [ ] Additional aspect ratio support
