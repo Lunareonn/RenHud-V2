@@ -287,10 +287,10 @@
 		"ListPanel.SelectedOutOfFocusBgColor"				"Red"
 		"ListPanel.EmptyListInfoTextColor"					"Orange"
 
-		"Menu.TextColor"									"TanLight"
-		"Menu.BgColor"										"TransparentBlack"
-		"Menu.ArmedTextColor"								"TanDark"
-		"Menu.ArmedBgColor"									"TanLight"
+		"Menu.TextColor"									"255 255 255 255"
+		"Menu.BgColor"										"11 11 11 255"
+		"Menu.ArmedTextColor"								"255 255 255 255"
+		"Menu.ArmedBgColor"									"MainPink"
 		"Menu.TextInset"									"6"
 
 		"Chat.TypingText"									"Orange"
@@ -1747,7 +1747,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"Product Sans"
 				"tall"										"20"
 				"weight"									"400"
 				"additive"									"0"

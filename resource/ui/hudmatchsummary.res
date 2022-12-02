@@ -365,9 +365,9 @@
 					"zpos"			"5"
 					"wide"			"56"
 					"tall"			"56"
-					"visible"		"1"
-					"enabled"		"1"
-					"image"			"../hud/team_blue"
+					"visible"		"0"
+					"enabled"		"0"
+					"image"			""
 					"scaleImage"		"1"
 
 					if_large
@@ -634,9 +634,9 @@
 					"zpos"			"5"
 					"wide"			"70"
 					"tall"			"70"
-					"visible"		"1"
-					"enabled"		"1"
-					"image"			"../hud/team_red"
+					"visible"		"0"
+					"enabled"		"0"
+					"image"			""
 					"scaleImage"		"1"
 
 					if_large
