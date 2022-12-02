@@ -71,20 +71,20 @@
 		{
 			"ControlName"								"URLLabel"
 			"fieldName"									"GitHub"
-			"xpos"										"c-80"
-			"ypos"										"c-39"
+			"xpos"										"-43"
+			"ypos"										"-62"
 			"zpos"										"10"
 			"wide"										"15"
 			"tall"										"15"
 			"visible"									"1"
 			"enabled"									"1"
 
+			"PIN_TO_SIBLING"							"BackpackButton"
+
 			"labelText"									"2"
 			"URLText"									"https://github.com/LunaXCBN/RenHud-V2"
 			"textAlignment"								"center"
 			"font"										"Symbols16"
-
-			"tooltiptext"								"owo"
 
 			"fgcolor_override"							"255 255 255 185"
 		}
@@ -986,7 +986,7 @@
 					"textAlignment"			"center"
 					"xpos"					"5"
 					"ypos"					"-1"
-					"wide"					"375"
+					"wide"					"247"
 					"tall"					"24"
 					"autoResize"			"0"
 					"pinCorner"				"0"
@@ -1669,34 +1669,12 @@
 				"actionsignallevel"		"2"
 			}
 
-			"ReloadHUD"
-			{
-				"ControlName"			"CExImageButton"
-				"fieldName"				"ReloadHUD"
-				"xpos"					"250"
-				"ypos"					"28"
-				"zpos"					"20"
-				"wide"					"117"
-				"tall"					"20"
-
-				"labelText"				"Reload HUD"
-				"textAlignment"			"center"
-				"font"					"Product12"
-				"command"				"engine hud_reloadscheme"
-				"roundedcorners"		"0"
-
-				"sound_depressed"		"UI/buttonclick.wav"
-				"sound_released"		"UI/buttonclickrelease.wav"
-
-				"defaultbgcolor_override"	"16 16 16 255"
-
-				"actionsignallevel"		"2"
-			}
-
 			"VersionLabel"
 			{
 				"ControlName"			"CExLabel"
 				"fieldName"				"VersionLabel"
+				"xpos"					"60"
+				"ypos"					"191"
 				"xpos"					"60"
 				"ypos"					"191"
 				"zpos"					"5"
@@ -2364,8 +2342,8 @@
 	{
 		"ControlName"								"URLLabel"
 		"fieldName"									"BugReport"
-		"xpos"										"c-197"
-		"ypos"										"c-160"
+		"xpos"										"0"
+		"ypos"										"17"
 		"zpos"										"10"
 		"wide"										"15"
 		"tall"										"15"
@@ -2376,6 +2354,8 @@
 		"URLText"									"https://github.com/LunaXCBN/RenHud-V2/issues"
 		"textAlignment"								"center"
 		"font"										"Symbols12"
+
+		"PIN_TO_SIBLING"							"ConsoleButton"						
 
 		"fgcolor_override"							"255 255 255 255"
 		"bgcolor_override"							"0 0 0 175"
@@ -2395,9 +2375,10 @@
 
 		"matchgroup"				"MatchGroup_Casual_12v12"
 
-		"show_model"				"1"
+		"show_model"				"0"
 		"show_type"					"1"
 	}
+
 	"RankModelPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
@@ -2513,6 +2494,11 @@
 		"paintborder"		"0"
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"255 255 255 255"	
+
+		"defaultbgcolor_override"	"0 0 0 175"
+		"armedbgcolor_override"		"0 0 0 185"
+		"defaultfgcolor_override"	"255 255 255 255"
+		"armedfgcolor_override"		"MainPink"
 	}
 	"NoGCMessage"
 	{

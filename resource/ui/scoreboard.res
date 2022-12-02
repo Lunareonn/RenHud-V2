@@ -777,7 +777,7 @@
 			"labelText"				"%damage%"
 			"textAlignment"			"center"
 			"xpos"					"1"
-			"ypos"					"-10"
+			"ypos"					"-8"
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"16"
