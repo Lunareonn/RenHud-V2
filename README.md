@@ -2,6 +2,14 @@
 
 # THIS IS A BETA BRANCH. NOTHING HERE IS FINISHED.
 
+1.1.1 Update To-Do list
+
+- [x] Add HUD Options menu
+- [ ] Rework item meters
+- [ ] Add minmode support
+- [ ] Additional aspect ratio support
+- [ ] Fix small bugs
+
 ### [Official Wiki](https://github.com/LunaXCBN/RenHud-V2/wiki)
 
 
