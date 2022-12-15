@@ -6,7 +6,7 @@
 
 - [x] Add HUD Options menu
 - [x] Rework class select menu
-- [ ] Rework item meters
+- [x] Rework item meters
 - [ ] Add minmode support
 - [ ] Additional aspect ratio support
 - [ ] Fix small bugs
