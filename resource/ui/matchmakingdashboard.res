@@ -474,7 +474,11 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
-				"border"		"ReplayDefaultBorder"
+				"paintbackground"		"1"
+
+				"bgcolor_override"		"25 25 25 255"
+
+				"border"		""
 			}
 
 			"PromptText"

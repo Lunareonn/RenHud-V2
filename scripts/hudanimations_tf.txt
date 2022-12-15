@@ -654,30 +654,14 @@ event IntroMovieContinueBlinkStop
 
 event HasMOTDBlink
 {
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
-		
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.6 0.1
-	
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 1.0 0.1
-	
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
-
-	RunEvent HasMOTDBlinkLoop		2.0
 }
 
 event HasMOTDBlinkLoop
 {
-	RunEvent HasMOTDBlink			0.0
 }
 
 event HasMOTDBlinkStop
 {
-	StopEvent HasMOTDBlink				0.0
-	StopEvent HasMOTDBlinkLoop 		0.0
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
 }
 
 //===========================================

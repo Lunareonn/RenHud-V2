@@ -1,52 +1,54 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-	"AmmoAnchor"
+
+	"AmmoBG"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"AmmoAnchor"
-		"xpos"										"c100"
-		"ypos"										"c95"
-		"zpos"										"0"
-		"wide"										"5"
-		"tall"										"80"
-		"visible"									"0"
+		"fieldName"									"AmmoBG"
+		"xpos"										"c57"
+		"ypos"										"c118"
+		"zpos"										"2"
+		"wide"										"93"
+		"tall"										"49"
+		"visible"									"1"
 		"enabled"									"1"
+
+		"paintbackground"							"1"
+		"bgcolor_override"							"0 0 0 180"
 	}
 
 	"AmmoInClip"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClip"
-		"xpos"										"-8"
-		"ypos"										"0"
+		"xpos"										"32"
+		"ypos"										"24"
 		"zpos"										"5"
 		"wide"										"150"
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"product48"
-		"textAlignment"								"east"
+		"font"										"product40"
+		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
 		"fgcolor"									"Ammo In Clip"
 
-		"pin_to_sibling"							"AmmoAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_to_sibling"							"AmmoBG"
 	}
 
 	"AmmoInClipShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClipShadow"
-		"xpos"										"-2"
-		"ypos"										"-2"
+		"xpos"										"-1"
+		"ypos"										"-1"
 		"zpos"										"5"
 		"wide"										"150"
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"product48"
-		"textAlignment"								"east"
+		"font"										"product40"
+		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
 		"fgcolor"									"Black"
 
@@ -57,21 +59,19 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInReserve"
-		"xpos"										"8"
-		"ypos"										"-4"
+		"xpos"										"32"
+		"ypos"										"1"
 		"zpos"										"7"
 		"wide"										"150"
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"product24"
-		"textAlignment"								"west"
+		"font"										"product20"
+		"textAlignment"								"center"
 		"labelText"									"%AmmoInReserve%"
 		"fgcolor"									"Ammo In Reserve"
 
-		"pin_to_sibling"							"AmmoAnchor"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling"							"AmmoBG"
 	}
 
 	"AmmoInReserveShadow"
@@ -85,8 +85,8 @@
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"product24"
-		"textAlignment"								"west"
+		"font"										"product20"
+		"textAlignment"								"center"
 		"labelText"									"%AmmoInReserve%"
 		"fgcolor"									"Black"
 
@@ -97,21 +97,19 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmonoClip"
-		"xpos"										"0"
-		"ypos"    									"0"
+		"xpos"										"29"
+		"ypos"    									"16"
 		"zpos"										"5"
 		"wide"										"150"
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"product48"
+		"font"										"product52"
 		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
 		"fgcolor"									"Ammo No Clip"
 
-		"pin_to_sibling"							"AmmoAnchor"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+		"pin_to_sibling"							"AmmoBG"
 	}
 
 	"AmmoNoClipShadow"
@@ -125,28 +123,12 @@
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"product48"
+		"font"										"product52"
 		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"AmmoNoClip"
-	}
-
-	"AmmoBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"AmmoBG"
-		"xpos"										"c62"
-		"ypos"										"c118"
-		"zpos"										"2"
-		"wide"										"79"
-		"tall"										"36"
-		"visible"									"1"
-		"enabled"									"1"
-
-		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 178"
 	}
 
 

@@ -13,23 +13,6 @@
 	}
 
 	//==================================================================================================================================================
-	// CLASSES ANCHOR
-	// Moves all the class buttons at the same time
-	//==================================================================================================================================================
-
-	"ClassesAnchor"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"ClassesAnchor"
-		"xpos"										"450"
-		"ypos"										"75"
-		"wide"										"10"
-		"tall"										"10"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-
-	//==================================================================================================================================================
 	// CLASS BACKGROUND
 	//==================================================================================================================================================
 
@@ -37,48 +20,13 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ClassBG"
-		"xpos"										"5"
-		"ypos"										"0"
-		"wide"										"175"
-		"tall"										"345"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
+		"zpos"										"1"
+		"wide"										"235"
+		"tall"										"172"
 		"bgcolor_override"							"0 0 0 200"
 		"paintbackground"							"1"
-
-		"pin_to_sibling"							"ClassesAnchor"
-	}
-
-
-	//==================================================================================================================================================
-	// LOADOUT EDIT
-	//==================================================================================================================================================
-
-	"EditLoadoutButton"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"EditLoadoutButton"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"6"
-		"wide"										"150"
-		"tall"										"30"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"Loadout [&E]"
-		"textAlignment"								"west"
-		"Command"									"openloadout"
-		"font"										"product24"
-		"stayselectedonclick"						"1"
-		"selectonhover"								"1"
-		"keyboardinputenabled"						"0"
-
-		"paintbackground"							"0"
-		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"71 88 196 255"
-		"depressedFgColor_override" 				"71 88 196 255"
-		"selectedFgColor_override" 					"71 88 196 255"
-
-		"pin_to_sibling"							"ClassesAnchor"
 	}
 
 	//==================================================================================================================================================
@@ -89,8 +37,8 @@
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"scout"
-		"xpos"										"0"
-		"ypos"										"7"
+		"xpos"										"-2"
+		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"75"
 		"tall"										"30"
@@ -112,16 +60,14 @@
 		"depressedFgColor_override" 				"71 88 196 255"
 		"selectedFgColor_override" 					"71 88 196 255"
 
-		"pin_to_sibling"							"EditLoadoutButton"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"ClassBG"
 	}
 	"scoutshadow"
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"scoutshadow"
 		"xpos"										"-1"
-		"ypos"										"7"
+		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"75"
 		"tall"										"30"
@@ -209,7 +155,7 @@
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"soldier"
-		"xpos"										"0"
+		"xpos"										"-75"
 		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"85"
@@ -233,8 +179,6 @@
 		"selectedFgColor_override" 					"71 88 196 255"
 
 		"pin_to_sibling"							"scout"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	"soldiershadow"
 	{
@@ -263,29 +207,14 @@
 		"depressedFgColor_override" 				"0 0 0 200"
 		"selectedFgColor_override" 					"0 0 0 200"
 
-		"pin_to_sibling"							"scout"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"soldier"
 	}
 	"numSoldier"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"numSoldier"
-		"xpos"										"50"
-		"ypos"										"-5"
-		"wide"										"50"
-		"tall"										"15"
-		"zpos"										"6"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"west"
-		"labelText"									"%numSoldier%"
-		"font"										"product24"
-		"fgcolor"									"White"
-
-		"pin_to_sibling"							"soldier"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MvMUpgradeImageSolider"
 	{
@@ -314,7 +243,7 @@
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"pyro"
-		"xpos"										"0"
+		"xpos"										"-85"
 		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"100"
@@ -338,8 +267,6 @@
 		"selectedFgColor_override" 					"71 88 196 255"
 
 		"pin_to_sibling"							"soldier"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	"pyroshadow"
 	{
@@ -368,9 +295,7 @@
 		"depressedFgColor_override" 				"0 0 0 200"
 		"selectedFgColor_override" 					"0 0 0 200"
 
-		"pin_to_sibling"							"soldier"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"pyro"
 	}
 	"numPyro"
 	{
@@ -419,8 +344,8 @@
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"demoman"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"-2"
+		"ypos"										"-25"
 		"zpos"										"6"
 		"wide"										"120"
 		"tall"										"30"
@@ -442,9 +367,7 @@
 		"depressedFgColor_override" 				"71 88 196 255"
 		"selectedFgColor_override" 					"71 88 196 255"
 
-		"pin_to_sibling"							"pyro"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"ClassBG"
 	}
 	"demomanshadow"
 	{
@@ -473,29 +396,14 @@
 		"depressedFgColor_override" 				"0 0 0 200"
 		"selectedFgColor_override" 					"0 0 0 200"
 
-		"pin_to_sibling"							"pyro"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"demoman"
 	}
 	"numDemoman"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"numDemoman"
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"100"
-		"tall"										"30"
-		"zpos"										"6"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"west"
-		"labelText"									"%numDemoman%"
-		"font"										"product24"
-		"fgcolor"									"White"
-
-		"pin_to_sibling"							"demoman"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MvMUpgradeImageDemoman"
 	{
@@ -524,7 +432,7 @@
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"heavyweapons"
-		"xpos"										"0"
+		"xpos"										"-120"
 		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"100"
@@ -548,8 +456,6 @@
 		"selectedFgColor_override" 					"71 88 196 255"
 
 		"pin_to_sibling"							"demoman"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	"heavyweaponsshadow"
 	{
@@ -578,29 +484,14 @@
 		"depressedFgColor_override" 				"0 0 0 200"
 		"selectedFgColor_override" 					"0 0 0 200"
 
-		"pin_to_sibling"							"demoman"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"heavyweapons"
 	}
 	"numHeavy"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"numHeavy"
-		"xpos"										"50"
-		"ypos"										"-5"
-		"wide"										"50"
-		"tall"										"15"
-		"zpos"										"6"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"west"
-		"labelText"									"%numHeavy%"
-		"font"										"product24"
-		"fgcolor"									"White"
-
-		"pin_to_sibling"							"heavyweapons"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MvMUpgradeImageHeavy"
 	{
@@ -629,8 +520,8 @@
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"engineer"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"-2"
+		"ypos"										"-50"
 		"zpos"										"6"
 		"wide"										"100"
 		"tall"										"30"
@@ -652,9 +543,7 @@
 		"depressedFgColor_override" 				"71 88 196 255"
 		"selectedFgColor_override" 					"71 88 196 255"
 
-		"pin_to_sibling"							"heavyweapons"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"ClassBG"
 	}
 	"engineershadow"
 	{
@@ -683,29 +572,14 @@
 		"depressedFgColor_override" 				"0 0 0 200"
 		"selectedFgColor_override" 					"0 0 0 200"
 
-		"pin_to_sibling"							"heavyweapons"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"engineer"
 	}
 	"numEngineer"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"numEngineer"
-		"xpos"										"50"
-		"ypos"										"-6"
-		"wide"										"50"
-		"tall"										"15"
-		"zpos"										"6"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"west"
-		"labelText"									"%numEngineer%"
-		"font"										"product24"
-		"fgcolor"									"White"
-
-		"pin_to_sibling"							"engineer"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MvMUpgradeImageEngineer"
 	{
@@ -734,7 +608,7 @@
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"medic"
-		"xpos"										"0"
+		"xpos"										"-105"
 		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"100"
@@ -758,14 +632,12 @@
 		"selectedFgColor_override" 					"71 88 196 255"
 
 		"pin_to_sibling"							"engineer"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	"medicshadow"
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"medic"
-		"xpos"										"-1"
+		"xpos"										"-106"
 		"ypos"										"0"
 		"zpos"										"5"
 		"wide"										"100"
@@ -789,28 +661,13 @@
 		"selectedFgColor_override" 					"0 0 0 200"
 
 		"pin_to_sibling"							"engineer"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	"numMedic"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"numMedic"
-		"xpos"										"50"
-		"ypos"										"-5"
-		"wide"										"50"
-		"tall"										"15"
-		"zpos"										"6"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"west"
-		"labelText"									"%numMedic%"
-		"font"										"product24"
-		"fgcolor"									"White"
-
-		"pin_to_sibling"							"medic"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MvMUpgradeImageMedic"
 	{
@@ -839,8 +696,8 @@
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"sniper"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"-2"
+		"ypos"										"-75"
 		"zpos"										"6"
 		"wide"										"83"
 		"tall"										"30"
@@ -863,9 +720,7 @@
 		"depressedFgColor_override" 				"71 88 196 255"
 		"selectedFgColor_override" 					"71 88 196 255"
 
-		"pin_to_sibling"							"medic"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"ClassBG"
 	}
 	"snipershadow"
 	{
@@ -895,29 +750,14 @@
 		"depressedFgColor_override" 				"0 0 0 200"
 		"selectedFgColor_override" 					"0 0 0 200"
 
-		"pin_to_sibling"							"medic"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"sniper"
 	}
 	"numSniper"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"numSniper"
-		"xpos"										"50"
-		"ypos"										"-5"
-		"wide"										"50"
-		"tall"										"30"
-		"zpos"										"6"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"west"
-		"labelText"									"%numSniper%"
-		"font"										"product24"
-		"fgcolor"									"White"
-
-		"pin_to_sibling"							"sniper"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MvMUpgradeImageSniper"
 	{
@@ -946,7 +786,7 @@
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"spy"
-		"xpos"										"0"
+		"xpos"										"-83"
 		"ypos"										"0"
 		"zpos"										"6"
 		"wide"										"100"
@@ -970,8 +810,6 @@
 		"selectedFgColor_override" 					"71 88 196 255"
 
 		"pin_to_sibling"							"sniper"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 	"spyshadow"
 	{
@@ -1000,25 +838,14 @@
 		"depressedFgColor_override" 				"0 0 0 200"
 		"selectedFgColor_override" 					"0 0 0 200"
 
-		"pin_to_sibling"							"sniper"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"spy"
 	}
 	"numSpy"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"numSpy"
-		"xpos"										"50"
-		"ypos"										"-5"
-		"wide"										"50"
-		"tall"										"16"
-		"zpos"										"6"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"west"
-		"labelText"									"%numSpy%"
-		"font"										"product24"
-		"fgcolor"									"White"
+		"visible"									"0"
+		"enabled"									"0"
 
 		"pin_to_sibling"							"spy"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -1114,16 +941,16 @@
 	{
 		"ControlName"								"CTFPlayerModelPanel"
 		"fieldName"									"TFPlayerModel"
-		"xpos"										"c-280"
+		"xpos"										"c-370"
 		"ypos"										"0"
-		"zpos"										"6"
-		"wide"										"480"
-		"tall"										"480"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 
 		"render_texture"							"0"
-		"fov"										"25"
+		"fov"										"27"
 		"allow_rot"									"0"
 
 		"paintbackground"							"0"

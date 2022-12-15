@@ -132,7 +132,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Product12"
 			"labelText"		"dynamic"
 			"textAlignment"	"center"
 			"xpos"			"100"
@@ -727,7 +727,7 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#TF_NextCarat"
-				"font"			"HudFontSmallBold"
+				"font"			"Product12"
 				"textAlignment"	"center"
 				"Command"		"next_page"
 				"sound_depressed"	"UI/buttonclick.wav"

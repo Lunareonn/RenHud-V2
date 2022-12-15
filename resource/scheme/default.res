@@ -908,7 +908,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
@@ -920,7 +920,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"500"
 				"additive"									"0"

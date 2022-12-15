@@ -54,7 +54,7 @@
 		"fieldName"					"BlueBG"
 		"xpos"						"c-255"
 		"ypos"						"118"
-		"zpos"						"0"
+		"zpos"						"4"
 		"wide"						"255"
 		"tall"						"12"
 
@@ -72,7 +72,7 @@
 		"fieldName"					"RedBG"
 		"xpos"						"c0"
 		"ypos"						"118"
-		"zpos"						"0"
+		"zpos"						"4"
 		"wide"						"255"
 		"tall"						"12"
 
@@ -92,7 +92,7 @@
 		"ypos"						"99"
 		"zpos"						"0"
 		"wide"						"510"
-		"tall"						"19"
+		"tall"						"20"
 
 		"paintbackground"			"1"
 		"bgcolor_override"			"0 0 0 175"
@@ -106,13 +106,13 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"RedTeamName"
-		"xpos"						"-222"
-		"ypos"						"35"
+		"xpos"						"-217"
+		"ypos"						"15"
 		"zpos"						"5"
 		"wide"						"100"
 		"tall"						"50"
 
-		"pin_to_sibling"			"RedBG"
+		"pin_to_sibling"			"RedTeamScore"
 
 		"labelText"					"%redteamname%"
 		"font"						"Product18"
@@ -126,13 +126,13 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"BluTeamName"
-		"xpos"						"250"
-		"ypos"						"35"
+		"xpos"						"195"
+		"ypos"						"15"
 		"zpos"						"5"
 		"wide"						"100"
 		"tall"						"50"
 
-		"pin_to_sibling"			"RedBG"
+		"pin_to_sibling"			"BlueTeamScore"
 
 		"labelText"					"%blueteamname%"
 		"font"						"Product18"

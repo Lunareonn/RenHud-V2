@@ -3,6 +3,8 @@
 //#base "../resource/ui/winpanel.res"
 //#base "../resource/ui/freezepanel_basic.res"
 //#base "../resource/ui/statsummary.res"
+//#base "../resource/ui/statpanel_base.res"
+//#base "../resource/ui/hudteamgoal.res"
 #base "../customization/crosshair.res"
 #base "../customization/enabled/speedometer.res"
 
@@ -25,7 +27,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"0"
-		"ypos"	"0"
+		"ypos"	"-7"
 		"wide"	"f0"
 		"tall"	"480"
 	}
@@ -86,7 +88,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c69"	 
-		"ypos"			"350"	 
+		"ypos"			"345"	 
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"80"
 		"tall"			"8"
@@ -976,11 +978,10 @@
 		"fieldName"				"HudTeamGoal"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"65"
-		"ypos_lodef"			"75"
-		"wide"					"320"
-		"tall"					"100"
+		"xpos"					"9999"
+		"ypos"					"9999"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 

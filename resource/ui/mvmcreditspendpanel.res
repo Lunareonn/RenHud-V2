@@ -78,7 +78,7 @@
 		"labelText"									"#TF_PVE_Buybacks"
 		"textAlignment" 							"west"
 		"xpos"										"0"
-		"ypos"										"-2"
+		"ypos"										"0"
 		"wide"										"75"
 		"tall"										"15"
 		"AllCaps"									"0"
