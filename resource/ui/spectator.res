@@ -33,7 +33,8 @@
 
 		"if_mvm"
 		{
-			"ypos"									"200"
+			"xpos"										"-75"
+			"ypos"										"50"
 		}
 	}
 	"respawnbg"
@@ -55,7 +56,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"BuyBackLabel"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"5"
 		"wide"										"400"
 		"tall"										"f0"
 		"visible"									"0"

@@ -1,10 +1,5 @@
-#base "huditemeffectmeter.res"
+#base "huditemeffectmeter_scout.res"
 
-"Resource/UI/huditemeffectmeter_cleaver.res"
-{
-	"HudItemEffectMeter"
-	{
-		"xpos"			"c-60"
-		"ypos"			"c95"
-	}
+"Resource/UI/HudItemEffectMeter_Scout.res"
+{				
 }

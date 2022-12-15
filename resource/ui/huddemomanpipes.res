@@ -38,14 +38,14 @@
 		"textAlignment"			"Center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}				
+	}			
 		
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"80"
-		"ypos"			"88"
+		"xpos"			"75"
+		"ypos"			"95"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
@@ -149,8 +149,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
-		"xpos"			"80"
-		"ypos"			"88"
+		"xpos"			"75"
+		"ypos"			"95"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"

@@ -277,7 +277,7 @@
 				"tall"			"20"
 				
 				"paintbackground"	"1"
-				"bgcolor_override"	"0 0 0 175"
+				"bgcolor_override"	"0 0 0 0"
 			}
 
 			
@@ -461,7 +461,8 @@
 
 		"if_mvm"
 		{
-			"ypos"									"200"
+			"xpos"										"-75"
+			"ypos"										"50"
 		}
 	}
 	"respawnbg"
@@ -482,7 +483,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"c-190"
-		"ypos"			"16"
+		"ypos"			"5"
 		"wide"			"380"
 		"tall"			"14"
 		"autoResize"	"0"

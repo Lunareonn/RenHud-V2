@@ -571,6 +571,26 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		"product20"
+		{
+			"1"
+			{
+				"name"										"Product Sans"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"product22"
+		{
+			"1"
+			{
+				"name"										"Product Sans"
+				"tall"										"22"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 		"product24"
 		{
 			"1"
@@ -591,6 +611,36 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		"product36"
+		{
+			"1"
+			{
+				"name"										"Product Sans"
+				"tall"										"36"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"product40"
+		{
+			"1"
+			{
+				"name"										"Product Sans"
+				"tall"										"40"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"product44"
+		{
+			"1"
+			{
+				"name"										"Product Sans"
+				"tall"										"44"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 		"product48"
 		{
 			"1"
@@ -607,6 +657,26 @@ Scheme
 			{
 				"name"										"Product Sans"
 				"tall"										"49"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"product50"
+		{
+			"1"
+			{
+				"name"										"Product Sans"
+				"tall"										"50"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"product52"
+		{
+			"1"
+			{
+				"name"										"Product Sans"
+				"tall"										"52"
 				"additive"									"0"
 				"antialias" 								"1"
 			}

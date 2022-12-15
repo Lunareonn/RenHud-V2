@@ -1,60 +1,39 @@
-"Resource/UI/HudItemEffectMeter_PowerupBottles.res"
+"Resource/UI/HudItemEffectMeter_Demoman.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r86"
-		"ypos"			"r102"
+		"xpos"			"c-135"
+		"ypos"			"c175"
 		"wide"			"100"
-		"tall"			"60"
+		"tall"			"65"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-	
-	"ItemEffectMeterBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"9999"			
-	}
-	
-	"ItemEffectIcon"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectIcon"
-		"xpos"			"12"
-		"ypos"			"7"
-		"zpos"			"1"
-		"wide"			"27"
-		"tall"			"27"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/ico_powerup_critboost_red"
-		"scaleImage"	"1"
-	}
+
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"12"
-		"ypos"					"32"
+		"xpos"					"15"
+		"ypos"					"37"
 		"zpos"					"2"
-		"wide"					"56"
-		"tall"					"25"
+		"wide"					"65"
+		"tall"					"15"
+		"centerwrap"			"1"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
-		"textAlignment"			"north"
-		"centerwrap"			"1"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"Product8"
 	}
 
 	"ItemEffectMeter"
@@ -62,8 +41,8 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"25"
-		"ypos"					"23"
+		"xpos"					"33"
+		"ypos"					"20"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"6"				
@@ -80,7 +59,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"24"
+		"xpos"					"38"
 		"ypos"					"11"
 		"zpos"					"2"
 		"wide"					"40"
@@ -93,6 +72,33 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
+		"font"					"Product24"
+	}
+	"ItemEffectIcon"
+	{
+		"ControlName"			"CTFImagePanel"
+		"fieldName"				"ItemEffectIcon"
+		"xpos"					"21"
+		"ypos"					"8"
+		"zpos"					"1"
+		"wide"					"27"
+		"tall"					"27"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"../hud/ico_powerup_critboost_red"
+		"scaleImage"			"1"
+	}
+	"HeadsBG"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"HeadsBG"
+		"xpos"					"17"
+		"ypos"					"7"
+		"zpos"					"1"
+
+		"wide"					"59"
+		"tall"					"50"
+		"paintbackground"		"1"
+		"bgcolor_override"		"0 0 0 175"
 	}
 }
