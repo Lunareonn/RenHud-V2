@@ -915,7 +915,7 @@
 				"wide"					"125"
 				"tall"					"18"
 
-				"labelText"				"HUD Version: 1.1.1-b5-15.12.22"
+				"labelText"				"HUD Version: 1.1.1-b6-31.12.22"
 				"textAlignment"			"center"
 				"fgcolor_override"		"255 255 255 180"
 				"font"					"Product10"
