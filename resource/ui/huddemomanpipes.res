@@ -45,7 +45,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
 		"xpos"			"75"
+		"xpos_minmode"	"0"
 		"ypos"			"95"
+		"ypos_minmode"	"0"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
@@ -77,6 +79,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"Product24"
+			"font_minmode"	"Product12"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -118,6 +121,7 @@
 			"textAlignment"			"west"
 			"font"					"Symbols24"
 			"fgcolor"				"227 191 100 255"
+			"visible_minmode"		"0"
 
 			"paintbackground"		"1"
 			"bgcolor_override"		"0 0 0 175"
@@ -139,6 +143,7 @@
 			"textAlignment"			"west"
 			"font"					"Symbols24"
 			"fgcolor"				"10 10 10 255"
+			"visible_minmode"		"0"
 
 			"paintbackground"		"0"
 			"bgcolor_override"		"0 0 0 175"
@@ -150,7 +155,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
 		"xpos"			"75"
+		"xpos_minmode"	"0"
 		"ypos"			"95"
+		"ypos_minmode"	"0"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
@@ -179,6 +186,7 @@
 			"textAlignment"			"west"
 			"font"					"Symbols24"
 			"fgcolor"				"227 191 100 255"
+			"visible_minmode"		"0"
 
 			"paintbackground"		"1"
 			"bgcolor_override"		"0 0 0 175"
@@ -200,6 +208,7 @@
 			"textAlignment"			"west"
 			"font"					"Symbols24"
 			"fgcolor"				"10 10 10 255"
+			"visible_minmode"		"0"
 
 			"paintbackground"		"0"
 			"bgcolor_override"		"0 0 0 175"
@@ -226,6 +235,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"Product24"
+			"font_minmode"	"Product12"
 		}
 		"NumPipesLabelDropshadow"
 		{

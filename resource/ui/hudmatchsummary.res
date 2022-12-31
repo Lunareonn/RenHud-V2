@@ -55,7 +55,7 @@
 		"tall"			"43"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"none"
 		"proportionaltoparent"	"1"
 
 		if_uses_xp
@@ -258,7 +258,10 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"TFFatLineBorderBlueBGOpaque"
+					"border"		"none"
+
+					"paintbackground"	"1"
+					"bgcolor_override"	"90 122 143 200"
 
 					if_large
 					{
@@ -269,7 +272,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamScore"
-					"font"			"MatchSummaryTeamScores"
+					"font"			"Product16"
 					"labelText"		"%blueteamscore%"
 					"textAlignment"		"east"
 					"xpos"			"5"
@@ -292,7 +295,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamScoreDropshadow"
-					"font"			"MatchSummaryTeamScores"
+					"font"			"Product16"
 					"fgcolor"		"Black"
 					"labelText"		"%blueteamscore%"
 					"textAlignment"		"east"
@@ -315,7 +318,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamWinner"
-					"font"			"MatchSummaryWinner"
+					"font"			"Product12"
 					"labelText"		"%blueteamwinner%"
 					"textAlignment"		"east"
 					"xpos"			"5"
@@ -337,7 +340,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamWinnerDropshadow"
-					"font"			"MatchSummaryWinner"
+					"font"			"Product12"
 					"fgcolor"		"Black"
 					"labelText"		"%blueteamwinner%"
 					"textAlignment"		"east"
@@ -494,7 +497,10 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"TFFatLineBorderClearBG"
+					"border"		"none"
+
+					"paintbackground"	"1"
+					"bgcolor_override"	"0 0 0 180"
 
 					if_large
 					{
@@ -528,7 +534,10 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"TFFatLineBorderRedBGOpaque"
+					"border"		"none"
+
+					"paintbackground"	"1"
+					"bgcolor_override"	"189 59 61 200"
 
 					if_large
 					{
@@ -539,7 +548,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamScore"
-					"font"			"MatchSummaryTeamScores"
+					"font"			"Product16"
 					"labelText"		"%redteamscore%"
 					"textAlignment"		"west"
 					"xpos"			"r5-p.19"
@@ -561,7 +570,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamScoreDropshadow"
-					"font"			"MatchSummaryTeamScores"
+					"font"			"Product16"
 					"fgcolor"		"Black"
 					"labelText"		"%redteamscore%"
 					"textAlignment"		"west"
@@ -584,7 +593,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamWinner"
-					"font"			"MatchSummaryWinner"
+					"font"			"Product12"
 					"labelText"		"%redteamwinner%"
 					"textAlignment"		"west"
 					"xpos"			"r5-p.19"
@@ -606,7 +615,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamWinnerDropshadow"
-					"font"			"MatchSummaryWinner"
+					"font"			"Product12"
 					"fgcolor"		"Black"
 					"labelText"		"%redteamwinner%"
 					"textAlignment"		"west"
@@ -763,7 +772,10 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"TFFatLineBorderClearBG"
+					"border"		"none"
+
+					"paintbackground"	"1"
+					"bgcolor_override"	"0 0 0 180"
 
 					if_large
 					{

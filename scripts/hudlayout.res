@@ -1,5 +1,5 @@
 
-// Leave these alone
+//// -- Leave these alone
 //#base "../resource/ui/winpanel.res"
 //#base "../resource/ui/freezepanel_basic.res"
 //#base "../resource/ui/statsummary.res"
@@ -7,6 +7,7 @@
 //#base "../resource/ui/hudteamgoal.res"
 #base "../customization/crosshair.res"
 #base "../customization/enabled/speedometer.res"
+//// -- Leave these alone
 
 "Resource/HudLayout.res"
 {
@@ -272,6 +273,20 @@
 		"ypos"		"0"	 		
 		"wide"		"640"
 		"tall"		"480"
+		
+		"PaintBackgroundType"	"2"
+	}
+
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"0"
+		"ypos"				"r100"
+		"wide"				"280"
+		"tall"				"120"
+		"visible" 			"0"
+		"enabled" 			"1"
 		
 		"PaintBackgroundType"	"2"
 	}
@@ -967,8 +982,10 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-62"	 
-		"ypos"			"c54"	 
+		"xpos"			"c-62"
+		"xpos_minmode"	"c-53" 
+		"ypos"			"c54"
+		"ypos_minmode"	"c5"	 
 		"wide"			"f0"
 		"tall"			"f0"
 	}	

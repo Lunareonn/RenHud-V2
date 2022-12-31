@@ -71,7 +71,7 @@
 		"fieldName"		"TextLabel"
 		"fgcolor_override" "255 255 255 255"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"5"
 		"zpos"			"2"
 		"wide"			"138"
 		"tall"			"45"
@@ -82,6 +82,6 @@
 		"wrap"			"1"
 		"labelText"		"%text%"
 		"textAlignment"	"center"
-		"font"			"product10"
+		"font"			"product14"
 	}
 }

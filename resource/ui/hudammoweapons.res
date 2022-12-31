@@ -11,6 +11,7 @@
 		"wide"										"93"
 		"tall"										"49"
 		"visible"									"1"
+		"visible_minmode"							"0"
 		"enabled"									"1"
 
 		"paintbackground"							"1"

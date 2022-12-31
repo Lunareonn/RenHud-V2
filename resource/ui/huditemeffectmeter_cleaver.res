@@ -1,5 +1,10 @@
-#base "huditemeffectmeter_scout.res"
+#base "huditemeffectmeter.res"
 
-"Resource/UI/HudItemEffectMeter_Scout.res"
-{				
+"Resource/UI/huditemeffectmeter_cleaver.res"
+{
+	"HudItemEffectMeter"
+	{
+		"xpos_minmode"			"c-60"
+		"ypos_minmode"			"c95"
+	}
 }

@@ -11,6 +11,11 @@
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
+
+		// Minmode
+
+		"xpos_minmode"			"c-60"
+		"ypos_minmode"			"c115"
 	}
 	
 	"ItemEffectMeterBG"
@@ -27,6 +32,10 @@
 		"scaleImage"	"1"
 		"paintbackground"	"1"
 		"bgcolor_override"	"0 0 0 180"
+
+		// Minmode
+
+		"xpos_minmode"			"9999"	
 	}
 	
 	"ItemEffectMeterLabel"
@@ -48,6 +57,15 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Product10"
+
+		// Minmode
+
+		"xpos_minmode"					"42"
+		"ypos_minmode"					"30"
+		"wide_minmode"					"41"
+		"tall_minmode"					"15"
+		"textAlignment_minmode"			"center"
+		"font_minmode"					"Product8"
 	}
 
 	"ItemEffectMeter"
@@ -67,5 +85,14 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+
+		// Minmode
+
+		"font"					"Default"
+		"xpos_minmode"					"30"
+		"ypos_minmode"					"28"
+		"wide_minmode"					"65"
+		"tall_minmode"					"5"				
+		"textAlignment_minmode"			"Center"
 	}					
 }
