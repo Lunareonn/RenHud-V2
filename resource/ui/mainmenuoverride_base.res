@@ -64,6 +64,8 @@
 		// Luna 18.10.2022 - 2.40 AM
 		// No not really :P
 		// Luna 29.10.2022 - 8.03 PM
+		// You people are fucking pussies
+		// Emma 25.1.2023 - 1.07 AM
 
 		"SaxxySettings"
 		{
