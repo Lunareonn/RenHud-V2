@@ -64,6 +64,8 @@
 		// Luna 18.10.2022 - 2.40 AM
 		// No not really :P
 		// Luna 29.10.2022 - 8.03 PM
+		// You people are fucking pussies
+		// Emma 29.1.23 - 4.01 AM
 
 		// // Socials
 
@@ -751,7 +753,7 @@
 			"FixSound"
 			{
 				"ControlName"			"CExImageButton"
-				"fieldName"				"FixSoundNumbers"
+				"fieldName"				"FixSound"
 				"xpos"					"7"
 				"ypos"					"123"
 				"zpos"					"20"
