@@ -48,7 +48,7 @@
 		"labelText"									"1"
 		"proportionaltoparent"						"1"
 		"textAlignment"								"Center"
-		"font"										"m0refont11"
+		"font"										"Product12"
 		"fgcolor"									"White"
 	}
 

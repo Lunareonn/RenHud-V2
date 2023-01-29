@@ -56,24 +56,6 @@
 		"pin_to_sibling"							"Background"
 	}
 
-	"Disguise1Key"
-	{
-		"ControlName"								"Label"
-		"fieldName"									"Disguise1Key"
-		"xpos"										"-10"
-		"ypos"										"-60"
-		"zpos"										"5"
-		"wide"										"10"
-		"tall"										"10"
-
-		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 200"
-		"labelText"									"1"
-		"textAlignment"								"center"
-		"font"										"Product12"
-		"pin_to_sibling"							"class_item_red_1"
-	}
-
 	"class_item_blue_1"
 	{
 		"ControlName"								"EditablePanel"
@@ -102,24 +84,6 @@
 		"pin_to_sibling"							"class_item_red_1"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-	}
-
-	"Disguise2Key"
-	{
-		"ControlName"								"Label"
-		"fieldName"									"Disguise2Key"
-		"xpos"										"-10"
-		"ypos"										"-60"
-		"zpos"										"5"
-		"wide"										"10"
-		"tall"										"10"
-
-		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 200"
-		"labelText"									"2"
-		"textAlignment"								"center"
-		"font"										"Product12"
-		"pin_to_sibling"							"class_item_red_2"
 	}
 
 	"class_item_blue_2"
@@ -152,24 +116,6 @@
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
 
-	"Disguise3Key"
-	{
-		"ControlName"								"Label"
-		"fieldName"									"Disguise3Key"
-		"xpos"										"-10"
-		"ypos"										"-60"
-		"zpos"										"5"
-		"wide"										"10"
-		"tall"										"10"
-
-		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 200"
-		"labelText"									"3"
-		"textAlignment"								"center"
-		"font"										"Product12"
-		"pin_to_sibling"							"class_item_red_3"
-	}
-
 	"class_item_blue_3"
 	{
 		"ControlName"								"EditablePanel"
@@ -198,24 +144,6 @@
 		"pin_to_sibling"							"class_item_red_3"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-	}
-
-	"Disguise4Key"
-	{
-		"ControlName"								"Label"
-		"fieldName"									"Disguise4Key"
-		"xpos"										"-10"
-		"ypos"										"-60"
-		"zpos"										"5"
-		"wide"										"10"
-		"tall"										"10"
-
-		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 200"
-		"labelText"									"4"
-		"textAlignment"								"center"
-		"font"										"Product12"
-		"pin_to_sibling"							"class_item_red_4"
 	}
 
 	"class_item_blue_4"
@@ -248,24 +176,6 @@
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
 
-	"Disguise5Key"
-	{
-		"ControlName"								"Label"
-		"fieldName"									"Disguise5Key"
-		"xpos"										"-10"
-		"ypos"										"-60"
-		"zpos"										"5"
-		"wide"										"10"
-		"tall"										"10"
-
-		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 200"
-		"labelText"									"5"
-		"textAlignment"								"center"
-		"font"										"Product12"
-		"pin_to_sibling"							"class_item_red_5"
-	}
-
 	"class_item_blue_5"
 	{
 		"ControlName"								"EditablePanel"
@@ -294,24 +204,6 @@
 		"pin_to_sibling"							"class_item_red_5"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-	}
-
-	"Disguise6Key"
-	{
-		"ControlName"								"Label"
-		"fieldName"									"Disguise6Key"
-		"xpos"										"-10"
-		"ypos"										"-60"
-		"zpos"										"5"
-		"wide"										"10"
-		"tall"										"10"
-
-		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 200"
-		"labelText"									"6"
-		"textAlignment"								"center"
-		"font"										"Product12"
-		"pin_to_sibling"							"class_item_red_6"
 	}
 
 	"class_item_blue_6"
@@ -344,24 +236,6 @@
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
 
-	"Disguise7Key"
-	{
-		"ControlName"								"Label"
-		"fieldName"									"Disguise7Key"
-		"xpos"										"-10"
-		"ypos"										"-60"
-		"zpos"										"5"
-		"wide"										"10"
-		"tall"										"10"
-
-		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 200"
-		"labelText"									"7"
-		"textAlignment"								"center"
-		"font"										"Product12"
-		"pin_to_sibling"							"class_item_red_7"
-	}
-
 	"class_item_blue_7"
 	{
 		"ControlName"								"EditablePanel"
@@ -390,24 +264,6 @@
 		"pin_to_sibling"							"class_item_red_7"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-	}
-
-	"Disguise8Key"
-	{
-		"ControlName"								"Label"
-		"fieldName"									"Disguise8Key"
-		"xpos"										"-10"
-		"ypos"										"-60"
-		"zpos"										"5"
-		"wide"										"10"
-		"tall"										"10"
-
-		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 200"
-		"labelText"									"8"
-		"textAlignment"								"center"
-		"font"										"Product12"
-		"pin_to_sibling"							"class_item_red_8"
 	}
 
 	"class_item_blue_8"
@@ -440,24 +296,6 @@
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
 
-	"Disguise9Key"
-	{
-		"ControlName"								"Label"
-		"fieldName"									"Disguise9Key"
-		"xpos"										"-10"
-		"ypos"										"-60"
-		"zpos"										"5"
-		"wide"										"10"
-		"tall"										"10"
-
-		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 200"
-		"labelText"									"9"
-		"textAlignment"								"center"
-		"font"										"Product12"
-		"pin_to_sibling"							"class_item_red_9"
-	}
-
 	"class_item_blue_9"
 	{
 		"ControlName"								"EditablePanel"
@@ -486,7 +324,6 @@
 		"labelText"									"1"
 		"proportionaltoparent"						"1"
 		"textAlignment"								"Center"
-		"font"										"m0refont11"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"class_item_red_2"
@@ -508,7 +345,6 @@
 		"labelText"									"2"
 		"proportionaltoparent"						"1"
 		"textAlignment"								"Center"
-		"font"										"m0refont11"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"class_item_red_5"
@@ -530,7 +366,6 @@
 		"labelText"									"3"
 		"proportionaltoparent"						"1"
 		"textAlignment"								"Center"
-		"font"										"m0refont11"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"class_item_red_8"
